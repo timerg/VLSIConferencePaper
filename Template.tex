@@ -1,0 +1,139 @@
+% Template for VLSI/CAD-2013 paper; to be used with:
+%         vlsiconf.sty  - ICASSP/ICIP LaTeX style file, and
+%          IEEEbib.bst - IEEE bibliography style file.
+% --------------------------------------------------------------------------
+\documentclass{article}
+\usepackage{vlsiconf,amsmath,epsfig}
+
+% Example definitions.
+% --------------------
+\def\x{{\mathbf x}}
+\def\L{{\cal L}}
+
+% Title.
+% ------
+\title{PAPER TEMPLATE FOR VLSI DESIGN/CAD SYMPOSIUM 2013}
+%
+% Single address.
+% ---------------
+\name{Author(s) Name(s)\thanks{Thanks to XYZ agency for funding.}}
+\address{Author Affiliation(s)}
+%
+% For example:
+% ------------
+%\address{School\\
+%   Department\\
+%   Address}
+%
+% Two addresses (uncomment and modify for two-address case).
+% ----------------------------------------------------------
+%\twoauthors
+%  {A. Author-one, B. Author-two\sthanks{Thanks to XYZ agency for funding.}}
+%   {School A-B\\
+%   Department A-B\\
+%   Address A-B}
+%  {C. Author-three, D. Author-four\sthanks{The fourth author performed the work
+%   while at ...}}
+%   {School C-D\\
+%   Department C-D\\
+%   Address C-D}
+%
+\begin{document}
+%\ninept
+%
+\maketitle
+%
+\begin{abstract}
+Put your abstract here.
+\end{abstract}
+%
+\section{Introduction}
+\label{sec:intro}
+
+Put the paper introduction here.
+
+\section{Important Rules}
+\label{sec:rules}
+
+The paper cannot exceed 2 pages, including images. Please do not
+paginate your paper.
+
+The first paragraph in each section should not be indented, but
+all following paragraphs within the section should be indented as
+these paragraphs demonstrate.
+
+Page size is A4. The top margin and bottom margin are both 25mm.
+The left margin and right margin are 20mm.  All text must be in a
+two-column format and the font size should be larger than 9pt.
+The space between these two columns is 80mm.
+
+Please use vector graphics instead of bitmap pictures for
+illustrations to achieve high paper quality.
+
+Please embed all the used fonts inside the PDF file. The fonts
+for the text part should be Times.
+
+For the reference part, please follow the rules of IEEE \cite{J1}
+\cite{C2}.
+
+\subsection{Subheadings}
+
+Subheadings should appear in lower case (initial word capitalized) in boldface.
+
+\subsubsection{Sub-subheadings}
+
+Sub-subheadings, as in this paragraph, are discouraged.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Put your conclusion here.
+
+
+% Below is an example of how to insert images. Delete the ``\vspace'' line,
+% uncomment the preceding line ``\centerline...'' and replace ``imageX.ps''
+% with a suitable PostScript file name.
+% -------------------------------------------------------------------------
+\begin{figure}
+
+\begin{minipage}[b]{1.0\linewidth}
+  \centering
+% \centerline{\epsfig{figure=image1.ps,width=8.5cm}}
+  \vspace{2.0cm}
+  \centerline{(a) Result 1}\medskip
+\end{minipage}
+%
+\begin{minipage}[b]{.48\linewidth}
+  \centering
+% \centerline{\epsfig{figure=image3.ps,width=4.0cm}}
+  \vspace{1.5cm}
+  \centerline{(b) Results 3}\medskip
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.48\linewidth}
+  \centering
+% \centerline{\epsfig{figure=image4.ps,width=4.0cm}}
+  \vspace{1.5cm}
+  \centerline{(c) Result 4}\medskip
+\end{minipage}
+%
+\caption{Example of placing a figure with experimental results.}
+\label{fig:res}
+%
+\end{figure}
+
+% To start a new column (but not a new page) and help balance the last-page
+% column length use \vfill\pagebreak.
+% -------------------------------------------------------------------------
+\vfill
+\pagebreak
+
+
+% References should be produced using the bibtex program from suitable
+% BiBTeX files (here: strings, refs, manuals). The IEEEbib.bst bibliography
+% style file from IEEE produces unsorted bibliography list.
+% -------------------------------------------------------------------------
+\bibliographystyle{IEEEbib}
+\bibliography{references}
+
+\end{document}
