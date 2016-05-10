@@ -3,7 +3,12 @@
 %          IEEEbib.bst - IEEE bibliography style file.
 % --------------------------------------------------------------------------
 \documentclass{article}
-\usepackage{vlsiconf,amsmath,epsfig}
+\usepackage{vlsiconf,amsmath,epsfig,xeCJK}
+
+\setCJKmainfont[Mapping=tex-text]{STSongti-TC-Light}
+\setCJKsansfont[Mapping=tex-text]{STSongti-TC-Light}
+\setCJKmonofont[Mapping=tex-text]{STSongti-TC-Light}
+
 
 % Example definitions.
 % --------------------
@@ -12,7 +17,7 @@
 
 % Title.
 % ------
-\title{PAPER TEMPLATE FOR VLSI DESIGN/CAD SYMPOSIUM 2013}
+\title{An Integrated Circuit Design for Silicon-Nanowire Read Out Circuit}
 %
 % Single address.
 % ---------------
@@ -45,36 +50,53 @@
 %
 \begin{abstract}
 Put your abstract here.
+
 \end{abstract}
 %
 \section{Introduction}
 \label{sec:intro}
 
-Put the paper introduction here.
+Among many kinds of one-dimensional nanostructure, silicon nanowire(SiNW) has been highly interested in for its feasibility to be integrated into electronic devices.
+Many researches of fabrications and electrical properties have been done \cite{J1}.
+And since the first time it was introduced to the biosensor field in 2001\cite{J2}, a promising candidate for ultra-sensitive, real-time and label-free  sensor device it became.
+While some great advances on device design were made\cite{J3}, works of systems-level engineering of devices is still insufficient.
+In this work, a read-out circuit based on “constant current” idea is proposed.
+Some post-simulation results are showed.
 
-\section{Important Rules}
+
+
+\section{Design Concept}
 \label{sec:rules}
 
-The paper cannot exceed 2 pages, including images. Please do not
-paginate your paper.
+Conventionally, nanowire is treated as a simple resistance.
+The read out circuits are targeted on ultra-low current variance measurement [4] or large resistance detecting range [5,6].
+In this work, nanowire is treated as a complete field-effect transistor(FET).
+The gate *end* is taken into consider.
+And the read out circuit is design for measuring the variance of current, or more specifically: finding out the transconductance of nanowire that changes with analytics concentration.
 
-The first paragraph in each section should not be indented, but
-all following paragraphs within the section should be indented as
-these paragraphs demonstrate.
 
-Page size is A4. The top margin and bottom margin are both 25mm.
-The left margin and right margin are 20mm.  All text must be in a
-two-column format and the font size should be larger than 9pt.
-The space between these two columns is 80mm.
 
-Please use vector graphics instead of bitmap pictures for
-illustrations to achieve high paper quality.
 
-Please embed all the used fonts inside the PDF file. The fonts
-for the text part should be Times.
 
-For the reference part, please follow the rules of IEEE \cite{J1}
-\cite{C2}.
+% The paper cannot exceed 2 pages, including images. Please do not
+% paginate your paper.
+% The first paragraph in each section should not be indented, but
+% all following paragraphs within the section should be indented as
+% these paragraphs demonstrate.
+%
+% Page size is A4. The top margin and bottom margin are both 25mm.
+% The left margin and right margin are 20mm.  All text must be in a
+% two-column format and the font size should be larger than 9pt.
+% The space between these two columns is 80mm.
+%
+% Please use vector graphics instead of bitmap pictures for
+% illustrations to achieve high paper quality.
+%
+% Please embed all the used fonts inside the PDF file. The fonts
+% for the text part should be Times.
+%
+% For the reference part, please follow the rules of IEEE \cite{J1}
+% \cite{C2}.
 
 \subsection{Subheadings}
 
@@ -98,15 +120,15 @@ Put your conclusion here.
 
 \begin{minipage}[b]{1.0\linewidth}
   \centering
-% \centerline{\epsfig{figure=image1.ps,width=8.5cm}}
-  \vspace{2.0cm}
+\centerline{\epsfig{figure=./PostSim/cap.PNG,width=4.0cm}}
+  % \vspace{2.0cm}
   \centerline{(a) Result 1}\medskip
 \end{minipage}
 %
 \begin{minipage}[b]{.48\linewidth}
   \centering
-% \centerline{\epsfig{figure=image3.ps,width=4.0cm}}
-  \vspace{1.5cm}
+\centerline{\epsfig{figure=./PostSim/close_dc_rload.PNG,width=4.0cm}}
+  % \vspace{1.5cm}
   \centerline{(b) Results 3}\medskip
 \end{minipage}
 \hfill

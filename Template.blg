@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Template.aux
+The style file: IEEEbib.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "J3"
+Warning--empty booktitle in J2
+Warning--can't use both volume and number fields in J2
+You've used 2 entries,
+            1838 wiz_defined-function locations,
+            475 strings with 4004 characters,
+and the built_in function-call counts, 780 in all, are:
+= -- 61
+> -- 43
+< -- 2
++ -- 15
+- -- 13
+* -- 75
+:= -- 119
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 30
+empty$ -- 65
+format.name$ -- 13
+if$ -- 173
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 2
+pop$ -- 6
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 63
+swap$ -- 15
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 5
+width$ -- 3
+write$ -- 24
+(There were 3 warnings)
