@@ -56,24 +56,57 @@ Put your abstract here.
 \section{Introduction}
 \label{sec:intro}
 
-Among many kinds of one-dimensional nanostructure, silicon nanowire(SiNW) has been highly interested in for its feasibility to be integrated into electronic devices.
+Among many kinds of one-dimensional nanostructure, silicon nanowire(SiNW) has been highly interested in for the feasible integration with integrated electronic devices.
 Many researches of fabrications and electrical properties have been done \cite{J1}.
 And since the first time it was introduced to the biosensor field in 2001\cite{J2}, a promising candidate for ultra-sensitive, real-time and label-free  sensor device it became.
-While some great advances on device design were made\cite{J3}, works of systems-level engineering of devices is still insufficient.
-In this work, a read-out circuit based on “constant current” idea is proposed.
+
+While some great advances on element structure design were made\cite{J3}, works of systems-level engineering is insufficient.
+Mainly because a proper way of signal acquiring is still indefinite.
+In this work, a read-out circuit for ion sensing SiNW based on “constant current” idea is proposed.
 Some post-simulation results are showed.
 
 
 
-\section{Design Concept}
+\section{Design Description}
 \label{sec:rules}
 
-Conventionally, nanowire is treated as a simple resistance.
-The read out circuits are targeted on ultra-low current variance measurement [4] or large resistance detecting range [5,6].
+Conventionally, nanowire is treated as a simple resistor with resistance varies with ion concentration.
+The read out circuits are targeted on current measurement \cite{J4} or resistance detecting \cite{J5, j6}.
 In this work, nanowire is treated as a complete field-effect transistor(FET).
-The gate *end* is taken into consider.
-And the read out circuit is design for measuring the variance of current, or more specifically: finding out the transconductance of nanowire that changes with analytics concentration.
+The read out circuit is design for measuring the current variance, which is interpreted into the transconductance of nanowire.
+For the reason that: the ion effects are simplified and hypothetically *summed into the changes on transconductance.
 
+Since nanowire is analogous to the MOSFET, not only ions but intrinsic factors affect transconductance, which should be excluded.
+A constant current concept is adopted.
+
+\subsection{Constant Current}
+
+For a simple MOSFET, the transconductance(gm) is
+\begin{equation}
+    \sqrt{2I_{Dsat} (\kappa \mu C_{ox} \frac{W}{L})}
+\end{equation}
+in strong inversion region and
+\begin{equation}
+    \frac{\kappa I_{Ds}}{\phi_t}
+\end{equation}
+in weak inversion region. $\phi_t$ is thermal voltage.
+$I_{Dsat}$ can be simplfied to $I_{Ds}$ for a constant $V_{Ds}$.
+$\kappa$ is the gate coupling coefficient that is 1 in strong inversion and approximately 0.4 to 0.7 in weak inversion.
+The equations show the transconductance of the MOSFET with fixed size can be roughly decided by giving constant drain-to-source current.
+
+\subsection{Circuit Implementation}
+The constant current structures such as source follower has been applied to several works of ion-sensitive field-effect transistor(ISFET) [7,8], which is a relative of SiNW.
+A similar structure is presented here. The structure can switch between two modes: Gate-Source Voltage Tracing Mode (GVT) (Fig1(a)) and Current Variance Measure Mode (CVM) (Fig1(b)).
+
+Operation in GVT is similar to Source follower.
+Except the negative feedback doesn’t happens at source end but gate *end through feedback loop circuits.
+This mode devotes to set up nanowire when reference ion solution is given.
+CVM happens after suitable gate voltage is found in GVT.
+The feedback loop is removed and tested solution is given.
+The transconductance of nanowire changes which give rise to a small signal of current.
+The current variance signal will be amplified and converted into voltage by a transimpedance.
+
+\subsection{}
 
 
 
@@ -98,13 +131,13 @@ And the read out circuit is design for measuring the variance of current, or mor
 % For the reference part, please follow the rules of IEEE \cite{J1}
 % \cite{C2}.
 
-\subsection{Subheadings}
+% \subsection{Subheadings}
+%
+% Subheadings should appear in lower case (initial word capitalized) in boldface.
 
-Subheadings should appear in lower case (initial word capitalized) in boldface.
-
-\subsubsection{Sub-subheadings}
-
-Sub-subheadings, as in this paragraph, are discouraged.
+% \subsubsection{Sub-subheadings}
+%
+% Sub-subheadings, as in this paragraph, are discouraged.
 
 \section{Conclusion}
 \label{sec:conclusion}
@@ -117,32 +150,56 @@ Put your conclusion here.
 % with a suitable PostScript file name.
 % -------------------------------------------------------------------------
 \begin{figure}
-
-\begin{minipage}[b]{1.0\linewidth}
-  \centering
-\centerline{\epsfig{figure=./PostSim/cap.PNG,width=4.0cm}}
-  % \vspace{2.0cm}
-  \centerline{(a) Result 1}\medskip
-\end{minipage}
-%
-\begin{minipage}[b]{.48\linewidth}
+\begin{minipage}[a]{.48\linewidth}
   \centering
 \centerline{\epsfig{figure=./PostSim/close_dc_rload.PNG,width=4.0cm}}
   % \vspace{1.5cm}
-  \centerline{(b) Results 3}\medskip
+  \centerline{(a)GVT Mode }\medskip
 \end{minipage}
 \hfill
 \begin{minipage}[b]{0.48\linewidth}
   \centering
 % \centerline{\epsfig{figure=image4.ps,width=4.0cm}}
   \vspace{1.5cm}
-  \centerline{(c) Result 4}\medskip
+  \centerline{(b)CVM Mode }\medskip
 \end{minipage}
 %
-\caption{Example of placing a figure with experimental results.}
+\caption{}
 \label{fig:res}
 %
 \end{figure}
+
+
+
+
+% \begin{figure}
+%
+% \begin{minipage}[b]{1.0\linewidth}
+%   \centering
+% \centerline{\epsfig{figure=./PostSim/cap.PNG,width=4.0cm}}
+%   % \vspace{2.0cm}
+%   \centerline{(a) Result 1}\medskip
+% \end{minipage}
+% %
+% \begin{minipage}[b]{.48\linewidth}
+%   \centering
+% \centerline{\epsfig{figure=./PostSim/close_dc_rload.PNG,width=4.0cm}}
+%   % \vspace{1.5cm}
+%   \centerline{(b) Results 3}\medskip
+% \end{minipage}
+% \hfill
+% \begin{minipage}[b]{0.48\linewidth}
+%   \centering
+% % \centerline{\epsfig{figure=image4.ps,width=4.0cm}}
+%   \vspace{1.5cm}
+%   \centerline{(c) Result 4}\medskip
+% \end{minipage}
+% %
+% \caption{Example of placing a figure with experimental results.}
+% \label{fig:res}
+% %
+% \end{figure}
+
 
 % To start a new column (but not a new page) and help balance the last-page
 % column length use \vfill\pagebreak.

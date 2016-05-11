@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.5.8)  10 MAY 2016 18:08
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.5.8)  11 MAY 2016 21:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -948,19 +948,33 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 46.
 
 
-LaTeX Warning: Citation `J3' on page 1 undefined on input line 62.
+LaTeX Warning: Citation `J3' on page 1 undefined on input line 63.
 
-File: ./PostSim/cap.PNG Graphic file (type QTm)
-<use  "./PostSim/cap.PNG" >
+
+LaTeX Warning: Citation `J4' on page 1 undefined on input line 74.
+
+
+LaTeX Warning: Citation `J5' on page 1 undefined on input line 74.
+
+
+LaTeX Warning: Citation `j6' on page 1 undefined on input line 74.
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 98--100
+\EU1/lmr/m/n/8 between two modes: Gate-Source Voltage Tracing Mode
+ []
+
 File: ./PostSim/close_dc_rload.PNG Graphic file (type QTm)
- <use  "./PostSim/close_dc_rload.PNG" > (./Template.bbl
+<use  "./PostSim/close_dc_rload.PNG" > [1
+
+
+
+] (./Template.bbl
 Underfull \hbox (badness 2617) in paragraph at lines 4--9
 []\EU1/lmr/m/n/8 Neil P. Dasgupta, Jianwei Sun, Chong Liu, Sarah
  []
 
-) [1
-
-
+) [2
 
 ] (./Template.aux)
 
@@ -968,12 +982,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17762 strings out of 493706
- 367200 string characters out of 6145770
- 396820 words of memory out of 5000000
- 21019 multiletter control sequences out of 15000+600000
- 7405 words of font info for 43 fonts, out of 8000000 for 9000
+ 17777 strings out of 493706
+ 367822 string characters out of 6145770
+ 401820 words of memory out of 5000000
+ 21032 multiletter control sequences out of 15000+600000
+ 7640 words of font info for 45 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 42i,10n,69p,10415b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,69p,10415b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Template.pdf (1 page).
+Output written on Template.pdf (2 pages).
