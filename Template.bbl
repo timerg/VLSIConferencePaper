@@ -1,8 +1,7 @@
 \begin{thebibliography}{1}
 
 \bibitem{J1}
-Neil~P. Dasgupta, Jianwei Sun, Chong Liu, Sarah Brittman, Sean~C. Andrews,
-  Jongwoo Lim, Hanwei Gao, Ruoxue Yan, and Peidong Yang,
+Neil~P. Dasgupta, Jianwei Sun, Chong Liu, and et~al,
 \newblock ``25th anniversary article: Semiconductor nanowires – synthesis,
   characterization, and applications,''
 \newblock {\em ADVANCED MATERIALS}, vol. 26, no. 14, pp. 2137--2184, Apr. 2014.
@@ -11,6 +10,41 @@ Neil~P. Dasgupta, Jianwei Sun, Chong Liu, Sarah Brittman, Sean~C. Andrews,
 Yi~Cui, Qingqiao Wei, Hongkun Park, and Charles~M. Lieber,
 \newblock ``Nanowire nanosensors for highly sensitive and selective detection
   of biological and chemical species,''
-\newblock Aug. 2001, vol. 293, pp. 1289--1292.
+\newblock {\em SCIENCE}, vol. 293, no. 5533, pp. 1289--1292, Aug. 2001.
+
+\bibitem{J3}
+Li~BR, Chen CC, Kumar UR, and Chen YT,
+\newblock ``Advances in nanowire transistors for biological analysis and
+  cellular investigation,''
+\newblock {\em ANALYST}, vol. 139, no. 7, pp. 1589--1608, 2014.
+
+\bibitem{J4}
+Ferrari G, Gozzini F, Molari A, and Sampietro M,
+\newblock ``Transimpedance amplifier for high sensitivity current measurements
+  on nanodevices,''
+\newblock {\em IEEE JOURNAL OF SOLID-STATE CIRCUITS}, vol. 44, no. 5, pp.
+  1609--1616, MAY 2009.
+
+\bibitem{C5}
+A.~Bonanno, V.~Cauda, M.~Crepaldi, P.~M. Ros, M.~Morello, D.~Demarchi, and
+  P.~Civera,
+\newblock ``A low-power read-out circuit and low-cost assembly of nanosensors
+  onto a 0.13um cmos micro-for-nano chip,''
+\newblock in {\em Advances in Sensors and Interfaces (IWASI), 2013 5th IEEE
+  International Workshop on}, June 2013, pp. 125--130.
+
+\bibitem{J6}
+N.~Nikkhoo, P.~G. Gulak, and K.~Maxwell,
+\newblock ``Rapid detection of e. coli bacteria using potassium-sensitive fets
+  in cmos,''
+\newblock {\em IEEE Transactions on Biomedical Circuits and Systems}, vol. 7,
+  no. 5, pp. 621--630, Oct 2013.
+
+\bibitem{C7}
+S.~Thanapitak,
+\newblock ``An 1 v - 1 nw source follower isfet readout circuit for biomedical
+  applications,''
+\newblock in {\em Science and Information Conference (SAI), 2015}, July 2015,
+  pp. 1118--1121.
 
 \end{thebibliography}
