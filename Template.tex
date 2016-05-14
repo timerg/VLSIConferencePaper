@@ -56,21 +56,23 @@
 \maketitle
 %
 \begin{abstract}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+A read out circuit for poly-silicon nanowire field-effect transistor (SiNW FET) is proposed. The circuit use current variance of nanowire as small signal output. In other words, the readout circuit is designed to get correlation between measurement solution concentration variance and nanowire current variance.
+
+Moreover, the circuit is able to regular the current of nanowire in a fixed value. This is referred to as constant current method in this article. With this method, the transconductance of nanowire is constant and make the output current variance purer. Moreover, a problem known as disparity is solved, which often happens by fabrication flaws or time degradation.
+
+In summary,
 \end{abstract}
 %
 \section{Introduction}
 \label{sec:intro}
 
-Among many kinds of one-dimensional nanostructure, the poly-silicon nanowire(SiNW) has been highly interested in for the feasible integration with integrated circuitry.
-Many researches of fabrications and electrical properties have been done \cite{J1}.
-And since the first time it was introduced to the biosensor field in 2001\cite{J2}, a promising candidate for ultra-sensitive, real-time and label-free  sensor device it became.
-
-While some great advances on element structure design were made\cite{J3}, works of systems-level engineering is insufficient.
+Poly-silicon nanowire(SiNW) is an interesting one-dimensional nano-structures because it can be directly integrated with IC.
+Many research of fabrication and electrical properties have been conducted \cite{J1}.
+Since it was first introduced to the biosensor field in 2001\cite{J2}, it has become a promising candidate for ultra-sensitive, real-time and label-free  sensor device.
+Although there has been some great advances on element structure design \cite{J3}, the work of systems-level engineering is still insufficient.
 Mainly because a proper way of signal acquiring is still indefinite.
-In this work, a read-out circuit for ion sensing SiNW based on “constant current” idea is proposed.
-Some post-simulation results are showed.
+
+In this work, a read-out circuit for ion sensing SiNW based on “constant current” idea is proposed with some post-simulation results.
 
 
 
@@ -90,29 +92,27 @@ Some post-simulation results are showed.
 \label{sec:rules}
 
 Conventionally, nanowire is treated as a simple resistor with resistance varies with ion concentration.
-The read out circuits are targeted on current measurement \cite{J4} or resistance detecting \cite{C5}.
-In this work, nanowire is treated as a complete field-effect transistor(FET) showed in Fig. 1.
-The read out circuit is design for measuring the current variance, which is interpreted into the transconductance of nanowire.
-{\color{orange}For the reason that: the ion effects are simplified and hypothetically summed into the changes on transconductance.}
-
-Since nanowire is analogous to the MOSFET, not only ions but intrinsic factors affect transconductance, which should be excluded.
-A constant current concept is adopted.
+Its read out circuits are targeted on current measurement \cite{J4} or resistance detecting \cite{J5}.
+However, these circuits give a mixed output result. Because nanowire is more like a MOSFET. Factors such as transconductance and short channel effect must be considered.
+In this work, nanowire is treated as a complete field-effect transistor(FET).
+The read out circuit is design for measuring the current variance with the element transconductance, drain-source voltage and even gate-source voltage fixed.
 
 \subsection{Constant Current}
 
 
 For a simple MOSFET, the transconductance(gm) is
 \begin{equation}
-    \sqrt{2I_{Dsat} (\kappa \mu C_{ox} \frac{W}{L})}
+    \sqrt{2I_{DS} (\kappa \mu C_{ox} \frac{W}{L})}
 \end{equation}
 in strong inversion region and
 \begin{equation}
-    \frac{\kappa I_{Ds}}{\phi_t}
+    \frac{\kappa I_{DS}}{\phi_t}
 \end{equation}
-in weak inversion region. $\phi_t$ is thermal voltage.
-$I_{Dsat}$ can be simplfied to $I_{Ds}$ for a constant $V_{Ds}$.
-$\kappa$ is the gate coupling coefficient that is 1 in strong inversion and approximately 0.4 to 0.7 in weak inversion.
-The equations show the transconductance of the MOSFET with fixed size can be roughly decided by giving constant drain-to-source current.
+in weak inversion region. $\phi_t$ is the thermal voltage.
+$\kappa$ is the gate coupling coefficient that is 1 in strong inversion and approximately between 0.4 to 0.7 in weak inversion.
+The transconductance of MOSFET of a fixed size can be roughly determined by a constant drain-to-source current($I_{DS}$).
+Furthermore,  a problem known as disparity may be solved, which often happens by fabrication flaws or time degradation.
+Mismatched elements may still operate in a same transconductance by giving different bias current.
 
 \begin{figure}
     \begin{minipage}[b]{0.18\linewidth}
