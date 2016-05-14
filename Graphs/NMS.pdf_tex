@@ -1,0 +1,90 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'NMS.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%%
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{795.5723804bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.57750313)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{NMS.pdf}}%
+    \put(0.02733733,0.22686928){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{NMS.pdf}}%
+    \put(0.07920624,0.50350348){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Ibias}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{NMS.pdf}}%
+    \put(0.07056142,0.2828877){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{SiNW}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{NMS.pdf}}%
+    \put(0.36448526,0.36518638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{NMS.pdf}}%
+    \put(0.77943657,0.3306071){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{NMS.pdf}}%
+    \put(0.3817749,0.49886986){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{100 k}\textbf{Ω}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{NMS.pdf}}%
+    \put(0.6584091,0.30868384){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{NMS.pdf}}%
+    \put(0.83130548,0.41242167){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{NMS.pdf}}%
+    \put(0.20887852,0.20494602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{Mode Switch}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{NMS.pdf}}%
+    \put(0.63474864,0.2979952){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{NMS.pdf}}%
+    \put(0.50280236,0.26144855){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
+    \put(0.21597673,0.33048013){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
+    \put(0.95278848,0.33402924){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Vout}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
+    \put(0.35584044,0.15771073){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Vb}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
+    \put(0.59678708,0.22681643){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
+    \put(0.8734412,0.52469223){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{CMS}}}%
+    \put(0.13780764,0.11549514){\color[rgb]{0.38039216,0.38039216,0.38039216}\makebox(0,0)[lb]{\smash{GVT}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
+    \put(0.60546844,0.02550873){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{f}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
+    \put(0.5207021,0.02448148){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{20Hz}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
+  \end{picture}%
+\endgroup%

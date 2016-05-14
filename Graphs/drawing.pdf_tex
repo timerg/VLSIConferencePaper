@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'gvt.pdf' (pdf, eps, ps)
+%% Accompanies image file 'drawing.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -20,7 +20,7 @@
 %%   \import{<path to file>}{<filename>.pdf_tex}
 %% Alternatively, one can specify
 %%   \graphicspath{{<path to file>/}}
-%%
+%% 
 %% For more information, please see info/svg-inkscape on CTAN:
 %%   http://tug.ctan.org/tex-archive/info/svg-inkscape
 %%
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{488.37216546bp}%
+    \setlength{\unitlength}{573.75132236bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,16 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.63809483)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{gvt.pdf}}%
-    \put(0.07717689,0.45296532){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{gvt.pdf}}%
-    \put(0.2236097,1.42918403){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Ibias}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{gvt.pdf}}%
-    \put(0.68731359,0.85477694){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{gvt.pdf}}%
-    \put(0.89597518,1.18315457){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
-    \put(0.2968261,0.51153844){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{SiNW}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{gvt.pdf}}%
+  \begin{picture}(1,0.68963976)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{drawing.pdf}}%
+    \put(0.35200697,0.01876057){\color[rgb]{0.78431373,0.78431373,0.78431373}\makebox(0,0)[lb]{\smash{silicon substrate}}}%
+    \put(0.363953,0.09217756){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.30137464,0.07445621){\color[rgb]{0.78431373,0.78431373,0.78431373}\makebox(0,0)[lb]{\smash{silicon oxide (100nm)}}}%
+    \put(0.36213345,0.13015184){\color[rgb]{0.78431373,0.78431373,0.78431373}\makebox(0,0)[lb]{\smash{Nitride (80nm)}}}%
+    \put(0.27352682,0.1909107){\color[rgb]{0.78431373,0.78431373,0.78431373}\makebox(0,0)[lb]{\smash{Poly-silicon  (nanowire) }}}%
+    \put(0.09631344,0.26432769){\color[rgb]{0.78431373,0.78431373,0.78431373}\makebox(0,0)[lb]{\smash{Source}}}%
+    \put(0.78491396,0.26939091){\color[rgb]{0.78431373,0.78431373,0.78431373}\makebox(0,0)[lb]{\smash{Drain}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{drawing.pdf}}%
+    \put(-0.0031318,0.49470506){\color[rgb]{0.07843137,0.07843137,0.07843137}\makebox(0,0)[lb]{\smash{Gate bias}}}%
+    \put(0.55129283,0.37318733){\color[rgb]{0.45882353,0.45882353,0.45882353}\makebox(0,0)[lb]{\smash{Measuerment Solution}}}%
   \end{picture}%
 \endgroup%

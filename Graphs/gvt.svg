@@ -7,14 +7,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="781.131263927"
+   width="626.825089392"
    height="1000.0"
-   id="svg3709"
+   id="svg4507"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="gvt.svg">
   <metadata
-     id="metadata3805">
+     id="metadata4601">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -26,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3803" />
+     id="defs4599" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -36,42 +36,42 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1055"
-     inkscape:window-height="748"
-     id="namedview3801"
+     inkscape:window-width="953"
+     inkscape:window-height="622"
+     id="namedview4597"
      showgrid="false"
      inkscape:zoom="0.488"
-     inkscape:cx="436.09913"
-     inkscape:cy="255.89798"
+     inkscape:cx="313.41254"
+     inkscape:cy="500"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g3713" />
+     inkscape:current-layer="g4511" />
   <desc
-     id="desc3711">Created by CircuitLab https://www.circuitlab.com/</desc>
+     id="desc4509">Created by CircuitLab https://www.circuitlab.com/</desc>
   <g
-     transform="matrix(2.38379022646,0,0,2.38379022646,-6081.49582837,-2911.79976162)"
-     id="g3713">
+     transform="matrix(2.38379022646,0,0,2.38379022646,-6195.47079857,-2911.79976162)"
+     id="g4511">
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
+       fill="none"
+       stroke="#000000"
        d="M15.624981,28.12499L15.624981,71.87502"
-       stroke-miterlimit="6"
-       id="path3715"
-       stroke-linecap="round"
        stroke-width="2"
-       stroke="#000000"
-       fill="none"
-       transform="matrix(-1,0,0,1,2675,1475)" />
+       stroke-linecap="round"
+       stroke-miterlimit="6"
+       transform="matrix(-1,0,0,1,2675,1475)"
+       id="path4513" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
-       d="M0,50L15.624981,50"
-       stroke-miterlimit="6"
-       id="path3717"
-       stroke-linecap="round"
-       stroke-width="2"
-       stroke="#000000"
        fill="none"
-       transform="matrix(-1,0,0,1,2675,1475)" />
+       stroke="#000000"
+       d="M0,50L15.624981,50"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-miterlimit="6"
+       transform="matrix(-1,0,0,1,2675,1475)"
+       id="path4515" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 4;"
        fill="none"
@@ -81,63 +81,63 @@
        stroke-linecap="round"
        stroke-miterlimit="4"
        transform="matrix(-1,0,0,1,2675,1475)"
-       id="path3719" />
+       id="path4517" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 4;"
+       fill="none"
+       stroke="#000000"
        d="M50,100L50,70L50,50L25,50"
-       stroke-miterlimit="4"
-       id="path3721"
-       stroke-linecap="round"
        stroke-width="2"
-       stroke="#000000"
-       fill="none"
-       transform="matrix(-1,0,0,1,2675,1475)" />
+       stroke-linecap="round"
+       stroke-miterlimit="4"
+       transform="matrix(-1,0,0,1,2675,1475)"
+       id="path4519" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 4;"
+       fill="none"
+       stroke="#000000"
        d="M50,70L25,70"
-       stroke-miterlimit="4"
-       id="path3723"
-       stroke-linecap="round"
        stroke-width="2"
-       stroke="#000000"
-       fill="none"
-       transform="matrix(-1,0,0,1,2675,1475)" />
+       stroke-linecap="round"
+       stroke-miterlimit="4"
+       transform="matrix(-1,0,0,1,2675,1475)"
+       id="path4521" />
     <path
        style="stroke-linecap: square; stroke-miterlimit: 4;"
+       fill="none"
+       stroke="#000000"
        d="M25,64L25,76"
-       stroke-miterlimit="4"
-       id="path3725"
-       stroke-linecap="square"
        stroke-width="4"
-       stroke="#000000"
-       fill="none"
-       transform="matrix(-1,0,0,1,2675,1475)" />
+       stroke-linecap="square"
+       stroke-miterlimit="4"
+       transform="matrix(-1,0,0,1,2675,1475)"
+       id="path4523" />
     <path
        style="stroke-linecap: square; stroke-miterlimit: 4;"
+       fill="none"
+       stroke="#000000"
        d="M25,44L25,56"
-       stroke-miterlimit="4"
-       id="path3727"
-       stroke-linecap="square"
        stroke-width="4"
-       stroke="#000000"
-       fill="none"
-       transform="matrix(-1,0,0,1,2675,1475)" />
+       stroke-linecap="square"
+       stroke-miterlimit="4"
+       transform="matrix(-1,0,0,1,2675,1475)"
+       id="path4525" />
     <path
        style="stroke-linecap: square; stroke-miterlimit: 4;"
-       d="M25,24L25,36"
-       stroke-miterlimit="4"
-       id="path3729"
-       stroke-linecap="square"
-       stroke-width="4"
-       stroke="#000000"
        fill="none"
-       transform="matrix(-1,0,0,1,2675,1475)" />
+       stroke="#000000"
+       d="M25,24L25,36"
+       stroke-width="4"
+       stroke-linecap="square"
+       stroke-miterlimit="4"
+       transform="matrix(-1,0,0,1,2675,1475)"
+       id="path4527" />
     <path
-       d="M45,45.93739C39.922916,48.47659,38.397916,48.47659,30.781249000000003,49.999810000000004C38.397916,51.52319000000001,39.922916,51.52319000000001,45,54.06242C43.985416,51.015390000000004,43.985416,48.984190000000005,45,45.93739"
-       id="path3731"
-       stroke="none"
        fill="#000000"
-       transform="matrix(-1,0,0,1,2675,1475)" />
+       stroke="none"
+       d="M45,45.93739C39.922916,48.47659,38.397916,48.47659,30.781249000000003,49.999810000000004C38.397916,51.52319000000001,39.922916,51.52319000000001,45,54.06242C43.985416,51.015390000000004,43.985416,48.984190000000005,45,45.93739"
+       transform="matrix(-1,0,0,1,2675,1475)"
+       id="path4529" />
     <text
        style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: end;"
        x="0"
@@ -146,10 +146,10 @@
        stroke="none"
        fill="#000000"
        transform="translate(2618.75,1525)"
-       id="text3733">
+       id="text4531">
       <tspan
          dy="7.2"
-         id="tspan3735" />
+         id="tspan4533" />
     </text>
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
@@ -160,7 +160,7 @@
        stroke-linecap="round"
        stroke-miterlimit="6"
        transform="translate(2600,1225)"
-       id="path3737" />
+       id="path4535" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
        fill="none"
@@ -170,7 +170,7 @@
        stroke-linecap="round"
        stroke-miterlimit="6"
        transform="translate(2600,1225)"
-       id="path3739" />
+       id="path4537" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
        fill="none"
@@ -180,7 +180,7 @@
        stroke-linecap="round"
        stroke-miterlimit="6"
        transform="translate(2600,1225)"
-       id="path3741" />
+       id="path4539" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
        fill="none"
@@ -190,21 +190,25 @@
        stroke-linecap="round"
        stroke-miterlimit="6"
        transform="translate(2600,1225)"
-       id="path3743" />
+       id="path4541" />
     <path
        fill="#000000"
        stroke="none"
        d="M20.099545,48.53562C23.162335,54.66122,23.162335,56.49892,25,65.68722C26.837665,56.49892,26.837665,54.66122,29.900455,48.53562C26.225105,49.76072,23.774885,49.76072,20.099545,48.53562"
        transform="translate(2600,1225)"
-       id="path3745" />
+       id="path4543" />
     <text
-       style="font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
-       x="2651.6255"
-       y="1275"
-       id="text3747">
+       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: start;"
+       x="0"
+       y="0"
+       text-anchor="start"
+       stroke="none"
+       fill="#000000"
+       transform="translate(2656.25,1275)"
+       id="text4545">
       <tspan
-         dy="7.1999998"
-         id="tspan3749">Ibias</tspan>
+         dy="7.2"
+         id="tspan4547">Ibias</tspan>
     </text>
     <path
        style="stroke-linecap: round;"
@@ -214,7 +218,7 @@
        stroke-width="2"
        stroke-linecap="round"
        class="cl_wire"
-       id="path3751" />
+       id="path4549" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
        fill="none"
@@ -224,7 +228,7 @@
        stroke-linecap="round"
        stroke-miterlimit="6"
        transform="translate(2600,1600)"
-       id="path3753" />
+       id="path4551" />
     <path
        style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 6;"
        fill="#ffffff"
@@ -235,16 +239,16 @@
        stroke-linejoin="round"
        stroke-miterlimit="6"
        transform="translate(2600,1600)"
-       id="path3755" />
+       id="path4553" />
     <path
        style="stroke-linecap: round;"
-       d="M 2625 1575 L 2625 1600"
-       class="cl_wire"
-       id="path3757"
-       stroke-linecap="round"
-       stroke-width="2"
+       fill="none"
        stroke="#000000"
-       fill="none" />
+       d="M 2625 1575 L 2625 1600"
+       stroke-width="2"
+       stroke-linecap="round"
+       class="cl_wire"
+       id="path4555" />
     <path
        style="stroke-linecap: round;"
        fill="none"
@@ -253,7 +257,7 @@
        stroke-width="2"
        stroke-linecap="round"
        class="cl_wire"
-       id="path3759" />
+       id="path4557" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
        fill="#ffffff"
@@ -263,29 +267,29 @@
        stroke-linecap="round"
        stroke-miterlimit="6"
        transform="matrix(0,1,-1,0,2850,1375)"
-       id="path3761" />
+       id="path4559" />
     <path
        fill="#000000"
        stroke="none"
        d="M20.241317,49.30424L20.241317,51.00004L36.397536,51.00004L36.397536,49.30424L20.241317,49.30424"
        transform="matrix(0,1,-1,0,2850,1375)"
-       id="path3763" />
+       id="path4561" />
     <path
        fill="#000000"
        stroke="none"
        d="M29.136487,91.78334L27.440701,91.78334L27.440701,99.15232L20.133404,99.15232L20.133404,100.84812L27.440701,100.84812L27.440701,108.21702L29.136487,108.21702L29.136487,100.84812L36.443785,100.84812L36.443785,99.15232L29.136487,99.15232L29.136487,91.78334"
        transform="matrix(0,1,-1,0,2850,1375)"
-       id="path3765" />
+       id="path4563" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
-       d="M150,75L137.5,75"
-       stroke-miterlimit="6"
-       id="path3767"
-       stroke-linecap="round"
-       stroke-width="2"
-       stroke="#000000"
        fill="none"
-       transform="matrix(0,1,-1,0,2850,1375)" />
+       stroke="#000000"
+       d="M150,75L137.5,75"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-miterlimit="6"
+       transform="matrix(0,1,-1,0,2850,1375)"
+       id="path4565" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
        fill="none"
@@ -295,7 +299,7 @@
        stroke-linecap="round"
        stroke-miterlimit="6"
        transform="matrix(0,1,-1,0,2850,1375)"
-       id="path3769" />
+       id="path4567" />
     <path
        style="stroke-linecap: round; stroke-miterlimit: 6;"
        fill="none"
@@ -305,7 +309,7 @@
        stroke-linecap="round"
        stroke-miterlimit="6"
        transform="matrix(0,1,-1,0,2850,1375)"
-       id="path3771" />
+       id="path4569" />
     <text
        style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: middle;"
        x="0"
@@ -314,10 +318,10 @@
        stroke="none"
        fill="#000000"
        transform="translate(2775,1422.1)"
-       id="text3773">
+       id="text4571">
       <tspan
          dy="7.2"
-         id="tspan3775" />
+         id="tspan4573" />
     </text>
     <path
        style="stroke-linecap: round;"
@@ -327,7 +331,7 @@
        stroke-width="2"
        stroke-linecap="round"
        class="cl_wire"
-       id="path3777" />
+       id="path4575" />
     <path
        style="stroke-linecap: round;"
        fill="none"
@@ -336,16 +340,16 @@
        stroke-width="2"
        stroke-linecap="round"
        class="cl_wire"
-       id="path3779" />
+       id="path4577" />
     <path
        style="stroke-linecap: round;"
-       d="M 2675 1525 L 2775 1525"
-       class="cl_wire"
-       id="path3781"
-       stroke-linecap="round"
-       stroke-width="2"
+       fill="none"
        stroke="#000000"
-       fill="none" />
+       d="M 2675 1525 L 2775 1525"
+       stroke-width="2"
+       stroke-linecap="round"
+       class="cl_wire"
+       id="path4579" />
     <path
        style="stroke-linecap: round;"
        fill="none"
@@ -354,7 +358,7 @@
        stroke-width="2"
        stroke-linecap="round"
        class="cl_wire"
-       id="path3783" />
+       id="path4581" />
     <path
        style="stroke-linecap: round;"
        fill="none"
@@ -363,25 +367,31 @@
        stroke-width="2"
        stroke-linecap="round"
        class="cl_wire"
-       id="path3785" />
+       id="path4583" />
     <text
-       style="font-style:normal;font-weight:bold;font-size:10px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
-       x="2825.0195"
-       y="1336.3954"
+       style="font-style:normal;font-weight:bold;font-size:11.44275856px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
+       x="2805.9407"
+       y="1348.7327"
        font-style="normal"
-       id="text3787">
+       transform="scale(1.0080171,0.99204665)"
+       id="text4585">
       <tspan
-         id="tspan3789">VRef</tspan>
+         dy="5.1492414"
+         id="tspan4587">VRef</tspan>
     </text>
     <text
-       style="font-style:normal;font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
-       x="2550"
-       y="1466.588"
+       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: start; font-style: normal;"
+       x="0"
+       y="0"
+       text-anchor="start"
+       stroke="none"
+       fill="#000000"
        font-style="normal"
-       id="text3793">
+       transform="translate(2675,1510)"
+       id="text4589">
       <tspan
-         dy="7.1999998"
-         id="tspan3795">Nanowire Element</tspan>
+         dy="7.2"
+         id="tspan4591">SiNW</tspan>
     </text>
     <circle
        cx="2625"
@@ -389,13 +399,13 @@
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle3797" />
+       id="circle4593" />
     <circle
        cx="2625"
        cy="1350"
        r="3"
        fill="#000000"
        stroke="#000000"
-       id="circle3799" />
+       id="circle4595" />
   </g>
 </svg>
