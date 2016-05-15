@@ -57,10 +57,12 @@
 %
 \begin{abstract}
 A read out circuit for poly-silicon nanowire field-effect transistor (SiNW FET) is proposed. The circuit use current variance of nanowire as small signal output. In other words, the readout circuit is designed to get correlation between measurement solution concentration variance and nanowire current variance.
+The circuit is able to regular the current of nanowire in a fixed value.
+This is referred to as constant current method in this article.
+With this method, the transconductance of nanowire is constant and correlate the output current variance with solution concentration monotonically.
+Also, a problem known as disparity may be solved, which often happens by fabrication flaws or time degradation.
 
-Moreover, the circuit is able to regular the current of nanowire in a fixed value. This is referred to as constant current method in this article. With this method, the transconductance of nanowire is constant and make the output current variance purer. Moreover, a problem known as disparity is solved, which often happens by fabrication flaws or time degradation.
-
-In summary,
+This article shows the design concept, circuit schematic, table of spec and some post-simulation results.
 \end{abstract}
 %
 \section{Introduction}
@@ -93,7 +95,7 @@ In this work, a read-out circuit for ion sensing SiNW based on “constant curre
 
 Conventionally, nanowire is treated as a simple resistor with resistance varies with ion concentration.
 Its read out circuits are targeted on current measurement \cite{J4} or resistance detecting \cite{J5}.
-However, these circuits give a mixed output result. Because nanowire is more like a MOSFET. Factors such as transconductance and short channel effect must be considered.
+However, these circuits give a mixed output result because nanowire is more like a MOSFET. Factors such as transconductance and short channel effect must be considered.
 In this work, nanowire is treated as a complete field-effect transistor(FET).
 The read out circuit is design for measuring the current variance with the element transconductance, drain-source voltage and even gate-source voltage fixed.
 

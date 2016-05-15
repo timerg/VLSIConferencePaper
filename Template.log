@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.8)  14 MAY 2016 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.8)  15 MAY 2016 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -197,24 +197,29 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+
+Overfull \hbox (5.43996pt too wide) in paragraph at lines 65--66
+[]\OT1/ptm/m/n/10 This ar-ti-cle shows the de-sign con-cept, cir-cuit schematic,
+ []
+
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-LaTeX Font Info:    Try loading font information for OT1+pag on input line 81.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pag.fd
+LaTeX Font Info:    Try loading font information for OT1+pag on input line 83.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pag.fd
 File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
 )
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <10> not available
-(Font)              Font shape `OT1/pag/b/n' tried instead on input line 86.
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <10> not available
-(Font)              Font shape `OT1/pag/db/n' tried instead on input line 86.
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <6> not available
-(Font)              Font shape `OT1/pag/b/n' tried instead on input line 86.
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <6> not available
-(Font)              Font shape `OT1/pag/db/n' tried instead on input line 86.
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 88.
  (./Graphs/drawing.pdf_tex <Graphs/drawing.pdf, id=1, page=1, 575.90291pt x 397.16554pt>
 File: Graphs/drawing.pdf Graphic file (type pdf)
  <use Graphs/drawing.pdf, page 1>
@@ -227,15 +232,15 @@ Package pdftex.def Info: Graphs/drawing.pdf, page2 used on input line 60.
 (pdftex.def)             Requested size: 142.26378pt x 98.10939pt.
 )
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <12> not available
-(Font)              Font shape `OT1/pag/b/n' tried instead on input line 86.
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <12> not available
-(Font)              Font shape `OT1/pag/db/n' tried instead on input line 86.
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 88.
 
 
-LaTeX Warning: Citation `J5' on page 1 undefined on input line 95.
+LaTeX Warning: Citation `J5' on page 1 undefined on input line 97.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 (./Graphs/gvt.pdf_tex <Graphs/gvt.pdf, id=3, page=1, 490.20355pt x 802.99994pt>
 File: Graphs/gvt.pdf Graphic file (type pdf)
  <use Graphs/gvt.pdf, page 1>
@@ -260,12 +265,12 @@ File: Graphs/gvt.pdf Graphic file (type pdf)
 Package pdftex.def Info: Graphs/gvt.pdf, page3 used on input line 61.
 (pdftex.def)             Requested size: 71.13188pt x 116.51164pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 []
  []
 
 
-Overfull \hbox (29.64946pt too wide) in paragraph at lines 126--127
+Overfull \hbox (29.64946pt too wide) in paragraph at lines 128--129
 []
  []
 
@@ -330,12 +335,12 @@ File: Graphs/cvm.pdf Graphic file (type pdf)
 Package pdftex.def Info: Graphs/cvm.pdf, page7 used on input line 78.
 (pdftex.def)             Requested size: 122.34692pt x 113.01053pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 []
  []
 
 
-Overfull \hbox (16.33041pt too wide) in paragraph at lines 135--136
+Overfull \hbox (16.33041pt too wide) in paragraph at lines 137--138
 []
  []
 
@@ -381,7 +386,7 @@ pdfTeX warning: pdflatex (file ./Graphs/cvm.pdf): PDF inclusion: multiple pdfs w
 pdfTeX warning: pdflatex (file ./Graphs/cvm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
  (./Graphs/NMS.pdf_tex <Graphs/NMS.pdf, id=42, page=1, 798.55579pt x 461.16844pt>
 File: Graphs/NMS.pdf Graphic file (type pdf)
  <use Graphs/NMS.pdf, page 1>
@@ -470,7 +475,7 @@ File: Graphs/NMS.pdf Graphic file (type pdf)
 Package pdftex.def Info: Graphs/NMS.pdf, page12 used on input line 88.
 (pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
 )
-Overfull \hbox (0.95477pt too wide) in paragraph at lines 175--176
+Overfull \hbox (0.95477pt too wide) in paragraph at lines 177--178
 []  []
  []
 
@@ -528,7 +533,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  38i,11n,23p,518b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Template.pdf (2 pages, 112195 bytes).
+Output written on Template.pdf (2 pages, 112240 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
