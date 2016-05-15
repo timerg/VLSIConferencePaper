@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="80mm" height="120mm" viewBox="0 0 80 120"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<g class="plotroot xscalable yscalable" id="img-80f44c6b-1">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-80f44c6b-2">
+    <text x="40.09" y="108.38" text-anchor="middle" dy="0.6em">f(Hz)</text>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-80f44c6b-3">
+    <text x="22.05" y="100.95" text-anchor="middle" dy="0.6em">10<tspan style="dominant-baseline:inherit" dy="-1.7225" font-size="83.3333%">0</tspan><tspan style="dominant-baseline:inherit" dy="1.4355"></tspan></text>
+    <text x="38.96" y="100.95" text-anchor="middle" dy="0.6em">10<tspan style="dominant-baseline:inherit" dy="-1.7225" font-size="83.3333%">3</tspan><tspan style="dominant-baseline:inherit" dy="1.4355"></tspan></text>
+    <text x="55.88" y="100.95" text-anchor="middle" dy="0.6em">10<tspan style="dominant-baseline:inherit" dy="-1.7225" font-size="83.3333%">6</tspan><tspan style="dominant-baseline:inherit" dy="1.4355"></tspan></text>
+  </g>
+  <g class="guide colorkey" id="img-80f44c6b-4">
+    <g fill="#4C404B" font-size="2.82" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" id="img-80f44c6b-5">
+      <text x="63.94" y="52.47" dy="0.35em" id="img-80f44c6b-6" class="color_gm=50u">gm=50u</text>
+      <text x="63.94" y="56.08" dy="0.35em" id="img-80f44c6b-7" class="color_gm=200n">gm=200n</text>
+    </g>
+    <g stroke="#000000" stroke-opacity="0.000" id="img-80f44c6b-8">
+      <rect x="61.14" y="51.57" width="1.8" height="1.8" id="img-80f44c6b-9" class="color_gm=50u" fill="#00BFFF"/>
+      <rect x="61.14" y="55.18" width="1.8" height="1.8" id="img-80f44c6b-10" class="color_gm=200n" fill="#D4CA3A"/>
+    </g>
+    <g fill="#362A35" font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" stroke="#000000" stroke-opacity="0.000" id="img-80f44c6b-11">
+      <text x="61.14" y="47.88" id="img-80f44c6b-12">name</text>
+    </g>
+  </g>
+<g clip-path="url(#img-80f44c6b-13)">
+  <g id="img-80f44c6b-14">
+    <g pointer-events="visible" opacity="1" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-80f44c6b-15">
+      <rect x="20.05" y="5" width="40.09" height="94.95" id="img-80f44c6b-16"/>
+    </g>
+    <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-80f44c6b-17">
+      <path fill="none" d="M20.05,97.95 L 60.14 97.95" id="img-80f44c6b-18"/>
+      <path fill="none" d="M20.05,75.21 L 60.14 75.21" id="img-80f44c6b-19"/>
+      <path fill="none" d="M20.05,52.47 L 60.14 52.47" id="img-80f44c6b-20"/>
+      <path fill="none" d="M20.05,29.74 L 60.14 29.74" id="img-80f44c6b-21"/>
+      <path fill="none" d="M20.05,7 L 60.14 7" id="img-80f44c6b-22"/>
+    </g>
+    <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-80f44c6b-23">
+      <path fill="none" d="M22.05,5 L 22.05 99.95" id="img-80f44c6b-24"/>
+      <path fill="none" d="M38.96,5 L 38.96 99.95" id="img-80f44c6b-25"/>
+      <path fill="none" d="M55.88,5 L 55.88 99.95" id="img-80f44c6b-26"/>
+    </g>
+    <g class="plotpanel" id="img-80f44c6b-27">
+      <g stroke-width="1.32" fill="#000000" fill-opacity="0.000" class="geometry color_gm=200n" stroke-dasharray="none" stroke="#D4CA3A" id="img-80f44c6b-28">
+        <path fill="none" d="M22.05,36.06 L 23.18 37.13 24.3 38.19 25.43 39.25 26.56 40.31 27.69 41.36 28.81 42.42 29.94 43.47 31.07 44.51 32.2 45.56 33.33 46.6 34.45 47.64 35.58 48.67 36.71 49.71 37.84 50.74 38.96 51.76 40.09 52.79 41.22 53.82 42.35 54.86 43.48 55.94 44.6 57.13 45.73 58.53 46.86 60.32 47.99 62.58 49.12 65.28 50.24 68.22 51.37 71.28 52.5 74.43 53.63 77.65 54.75 80.88 55.88 83.82 57.01 86.02 58.14 87.43" id="img-80f44c6b-29"/>
+      </g>
+      <g stroke-width="0.79" fill="#000000" fill-opacity="0.000" class="geometry color_gm=50u" stroke-dasharray="none" stroke="#00BFFF" id="img-80f44c6b-30">
+        <path fill="none" d="M22.05,25.98 L 23.18 27.11 24.3 28.24 25.43 29.38 26.56 30.51 27.69 31.64 28.81 32.76 29.94 33.89 31.07 35.02 32.2 36.15 33.33 37.28 34.45 38.4 35.58 39.53 36.71 40.65 37.84 41.78 38.96 42.9 40.09 44.03 41.22 45.16 42.35 46.31 43.48 47.5 44.6 48.81 45.73 50.33 46.86 52.26 47.99 54.68 49.12 57.56 50.24 60.74 51.37 64.09 52.5 67.54 53.63 71.07 54.75 74.6 55.88 77.94 57.01 80.75 58.14 82.75" id="img-80f44c6b-31"/>
+      </g>
+    </g>
+  </g>
+</g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-80f44c6b-32">
+    <text x="19.05" y="97.95" text-anchor="end" dy="0.35em" id="img-80f44c6b-33">10<tspan style="dominant-baseline:inherit" dy="-1.7225" font-size="83.3333%">-8</tspan><tspan style="dominant-baseline:inherit" dy="1.4355"></tspan></text>
+    <text x="19.05" y="75.21" text-anchor="end" dy="0.35em" id="img-80f44c6b-34">10<tspan style="dominant-baseline:inherit" dy="-1.7225" font-size="83.3333%">-6</tspan><tspan style="dominant-baseline:inherit" dy="1.4355"></tspan></text>
+    <text x="19.05" y="52.47" text-anchor="end" dy="0.35em" id="img-80f44c6b-35">10<tspan style="dominant-baseline:inherit" dy="-1.7225" font-size="83.3333%">-4</tspan><tspan style="dominant-baseline:inherit" dy="1.4355"></tspan></text>
+    <text x="19.05" y="29.74" text-anchor="end" dy="0.35em" id="img-80f44c6b-36">10<tspan style="dominant-baseline:inherit" dy="-1.7225" font-size="83.3333%">-2</tspan><tspan style="dominant-baseline:inherit" dy="1.4355"></tspan></text>
+    <text x="19.05" y="7" text-anchor="end" dy="0.35em" id="img-80f44c6b-37">10<tspan style="dominant-baseline:inherit" dy="-1.7225" font-size="83.3333%">0</tspan><tspan style="dominant-baseline:inherit" dy="1.4355"></tspan></text>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-80f44c6b-38">
+    <text x="8.81" y="50.47" text-anchor="middle" dy="0.35em" transform="rotate(-90, 8.81, 52.47)" id="img-80f44c6b-39">output referred noise(V)</text>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-80f44c6b-13">
+  <path d="M20.05,5 L 60.14 5 60.14 99.95 20.05 99.95" />
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,71 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'AcGain.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%%
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{315.25925074bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.93856843)%
+    \put(0.51766223,0.00902384){\makebox(0,0)[b]{\smash{f(Hz)}}}%
+    \put(0.26122536,0.07583051){\makebox(0,0)[b]{\smash{101}}}%
+    \put(0.4077864,0.07583051){\makebox(0,0)[b]{\smash{103}}}%
+    \put(0.55434747,0.07583051){\makebox(0,0)[b]{\smash{105}}}%
+    \put(0.70081853,0.07583051){\makebox(0,0)[b]{\smash{107}}}%
+    \put(0.8473796,0.07583051){\makebox(0,0)[b]{\smash{109}}}%
+    \put(0.89953018,0.51173717){\makebox(0,0)[lb]{\smash{gm=50u}}}%
+    \put(0.89953018,0.47927794){\makebox(0,0)[lb]{\smash{gm=200n}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{AcGain.pdf}}%
+    \put(0.87435403,0.55300804){\makebox(0,0)[lb]{\smash{name}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{AcGain.pdf}}%
+    \put(0.1609704,0.92048963){\makebox(0,0)[rb]{\smash{34.97}}}%
+    \put(0.1609704,0.68752054){\makebox(0,0)[rb]{\smash{6.45}}}%
+    \put(0.1609704,0.79820557){\makebox(0,0)[rb]{\smash{20.00}}}%
+    \put(0.1609704,0.63483049){\makebox(0,0)[rb]{\smash{0.00}}}%
+    \put(0.1609704,0.47136547){\makebox(0,0)[rb]{\smash{-20.00}}}%
+    \put(0.1609704,0.30799039){\makebox(0,0)[rb]{\smash{-40.00}}}%
+    \put(0.02618821,0.51173719){\rotatebox{90}{\makebox(0,0)[b]{\smash{Gain(db)}}}}%
+  \end{picture}%
+\endgroup%
