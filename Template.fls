@@ -126,6 +126,7 @@ INPUT Graphs/gvt.pdf
 INPUT ./Graphs/gvt.pdf
 INPUT Graphs/gvt.pdf
 INPUT ./Graphs/gvt.pdf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT Graphs/cvm.pdf_tex
 INPUT Graphs/cvm.pdf_tex
 INPUT Graphs/cvm.pdf
@@ -244,7 +245,6 @@ INPUT ./Graphs/Tran.pdf
 INPUT ./Graphs/Tran.pdf
 INPUT Graphs/Tran.pdf
 INPUT ./Graphs/Tran.pdf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT Graphs/Noise.pdf_tex
 INPUT Graphs/Noise.pdf_tex
 INPUT Graphs/Noise.pdf
