@@ -56,12 +56,8 @@
     \put(0.67490916,0.03693306){\makebox(0,0)[b]{\smash{1.04}}}%
     \put(0.84980808,0.03693306){\makebox(0,0)[b]{\smash{1.06}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Tran.pdf}}%
-    \put(0.1267683,0.05256794){\makebox(0,0)[rb]{\smash{2.055}}}%
-    \put(0.1267683,0.06538853){\makebox(0,0)[rb]{\smash{2.060}}}%
-    \put(0.1267683,0.07826125){\makebox(0,0)[rb]{\smash{2.065}}}%
-    \put(0.1267683,0.09113396){\makebox(0,0)[rb]{\smash{2.070}}}%
-    \put(0.1267683,0.10395456){\makebox(0,0)[rb]{\smash{2.075}}}%
-    \put(0.1267683,0.11682728){\makebox(0,0)[rb]{\smash{2.080}}}%
+    \put(0.1267683,0.0594521){\makebox(0,0)[rb]{\smash{2.060}}}%
+    \put(0.1267683,0.11089085){\makebox(0,0)[rb]{\smash{2.080}}}%
     \put(0.02227919,0.08467155){\rotatebox{90}{\makebox(0,0)[b]{\smash{Vin}}}}%
     \put(0.9000445,0.23956398){\makebox(0,0)[lb]{\smash{gm=50u}}}%
     \put(0.9000445,0.21459216){\makebox(0,0)[lb]{\smash{gm=200n}}}%
@@ -69,10 +65,11 @@
     \put(0.87499722,0.27131485){\makebox(0,0)[lb]{\smash{name}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Tran.pdf}}%
     \put(0.12590549,0.14963777){\makebox(0,0)[rb]{\smash{0.0}}}%
-    \put(0.12590549,0.19460088){\makebox(0,0)[rb]{\smash{0.5}}}%
+    \put(0.12748281,0.199762){\makebox(0,0)[rb]{\smash{0.65}}}%
     \put(0.12590549,0.23956398){\makebox(0,0)[rb]{\smash{1.0}}}%
-    \put(0.12590549,0.28452708){\makebox(0,0)[rb]{\smash{1.5}}}%
+    \put(0.12821543,0.30162061){\makebox(0,0)[rb]{\smash{1.48}}}%
     \put(0.12590549,0.32949019){\makebox(0,0)[rb]{\smash{2.0}}}%
+    \put(0.397969,0.22066915){\makebox(0,0)[rb]{\smash{0.74}}}%
     \put(0.03117321,0.23956398){\rotatebox{90}{\makebox(0,0)[b]{\smash{Vout(v)}}}}%
   \end{picture}%
 \endgroup%

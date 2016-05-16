@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{315.25925074bp}%
+    \setlength{\unitlength}{315.25926084bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,24 +48,24 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.93856843)%
-    \put(0.51766223,0.00902384){\makebox(0,0)[b]{\smash{f(Hz)}}}%
-    \put(0.26122536,0.07583051){\makebox(0,0)[b]{\smash{101}}}%
-    \put(0.4077864,0.07583051){\makebox(0,0)[b]{\smash{103}}}%
-    \put(0.55434747,0.07583051){\makebox(0,0)[b]{\smash{105}}}%
-    \put(0.70081853,0.07583051){\makebox(0,0)[b]{\smash{107}}}%
-    \put(0.8473796,0.07583051){\makebox(0,0)[b]{\smash{109}}}%
-    \put(0.89953018,0.51173717){\makebox(0,0)[lb]{\smash{gm=50u}}}%
-    \put(0.89953018,0.47927794){\makebox(0,0)[lb]{\smash{gm=200n}}}%
+  \begin{picture}(1,0.49194268)%
+    \put(0.51748238,0.004997){\makebox(0,0)[b]{\smash{f(Hz)}}}%
+    \put(0.2609499,0.03999394){\makebox(0,0)[b]{\smash{101}}}%
+    \put(0.40756558,0.03999394){\makebox(0,0)[b]{\smash{103}}}%
+    \put(0.5541813,0.03999394){\makebox(0,0)[b]{\smash{105}}}%
+    \put(0.70070698,0.03999394){\makebox(0,0)[b]{\smash{107}}}%
+    \put(0.84732269,0.03999394){\makebox(0,0)[b]{\smash{109}}}%
+    \put(0.89949272,0.26834541){\makebox(0,0)[lb]{\smash{gm=50u}}}%
+    \put(0.89949272,0.25134151){\makebox(0,0)[lb]{\smash{gm=200n}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{AcGain.pdf}}%
-    \put(0.87435403,0.55300804){\makebox(0,0)[lb]{\smash{name}}}%
+    \put(0.87430718,0.28996532){\makebox(0,0)[lb]{\smash{name}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{AcGain.pdf}}%
-    \put(0.1609704,0.92048963){\makebox(0,0)[rb]{\smash{34.97}}}%
-    \put(0.1609704,0.68752054){\makebox(0,0)[rb]{\smash{6.45}}}%
-    \put(0.1609704,0.79820557){\makebox(0,0)[rb]{\smash{20.00}}}%
-    \put(0.1609704,0.63483049){\makebox(0,0)[rb]{\smash{0.00}}}%
-    \put(0.1609704,0.47136547){\makebox(0,0)[rb]{\smash{-20.00}}}%
-    \put(0.1609704,0.30799039){\makebox(0,0)[rb]{\smash{-40.00}}}%
-    \put(0.02618821,0.51173719){\rotatebox{90}{\makebox(0,0)[b]{\smash{Gain(db)}}}}%
+    \put(0.16065756,0.48247203){\makebox(0,0)[rb]{\smash{34.97}}}%
+    \put(0.16065756,0.36043023){\makebox(0,0)[rb]{\smash{6.45}}}%
+    \put(0.16065756,0.41841303){\makebox(0,0)[rb]{\smash{20.00}}}%
+    \put(0.16065756,0.33282833){\makebox(0,0)[rb]{\smash{0.00}}}%
+    \put(0.16065756,0.24719653){\makebox(0,0)[rb]{\smash{-20.00}}}%
+    \put(0.16065756,0.16161183){\makebox(0,0)[rb]{\smash{-40.00}}}%
+    \put(0.02582511,0.26834541){\rotatebox{90}{\makebox(0,0)[b]{\smash{Gain(db)}}}}%
   \end{picture}%
 \endgroup%
