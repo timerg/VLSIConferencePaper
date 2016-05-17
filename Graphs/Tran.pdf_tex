@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{269.52222659bp}%
+    \setlength{\unitlength}{270.48491721bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,28 +48,31 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.34339873)%
-    \put(0.49993259,0.00540274){\makebox(0,0)[b]{\smash{Time(s)}}}%
-    \put(0.15005711,0.03693306){\makebox(0,0)[b]{\smash{0.98}}}%
-    \put(0.32503367,0.03693306){\makebox(0,0)[b]{\smash{1.00}}}%
-    \put(0.49993259,0.03693306){\makebox(0,0)[b]{\smash{1.02}}}%
-    \put(0.67490916,0.03693306){\makebox(0,0)[b]{\smash{1.04}}}%
-    \put(0.84980808,0.03693306){\makebox(0,0)[b]{\smash{1.06}}}%
+  \begin{picture}(1,0.2629853)%
+    \put(0.49207666,0.00538351){\makebox(0,0)[b]{\smash{Time(s)}}}%
+    \put(0.14344642,0.03680161){\makebox(0,0)[b]{\smash{0.98}}}%
+    \put(0.31780023,0.03680161){\makebox(0,0)[b]{\smash{1.00}}}%
+    \put(0.49207666,0.03680161){\makebox(0,0)[b]{\smash{1.02}}}%
+    \put(0.66643046,0.03680161){\makebox(0,0)[b]{\smash{1.04}}}%
+    \put(0.8407069,0.03680161){\makebox(0,0)[b]{\smash{1.06}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Tran.pdf}}%
-    \put(0.1267683,0.0594521){\makebox(0,0)[rb]{\smash{2.060}}}%
-    \put(0.1267683,0.11089085){\makebox(0,0)[rb]{\smash{2.080}}}%
-    \put(0.02227919,0.08467155){\rotatebox{90}{\makebox(0,0)[b]{\smash{Vin}}}}%
-    \put(0.9000445,0.23956398){\makebox(0,0)[lb]{\smash{gm=50u}}}%
-    \put(0.9000445,0.21459216){\makebox(0,0)[lb]{\smash{gm=200n}}}%
+    \put(0.12024051,0.05924051){\makebox(0,0)[rb]{\smash{2.060}}}%
+    \put(0.12024051,0.11049617){\makebox(0,0)[rb]{\smash{2.080}}}%
+    \put(0.02445313,0.08770213){\rotatebox{90}{\makebox(0,0)[b]{\smash{Vin(V)}}}}%
+    \put(0.89529931,0.19956405){\makebox(0,0)[lb]{\smash{gm=50u}}}%
+    \put(0.89529931,0.18431151){\makebox(0,0)[lb]{\smash{gm=200n}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Tran.pdf}}%
-    \put(0.87499722,0.27131485){\makebox(0,0)[lb]{\smash{name}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{Tran.pdf}}%
-    \put(0.12590549,0.14963777){\makebox(0,0)[rb]{\smash{0.0}}}%
-    \put(0.12748281,0.199762){\makebox(0,0)[rb]{\smash{0.65}}}%
-    \put(0.12590549,0.23956398){\makebox(0,0)[rb]{\smash{1.0}}}%
-    \put(0.12821543,0.30162061){\makebox(0,0)[rb]{\smash{1.48}}}%
-    \put(0.12590549,0.32949019){\makebox(0,0)[rb]{\smash{2.0}}}%
-    \put(0.397969,0.22066915){\makebox(0,0)[rb]{\smash{0.74}}}%
-    \put(0.03117321,0.23956398){\rotatebox{90}{\makebox(0,0)[b]{\smash{Vout(v)}}}}%
+    \put(0.86906296,0.21895718){\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Tran.pdf}}%
+    \put(0.11579949,0.14463801){\makebox(0,0)[rb]{\smash{0.000}}}%
+    \put(0.11579949,0.19956405){\makebox(0,0)[rb]{\smash{1.000}}}%
+    \put(0.11579949,0.22361653){\makebox(0,0)[rb]{\smash{1.500}}}%
+    \put(0.11579949,0.2544901){\makebox(0,0)[rb]{\smash{2.000}}}%
+    \put(0.11579949,0.1806433){\makebox(0,0)[rb]{\smash{0.640}}}%
+    \put(0.11579949,0.23543499){\makebox(0,0)[rb]{\smash{1.653}}}%
+    \put(0.11579949,0.16800336){\makebox(0,0)[rb]{\smash{0.596}}}%
+    \put(0.4656209,0.18622772){\makebox(0,0)[rb]{\smash{0.641}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Tran.pdf}}%
+    \put(0.02682931,0.19789809){\rotatebox{90}{\makebox(0,0)[b]{\smash{Vout(v)}}}}%
   \end{picture}%
 \endgroup%

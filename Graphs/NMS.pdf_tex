@@ -86,5 +86,6 @@
     \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
     \put(0.5207021,0.02448148){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{20Hz}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
+    \put(0.83091241,0.40040422){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Rx}}}}%
   \end{picture}%
 \endgroup%

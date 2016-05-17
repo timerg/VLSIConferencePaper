@@ -8,7 +8,6 @@
 \usepackage{transparent}
 \usepackage{color}
 
-
 % \pagecolor{blue}
 \graphicspath{{Graphs/}}
 % \setCJKmainfont[Mapping=tex-text]{STSongti-TC-Light}
@@ -20,7 +19,6 @@
 % --------------------
 \def\x{{\mathbf x}}
 \def\L{{\cal L}}
-\definecolor{orange}{rgb}{0.89,0.7,0.2}
 
 % Title.
 % ------
@@ -78,26 +76,28 @@ Although there has been some great advances on element structure design \cite{J3
 Mainly because a proper way of signal acquiring is still indefinite.
 
 In this work, a read-out circuit for ion sensing SiNW based on “constant current” idea is proposed with some post-simulation results.
+All the design are based on the experiments beforehand with nanowire elements from Yang's team (Fig. 1\cite{J7}).
+These experiments provide nanowire electrical properties and the design spec.
 
 
 
 \begin{figure}[b]
     \centering
-    {\fontfamily{pag}\selectfont \textbf{
+    {\fontfamily{pag}\selectfont\textbf{
         \def\svgwidth{5.0cm}
         \fontsize{6}{7}\selectfont
         \input {Graphs/drawing.pdf_tex}
-        \fontsize{12}{15}\selectfont
     }}
-\caption{The structure of SiNW element}
-\label{fig:res}
+    \fontsize{6}{7}\selectfont
+    \caption{Element Structure}
+    \label{fig:res}
 \end{figure}
 
 \section{Design Description}
 \label{sec:rules}
 
 Conventionally, nanowire is treated as a simple resistor with resistance varies with ion concentration.
-Its read out circuits are targeted on current measurement \cite{J4} or resistance detecting \cite{J5}.
+Its read out circuits are targeted on current measurement \cite{J4} or resistance detecting \cite{C5}.
 However, these circuits give a non-monotonic output result. Because nanowire is more like a MOSFET, and factors such as transconductance and short channel effect must be considered.
 In this work, nanowire is treated as a complete field-effect transistor(FET).
 The read out circuit is designed for measuring the current variance.
@@ -120,11 +120,12 @@ The transconductance of MOSFET of a fixed size can be roughly determined by a co
 Furthermore,  a problem known as disparity which often caused by fabrication flaws or time degradation, may be solved because it is possible to force elements to operate in a same transconductance by giving different bias currents.
 
 \begin{figure}
+
     \begin{minipage}[!hb]{0.18\linewidth}
         \textbf{
             \centering
             \def\svgwidth{2.5cm}
-            \fontsize{8}{15}\selectfont
+            \fontsize{6}{15}\selectfont
             \input {Graphs/gvt.pdf_tex}
             \fontsize{8}{10}\selectfont
             \centerline{(a)GVT Mode }\medskip
@@ -135,7 +136,7 @@ Furthermore,  a problem known as disparity which often caused by fabrication fla
         \textbf{
             \centering
             \def\svgwidth{4.3cm}
-            \fontsize{8}{15}\selectfont
+            \fontsize{6}{15}\selectfont
             \input {Graphs/cvm.pdf_tex}
             \fontsize{8}{10}\selectfont
             \centerline{(b)CVM Mode }\medskip
@@ -146,16 +147,17 @@ Furthermore,  a problem known as disparity which often caused by fabrication fla
 \end{figure}
 
 \subsection{Architecture}
-The constant current structures such as source follower has been applied to several works of ion-sensitive field-effect transistor(ISFET) \cite{J6,C7}, which is a relative of SiNW.
-A similar structure is presented here. The structure can switch between two modes: Gate-Source Voltage Tracing Mode (GVT) (Fig1(a)) and Current Variance Measuring Mode (CVM) (Fig1(b)).
+The constant current structures such as source follower has been applied to several works of ion-sensitive field-effect transistor(ISFET) \cite{J6}, which is a relative of SiNW.
+A similar structure is presented here. The structure can switch between two modes: Gate-Source Voltage Tracing Mode (GVT) (Fig. 2(a)) and Current Variance Measuring Mode (CVM) (Fig. 2(b)).
 
 Operation in GVT is similar to Source follower.
-Except the negative feedback doesn’t happens at source end but {\color{orange} gate *end} through feedback loop circuits.
+Except the negative feedback doesn’t happens at source but gate through feedback loop circuits.
 This mode devotes to set up nanowire in the beginning when the reference ion solution is given.
 
 CVM is used after suitable gate voltage is found in GVT.
 In this mode, the feedback loop is removed and the tested solution is then given.
-The ions in the solution are attached to the nanowire surface(gate-end of the FET) and the electrical field are changed. A variance of current will then appear and be converted to voltage output by a transimpedance.
+The ions in the solution are attached to the surface of nanowire(gate of the FET) and the electrical field are changed.
+A variance of current will then appear and be converted to voltage output by a transimpedance.
 
 
 \section{Circuit Implementation}
@@ -163,13 +165,15 @@ Fig. 3 shows the circuit schematic.
 GVT and CVM shared a common transimpedance, which is resistor-based because linearity is necessary for a wide input current range (from 10nA to 1uA).
 A controlling switch switches manually between integrated circuit and an external voltage source(Vb) that can memorize the voltage obtained by GVT.
 
-At SiNW gate control end in the GVT block, the open loop OP with a narrow bandwidth (< 20hz) has a use for low pass filter.
-{\color{orange}It prevents noise disturbing. And most of all, it keeps the feedback loop stable when sometimes large gm of nanowire increases total loop gain.}
+At SiNW gate control terminal in the GVT block, the open loop OP with a narrow bandwidth ($<$ 20hz) has a use for low pass filter.
+It introduces only DC or low frequency signal into the feedback loop.
+Bsides, the low frequency dominant pole it creates can keeps the feedback loop stable for sometimes the large transconductance of nanowire increases total loop gain a lot.
 
-For the output of CMS, the amplifier has two amplification rate,100 and 10 respectively.
+For the output of CMS, an OP, 2 capacitor and a resistor compose a bandpass amplifier with two amplification rate, 100 and 10 respectively.
+The pass band starts from point far below 1Hz and continue till about 1.4kHz.
 It is capacitor-based for diminishing the offset voltage, which has a maximal value of 0.2v.
+The resistor Rx is used for preventing a floating point on positive end of OP.
 
-Fig 4 a-d shows some simulation results.
 \begin{figure}[!htb]
     \textbf{
         \centering
@@ -183,9 +187,58 @@ Fig 4 a-d shows some simulation results.
     \label{fig:res}
 \end{figure}
 
-\section{Conclusion}
+\begin{table}[!b]
+    {\fontfamily{}\fontsize{6}{10}\selectfont
+    \centering
+    \label{my-label}
+    \begin{tabular}{l|cp{1.8cm}}
+         Maximal Signal Detection Speed(Hz) & 1.4k\\
+        \hline
+         Maximal Input Reffered Noise(mV) & 2.0 \\
+        \hline
+         Power Consumption(mW) & 0.25\\
+        \hline
+        SiNW transconductance Range & 200n \textasciitilde{} 50u\\
+        \hline
+        SiNW Bias Current Range & 100n \textasciitilde{} 10u\\
+    \end{tabular}
+    \caption{Spec Summary}
+    }
+\end{table}
+
+\section{Simulation Results and Conclusion}
 \label{sec:conclusion}
 
+Fig 4 a-d shows the post-simulation results for circuit operated under CVM mode.
+A simple MOS with proper transconductance(gm) are substituted for nanowire(By experiment beforehand, gm should range from 200n to 20u).
+And a voltage signal is input to the gate of the MOS. 20mV is used to emulate the ion effect when measurement solution is added.
+
+Fig. 4a shows the total amplification rate is 6.45db(2.1) for gm: 200n.
+This rate increases with the gm in the same degree.
+The fastest signal that can be detected without attenuation is about 1.4k(Hz).
+Fig. 4b and 4c are the input-referred and output referred noise response.
+Largest input referred noise should happen at gm 200n while the total gain is smallest.
+The noise is small enough since its value is ten times smaller than the input signal(20mV).
+
+Fig. 4d gives transient response with an input signal rises in 1ms.
+It is to be observed the output signal has a long settling time about 1s.
+This is caused by the resistor Rx in Fig. 3.
+Its resistance (about 10G ohm in this work) makes trade-off between low speed signal detection and fast responding time.
+The resistance will be decided with more specific purpose in the future works.
+
+In summary, the design meets the spec propsed by experiment beforehand and is designed to give expected results with confidence.
+Two things are suggested working on in the future.
+One is to make mode deciding automatic.
+This can be achieved by a output analysing circuit with digital clock asistance.
+The other one is how to find bias current for individual element, also in an automatic way
+This is mentioned in the end of the section 2.1 and can be achieved if a transconductance detection way for individual nanowire is found.
+
+
+
+% \vfill
+% \pagebreak
+\bibliographystyle{IEEEbib}
+\bibliography{references}
 
 \begin{figure}[!hb]
     \begin{minipage}[b]{1\linewidth}
@@ -194,29 +247,41 @@ Fig 4 a-d shows some simulation results.
         \fontsize{6}{8}\selectfont
         \input {Graphs/AcGain.pdf_tex}
         \fontsize{8}{10}\selectfont
-        \centerline{(a)GVT Mode }\medskip
+        \centerline{(a) Frequency response (CVM mode)}\medskip
+    \end{minipage}
+
+
+    \begin{minipage}[!htb]{0.5\linewidth}
+        \centering
+        \def\svgwidth{4cm}
+        \fontsize{6}{8}\selectfont
+        \input {Graphs/Noise_in.pdf_tex}
+        \fontsize{8}{10}\selectfont
+        \centerline{(b) CVM Innoise (CVM mode) }\medskip
+    \end{minipage}
+    \hfill
+    \begin{minipage}[!htb]{0.5\linewidth}
+        \centering
+        \def\svgwidth{5.1cm}
+        \fontsize{6}{8}\selectfont
+        \input {Graphs/Noise_out.pdf_tex}
+        \fontsize{8}{10}\selectfont
+        \centerline{(c) Outnoise (CVM mode) }\medskip
     \end{minipage}
 
     \begin{minipage}[!hb]{1\linewidth}
         \centering
-        \def\svgwidth{8cm}
+        \def\svgwidth{9cm}
         \fontsize{4}{6}\selectfont
         \input {Graphs/Tran.pdf_tex}
         \fontsize{8}{10}\selectfont
-        \centerline{(b)CVM Mode }\medskip
-    \end{minipage}
-
-    \begin{minipage}[!hb]{1\linewidth}
-        \centering
-        \def\svgwidth{8cm}
-        \fontsize{6}{8}\selectfont
-        \input {Graphs/Noise.pdf_tex}
-        \fontsize{8}{10}\selectfont
-        \centerline{(b)CVM Mode }\medskip
+        \centerline{(d) Transient response(CVM Mode) }\medskip
     \end{minipage}
     \caption{}
     \label{fig:res}
 \end{figure}
+
+\end{document}
 
 % The paper cannot exceed 2 pages, including images. Please do not
 % paginate your paper.
@@ -292,15 +357,12 @@ Fig 4 a-d shows some simulation results.
 % To start a new column (but not a new page) and help balance the last-page
 % column length use \vfill\pagebreak.
 % -------------------------------------------------------------------------
-\vfill
-\pagebreak
+
 
 
 % References should be produced using the bibtex program from suitable
 % BiBTeX files (here: strings, refs, manuals). The IEEEbib.bst bibliography
 % style file from IEEE produces unsorted bibliography list.
 % -------------------------------------------------------------------------
-\bibliographystyle{IEEEbib}
-\bibliography{references}
 
-\end{document}
+

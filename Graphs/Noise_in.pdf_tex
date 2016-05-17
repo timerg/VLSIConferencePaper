@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'AcGain.pdf' (pdf, eps, ps)
+%% Accompanies image file 'Noise_in.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{315.25925355bp}%
+    \setlength{\unitlength}{159.39931776bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,22 +48,18 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.37475871)%
-    \put(0.51742237,0.00391411){\makebox(0,0)[b]{\smash{f(Hz)}}}%
-    \put(0.26085798,0.03056683){\makebox(0,0)[b]{\smash{10\textsuperscript{1}}}}%
-    \put(0.40749189,0.03056683){\makebox(0,0)[b]{\smash{10\textsuperscript{3}}}}%
-    \put(0.55412585,0.03056683){\makebox(0,0)[b]{\smash{10\textsuperscript{5}}}}%
-    \put(0.70066975,0.03056683){\makebox(0,0)[b]{\smash{10\textsuperscript{7}}}}%
-    \put(0.8473037,0.03056683){\makebox(0,0)[b]{\smash{10\textsuperscript{9}}}}%
-    \put(0.89948022,0.2044731){\makebox(0,0)[lb]{\smash{gm=50u}}}%
-    \put(0.89948022,0.13569545){\makebox(0,0)[lb]{\smash{gm=200n}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{AcGain.pdf}}%
-    \put(0.16055316,0.36754612){\makebox(0,0)[rb]{\smash{34.97}}}%
-    \put(0.16055316,0.2746024){\makebox(0,0)[rb]{\smash{6.45}}}%
-    \put(0.16055316,0.31876053){\makebox(0,0)[rb]{\smash{20.00}}}%
-    \put(0.16055316,0.25358155){\makebox(0,0)[rb]{\smash{0.00}}}%
-    \put(0.16055316,0.18836669){\makebox(0,0)[rb]{\smash{-20.00}}}%
-    \put(0.16055316,0.12318771){\makebox(0,0)[rb]{\smash{-40.00}}}%
-    \put(0.02570394,0.20447311){\rotatebox{90}{\makebox(0,0)[b]{\smash{Gain(db)}}}}%
+  \begin{picture}(1,0.8773789)%
+    \put(0.64320626,0.00889705){\makebox(0,0)[b]{\smash{f(Hz)}}}%
+    \put(0.32218085,0.07048266){\makebox(0,0)[b]{\smash{10\textsuperscript{0}}}}%
+    \put(0.62309767,0.07048266){\makebox(0,0)[b]{\smash{10\textsuperscript{3}}}}%
+    \put(0.92419247,0.07048266){\makebox(0,0)[b]{\smash{10\textsuperscript{6}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Noise_in.pdf}}%
+    \put(0.26879525,0.09534899){\makebox(0,0)[rb]{\smash{10\textsuperscript{-7}}}}%
+    \put(0.26879525,0.2461218){\makebox(0,0)[rb]{\smash{10\textsuperscript{-6}}}}%
+    \put(0.26879525,0.39689468){\makebox(0,0)[rb]{\smash{10\textsuperscript{-5}}}}%
+    \put(0.26879525,0.54766752){\makebox(0,0)[rb]{\smash{10\textsuperscript{-4}}}}%
+    \put(0.26879525,0.69844037){\makebox(0,0)[rb]{\smash{10\textsuperscript{-3}}}}%
+    \put(0.26879525,0.84921323){\makebox(0,0)[rb]{\smash{10\textsuperscript{-2}}}}%
+    \put(0.05098205,0.47232255){\rotatebox{90}{\makebox(0,0)[b]{\smash{input referred noise(V)}}}}%
   \end{picture}%
 \endgroup%

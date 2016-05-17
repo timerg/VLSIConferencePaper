@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{789.45517457bp}%
+    \setlength{\unitlength}{789.20912165bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,33 +48,33 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.92374528)%
+  \begin{picture}(1,0.68459384)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{cvm.pdf}}%
-    \put(0.04352116,0.25543367){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
+    \put(0.04322306,0.01622746){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{cvm.pdf}}%
-    \put(0.12609673,0.80593746){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Ibias}}}}%
+    \put(0.12582413,0.59720391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Ibias}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{cvm.pdf}}%
-    \put(0.16738452,0.2884639){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{SiNW}}}}%
+    \put(0.16712492,0.21392304){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{SiNW}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{cvm.pdf}}%
-    \put(0.40134863,0.14533291){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.40116209,-0.09390763){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{cvm.pdf}}%
-    \put(0.38758603,0.06826238){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Voltage found by GVT}}}}%
+    \put(0.38739475,0.05082478){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Voltage found by GVT}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{cvm.pdf}}%
-    \put(0.60778755,0.58353393){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{Transimpedance}}}}%
-    \put(0.60778755,0.53068557){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{and}}}}%
-    \put(0.60778755,0.4778372){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{Votage amplifier}}}}%
+    \put(0.60766521,0.4324747){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{Transimpedance}}}}%
+    \put(0.60766521,0.39333102){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{and}}}}%
+    \put(0.60766521,0.35418758){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{Votage amplifier}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{cvm.pdf}}%
-    \put(0.83899914,0.52187751){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
-    \put(0.87202937,0.53729161){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.83894905,0.28275437){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
+    \put(0.87198957,0.29817328){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{cvm.pdf}}%
-    \put(0.34354573,0.64739237){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.34334117,0.40830836){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{cvm.pdf}}%
-    \put(0.37657596,0.41177675){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.34354573,0.42719085){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.37638169,0.17261928){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.34334117,0.18803819){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{cvm.pdf}}%
-    \put(0.19577793,0.68818153){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{ ∂Iin}}}}%
+    \put(0.19552726,0.50998487){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{ ∂Iin}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{cvm.pdf}}%
-    \put(0.92483903,0.537215){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Vout}}}}%
+    \put(0.9248156,0.39816741){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Vout}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{cvm.pdf}}%
   \end{picture}%
 \endgroup%

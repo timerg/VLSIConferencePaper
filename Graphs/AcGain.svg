@@ -26,6 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,17 +43,17 @@
      inkscape:window-height="741"
      id="namedview4344"
      showgrid="false"
-     inkscape:zoom="1.1477037"
-     inkscape:cx="217.3906"
-     inkscape:cy="212.59843"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="5.5968267"
+     inkscape:cx="400.91171"
+     inkscape:cy="331.09591"
+     inkscape:window-x="110"
+     inkscape:window-y="4"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg4261" />
+     inkscape:current-layer="img-4b81693c-4" />
   <g
      class="plotroot xscalable yscalable"
      id="img-4b81693c-1"
-     transform="matrix(1.0003729,0,0,0.52385405,-0.0221884,2.3963665)">
+     transform="matrix(1.0004973,0,0,0.398953,-0.02959486,3.0268247)">
     <g
        font-size="3.88"
        id="img-4b81693c-2"
@@ -155,7 +156,7 @@
            class="color_gm=50u">gm=50u</text>
         <text
            x="103.94"
-           y="56.080002"
+           y="71.643204"
            dy="0"
            id="img-4b81693c-7"
            class="color_gm=200n">gm=200n</text>
@@ -173,21 +174,12 @@
            style="fill:#00bfff" />
         <rect
            x="101.14"
-           y="55.18"
+           y="70.74308"
            width="1.8"
            height="1.8"
            id="img-4b81693c-10"
            class="color_gm=200n"
            style="fill:#d4ca3a" />
-      </g>
-      <g
-         font-size="3.88"
-         id="img-4b81693c-11"
-         style="font-size:3.88000011px;font-family:'PT Sans', 'Helvetica Neue', Helvetica, sans-serif;fill:#362a35;stroke:#000000;stroke-opacity:0">
-        <text
-           x="101.14"
-           y="47.880001"
-           id="img-4b81693c-12">name</text>
       </g>
     </g>
     <g

@@ -65,7 +65,7 @@
     \put(0.5907858,0.04286156){\makebox(0,0)[b]{\smash{10\textsuperscript{0}}}}%
     \put(0.72119107,0.04286156){\makebox(0,0)[b]{\smash{10\textsuperscript{3}}}}%
     \put(0.85167348,0.04286156){\makebox(0,0)[b]{\smash{10\textsuperscript{6}}}}%
-    \put(0.91382997,0.28822555){\makebox(0,0)[lb]{\smash{gm=5u}}}%
+    \put(0.91382997,0.28822555){\makebox(0,0)[lb]{\smash{gm=50u}}}%
     \put(0.91382997,0.26995483){\makebox(0,0)[lb]{\smash{gm=200n}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Noise.pdf}}%
     \put(0.89223715,0.31145618){\makebox(0,0)[lb]{\smash{name}}}%

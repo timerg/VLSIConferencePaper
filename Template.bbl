@@ -18,6 +18,13 @@ Li~BR, Chen CC, Kumar UR, and Chen YT,
   cellular investigation,''
 \newblock {\em ANALYST}, vol. 139, no. 7, pp. 1589--1608, 2014.
 
+\bibitem{J7}
+Lin CH, Hung CH, Hsiao CY, Lin HC, Ko~FH, and Yang YS,
+\newblock ``Poly-silicon nanowire field-effect transistor for ultrasensitive
+  and label-free detection of pathogenic avian influenza dna,''
+\newblock {\em BIOSENSORS \& BIOELECTRONICS}, vol. 24, no. 10, pp. 3019--3024,
+  JUN 2009.
+
 \bibitem{J4}
 Ferrari G, Gozzini F, Molari A, and Sampietro M,
 \newblock ``Transimpedance amplifier for high sensitivity current measurements
@@ -25,18 +32,19 @@ Ferrari G, Gozzini F, Molari A, and Sampietro M,
 \newblock {\em IEEE JOURNAL OF SOLID-STATE CIRCUITS}, vol. 44, no. 5, pp.
   1609--1616, MAY 2009.
 
+\bibitem{C5}
+A.~Bonanno, V.~Cauda, M.~Crepaldi, P.~M. Ros, M.~Morello, D.~Demarchi, and
+  P.~Civera,
+\newblock ``A low-power read-out circuit and low-cost assembly of nanosensors
+  onto a 0.13um cmos micro-for-nano chip,''
+\newblock in {\em Advances in Sensors and Interfaces (IWASI), 2013 5th IEEE
+  International Workshop on}, June 2013, pp. 125--130.
+
 \bibitem{J6}
 N.~Nikkhoo, P.~G. Gulak, and K.~Maxwell,
 \newblock ``Rapid detection of e. coli bacteria using potassium-sensitive fets
   in cmos,''
 \newblock {\em IEEE Transactions on Biomedical Circuits and Systems}, vol. 7,
   no. 5, pp. 621--630, Oct 2013.
-
-\bibitem{C7}
-S.~Thanapitak,
-\newblock ``An 1 v - 1 nw source follower isfet readout circuit for biomedical
-  applications,''
-\newblock in {\em Science and Information Conference (SAI), 2015}, July 2015,
-  pp. 1118--1121.
 
 \end{thebibliography}
