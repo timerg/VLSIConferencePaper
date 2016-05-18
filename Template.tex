@@ -63,7 +63,7 @@ This is referred to as constant current method in this article.
 With this method, the transconductance of nanowire is fixed. And the output current variance is correlate monotonically with solution concentration.
 Also, a problem known as disparity may be solved, which often happens by fabrication flaws or time degradation.
 
-This article shows the design concept, circuit schematic, table of spec and some post-simulation results.
+This article shows the design concept, circuit schematic, table of specification and some post-simulation results.
 \end{abstract}
 %
 \section{Introduction}
@@ -76,8 +76,8 @@ Although there has been some great advances on element structure design \cite{J3
 Mainly because a proper way of signal acquiring is still indefinite.
 
 In this work, a read-out circuit for ion sensing SiNW based on “constant current” idea is proposed with some post-simulation results.
-All the design are based on the experiments beforehand with nanowire elements from Yang's team (Fig. 1\cite{J7}).
-These experiments provide nanowire electrical properties and the design spec.
+All the design are based on the experiments before with nanowire elements from Yang's team (Fig. 1\cite{J7}).
+These experiments provide nanowire electrical properties and the design specification.
 
 
 
@@ -106,7 +106,7 @@ And its element transconductance, drain-source voltage and even gate-source volt
 \subsection{Constant Current}
 
 
-For a simple MOSFET, the transconductance(gm) is
+For a simple MOSFET, the transconductance($Gm$) is
 \begin{equation}
     \sqrt{2I_{DS} (\kappa \mu C_{ox} \frac{W}{L})}
 \end{equation}
@@ -169,7 +169,7 @@ At SiNW gate control terminal in the GVT block, the open loop OP with a narrow b
 It introduces only DC or low frequency signal into the feedback loop.
 Bsides, the low frequency dominant pole it creates can keeps the feedback loop stable for sometimes the large transconductance of nanowire increases total loop gain a lot.
 
-For the output of CMS, an OP, 2 capacitor and a resistor compose a bandpass amplifier with two amplification rate, 100 and 10 respectively.
+For the output of CMS, an OP, 2 capacitor and a resistor compose a bandpass amplifier with two amplification rate, 100 and 10 respecificationtively.
 The pass band starts from point far below 1Hz and continue till about 1.4kHz.
 It is capacitor-based for diminishing the offset voltage, which has a maximal value of 0.2v.
 The resistor Rx is used for preventing a floating point on positive end of OP.
@@ -202,35 +202,36 @@ The resistor Rx is used for preventing a floating point on positive end of OP.
         \hline
         SiNW Bias Current Range & 100n \textasciitilde{} 10u\\
     \end{tabular}
-    \caption{Spec Summary}
+    \caption{Specification Summary}
     }
 \end{table}
 
 \section{Simulation Results and Conclusion}
 \label{sec:conclusion}
 
-Fig 4 a-d shows the post-simulation results for circuit operated under CVM mode.
-A simple MOS with proper transconductance(gm) are substituted for nanowire(By experiment beforehand, gm should range from 200n to 20u).
-And a voltage signal is input to the gate of the MOS. 20mV is used to emulate the ion effect when measurement solution is added.
+Fig 4 a-d shows the post-simulation results for operation under the CVM mode.
+A simple MOS with proper transconductances ($Gm$) is substituted for nanowire (By the experiment before, $Gm$ should range from 200n to 20u).
+And a voltage signal is input to the gate of the MOS.
+Voltage of 20mV is used to emulate the ion effect when the measurement solution is added.
 
-Fig. 4a shows the total amplification rate is 6.45db(2.1) for gm: 200n.
-This rate increases with the gm in the same degree.
-The fastest signal that can be detected without attenuation is about 1.4k(Hz).
-Fig. 4b and 4c are the input-referred and output referred noise response.
-Largest input referred noise should happen at gm 200n while the total gain is smallest.
-The noise is small enough since its value is ten times smaller than the input signal(20mV).
+Fig. 4a shows that the total amplification rate is 6.45db (2.1) $Gm$: 200n.
+This rate increases with $Gm$ in the same degree.
+The fastest signal that can be detected without attenuation is about 1.4k$Hz$.
+Fig. 4b and 4c are the input-referred and output-referred noise response.
+The largest input referred noise should happen at $Gm$ 200n when the total gain is smallest.
+The noise is small enough since its value is ten times smaller than the input signal (20mV).
 
-Fig. 4d gives transient response with an input signal rises in 1ms.
-It is to be observed the output signal has a long settling time about 1s.
+Fig. 4d gives transient responses with an input signal rises in 1ms.
+It is to be observed that the output signal has a long settling time of about 1s.
 This is caused by the resistor Rx in Fig. 3.
-Its resistance (about 10G ohm in this work) makes trade-off between low speed signal detection and fast responding time.
-The resistance will be decided with more specific purpose in the future works.
+Its resistance (about 10G ohm in this work) makes the trade-off between low speed signal detection and fast responding time.
 
-In summary, the design meets the spec propsed by experiment beforehand and is designed to give expected results with confidence.
-Two things are suggested working on in the future.
+
+In summary, this design meets the specification propsed by the experiment before and is designed to give expected results with confidence.
+There are Two things can be improved in the future work.
 One is to make mode deciding automatic.
-This can be achieved by a output analysing circuit with digital clock asistance.
-The other one is how to find bias current for individual element, also in an automatic way
+This can be achieved by a output analysing circuit with digital structure asistance.
+The other is how to find bias current for individual element, also in an automatic way
 This is mentioned in the end of the section 2.1 and can be achieved if a transconductance detection way for individual nanowire is found.
 
 
