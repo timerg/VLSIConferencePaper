@@ -1,0 +1,674 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.8)  24 MAY 2016 17:53
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Template.tex
+(./Template.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./vlsiconf.sty) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+\epsfxsize=\dimen114
+\epsfysize=\dimen115
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2007/01/08 v1.0 Transparency via pdfTeX's color stack (HO)
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+) (./Template.aux
+
+LaTeX Warning: Label `fig:res' multiply defined.
+
+
+LaTeX Warning: Label `fig:res' multiply defined.
+
+
+LaTeX Warning: Label `fig:res' multiply defined.
+
+
+LaTeX Warning: Label `fig:res' multiply defined.
+
+)
+\openout1 = `Template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 51.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen116
+\scratchbox=\box28
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen117
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
+
+Underfull \hbox (badness 1147) in paragraph at lines 57--60
+\OT1/ptm/m/n/10 be-tween mea-sure-ment so-lu-tion con-cen-tra-tion vari-ance
+ []
+
+
+Overfull \hbox (5.43996pt too wide) in paragraph at lines 66--67
+[]\OT1/ptm/m/n/10 This ar-ti-cle shows the de-sign con-cept, cir-cuit schematic,
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+LaTeX Font Info:    Try loading font information for OT1+pag on input line 88.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pag.fd
+File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
+)
+LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <10> not available
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 92.
+LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <10> not available
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 92.
+LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <6> not available
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 92.
+LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <6> not available
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 92.
+ (./Graphs/drawing.pdf_tex <Graphs/drawing.pdf, id=1, page=1, 575.90291pt x 309.30574pt>
+File: Graphs/drawing.pdf Graphic file (type pdf)
+ <use Graphs/drawing.pdf, page 1>
+Package pdftex.def Info: Graphs/drawing.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 142.26378pt x 76.40591pt.
+ <Graphs/drawing.pdf, id=2, page=2, 575.90291pt x 309.30574pt>
+File: Graphs/drawing.pdf Graphic file (type pdf)
+ <use Graphs/drawing.pdf, page 2>
+Package pdftex.def Info: Graphs/drawing.pdf, page2 used on input line 60.
+(pdftex.def)             Requested size: 142.26378pt x 76.40591pt.
+) (./Graphs/Exp.pdf_tex <Graphs/Exp.pdf, id=3, page=1, 754.52115pt x 759.97108pt>
+File: Graphs/Exp.pdf Graphic file (type pdf)
+ <use Graphs/Exp.pdf, page 1>
+Package pdftex.def Info: Graphs/Exp.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 85.35826pt x 85.97429pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+ <Graphs/Exp.pdf, id=4, page=2, 754.52115pt x 759.97108pt>
+File: Graphs/Exp.pdf Graphic file (type pdf)
+ <use Graphs/Exp.pdf, page 2>
+Package pdftex.def Info: Graphs/Exp.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 85.35826pt x 85.97429pt.
+ <Graphs/Exp.pdf, id=5, page=3, 754.52115pt x 759.97108pt>
+File: Graphs/Exp.pdf Graphic file (type pdf)
+ <use Graphs/Exp.pdf, page 3>
+Package pdftex.def Info: Graphs/Exp.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 85.35826pt x 85.97429pt.
+ <Graphs/Exp.pdf, id=6, page=4, 754.52115pt x 759.97108pt>
+File: Graphs/Exp.pdf Graphic file (type pdf)
+ <use Graphs/Exp.pdf, page 4>
+Package pdftex.def Info: Graphs/Exp.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 85.35826pt x 85.97429pt.
+)
+Overfull \hbox (85.35826pt too wide) in paragraph at lines 61--114
+ [][] 
+ []
+
+(./Graphs/Id_Vsf.pdf_tex <Graphs/Id_Vsf.pdf, id=7, page=1, 395.35213pt x 187.14685pt>
+File: Graphs/Id_Vsf.pdf Graphic file (type pdf)
+ <use Graphs/Id_Vsf.pdf, page 1>
+Package pdftex.def Info: Graphs/Id_Vsf.pdf, page1 used on input line 59.
+(pdftex.def)             Requested size: 122.34692pt x 57.91496pt.
+File: Graphs/Id_Vsf.pdf Graphic file (type pdf)
+ <use Graphs/Id_Vsf.pdf, page 1>
+Package pdftex.def Info: Graphs/Id_Vsf.pdf, page1 used on input line 61.
+(pdftex.def)             Requested size: 122.34692pt x 57.91496pt.
+) (./Graphs/gbs_Id.pdf_tex <Graphs/gbs_Id.pdf, id=8, page=1, 391.79391pt x 187.14685pt>
+File: Graphs/gbs_Id.pdf Graphic file (type pdf)
+ <use Graphs/gbs_Id.pdf, page 1>
+Package pdftex.def Info: Graphs/gbs_Id.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 108.12054pt x 51.64401pt.
+File: Graphs/gbs_Id.pdf Graphic file (type pdf)
+ <use Graphs/gbs_Id.pdf, page 1>
+Package pdftex.def Info: Graphs/gbs_Id.pdf, page1 used on input line 62.
+(pdftex.def)             Requested size: 108.12054pt x 51.64401pt.
+)
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 179.
+ (./Graphs/gvt.pdf_tex <Graphs/gvt.pdf, id=9, page=1, 490.20334pt x 542.3141pt>
+File: Graphs/gvt.pdf Graphic file (type pdf)
+ <use Graphs/gvt.pdf, page 1>
+Package pdftex.def Info: Graphs/gvt.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 71.13188pt x 78.68732pt.
+ <Graphs/gvt.pdf, id=10, page=2, 490.20334pt x 542.3141pt>
+File: Graphs/gvt.pdf Graphic file (type pdf)
+ <use Graphs/gvt.pdf, page 2>
+Package pdftex.def Info: Graphs/gvt.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 71.13188pt x 78.68732pt.
+ <Graphs/gvt.pdf, id=11, page=3, 490.20334pt x 542.3141pt>
+File: Graphs/gvt.pdf Graphic file (type pdf)
+ <use Graphs/gvt.pdf, page 3>
+Package pdftex.def Info: Graphs/gvt.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 71.13188pt x 78.68732pt.
+File: Graphs/gvt.pdf Graphic file (type pdf)
+ <use Graphs/gvt.pdf, page 3>
+Package pdftex.def Info: Graphs/gvt.pdf, page3 used on input line 58.
+(pdftex.def)             Requested size: 71.13188pt x 78.68732pt.
+File: Graphs/gvt.pdf Graphic file (type pdf)
+ <use Graphs/gvt.pdf, page 3>
+Package pdftex.def Info: Graphs/gvt.pdf, page3 used on input line 61.
+(pdftex.def)             Requested size: 71.13188pt x 78.68732pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[]
+ []
+
+
+Overfull \hbox (29.64946pt too wide) in paragraph at lines 179--180
+[]
+ []
+
+(./Graphs/cvm.pdf_tex <Graphs/cvm.pdf, id=12, page=1, 792.16864pt x 542.3138pt>
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 1>
+Package pdftex.def Info: Graphs/cvm.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+ <Graphs/cvm.pdf, id=13, page=2, 792.16864pt x 542.3138pt>
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 2>
+Package pdftex.def Info: Graphs/cvm.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+ <Graphs/cvm.pdf, id=14, page=3, 792.16864pt x 542.3138pt>
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 3>
+Package pdftex.def Info: Graphs/cvm.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+ <Graphs/cvm.pdf, id=15, page=4, 792.16864pt x 542.3138pt>
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 4>
+Package pdftex.def Info: Graphs/cvm.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+ <Graphs/cvm.pdf, id=16, page=5, 792.16864pt x 542.3138pt>
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 5>
+Package pdftex.def Info: Graphs/cvm.pdf, page5 used on input line 60.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+ <Graphs/cvm.pdf, id=17, page=6, 792.16864pt x 542.3138pt>
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 6>
+Package pdftex.def Info: Graphs/cvm.pdf, page6 used on input line 62.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+ <Graphs/cvm.pdf, id=18, page=7, 792.16864pt x 542.3138pt>
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 7>
+Package pdftex.def Info: Graphs/cvm.pdf, page7 used on input line 66.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 7>
+Package pdftex.def Info: Graphs/cvm.pdf, page7 used on input line 69.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 7>
+Package pdftex.def Info: Graphs/cvm.pdf, page7 used on input line 71.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 7>
+Package pdftex.def Info: Graphs/cvm.pdf, page7 used on input line 74.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+Missing character: There is no ¬ in font ptmb7t!
+Missing character: There is no † in font ptmb7t!
+Missing character: There is no ‚ in font ptmb7t!
+Missing character: There is no à in font ptmb7t!
+Missing character: There is no Ç in font ptmb7t!
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 7>
+Package pdftex.def Info: Graphs/cvm.pdf, page7 used on input line 76.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+File: Graphs/cvm.pdf Graphic file (type pdf)
+ <use Graphs/cvm.pdf, page 7>
+Package pdftex.def Info: Graphs/cvm.pdf, page7 used on input line 78.
+(pdftex.def)             Requested size: 122.34692pt x 83.75159pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]
+ []
+
+
+Overfull \hbox (16.33041pt too wide) in paragraph at lines 190--191
+[]
+ []
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+ <./Graphs/drawing.pdf> <./Graphs/drawing.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/drawing.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Exp.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Exp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Exp.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Exp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Exp.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Exp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Exp.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Exp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Id_Vsf.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Id_Vsf.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/gbs_Id.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/gbs_Id.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./Graphs/NMS.pdf_tex <Graphs/NMS.pdf, id=54, page=1, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 1>
+Package pdftex.def Info: Graphs/NMS.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+ <Graphs/NMS.pdf, id=55, page=2, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 2>
+Package pdftex.def Info: Graphs/NMS.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+ <Graphs/NMS.pdf, id=56, page=3, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 3>
+Package pdftex.def Info: Graphs/NMS.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+ <Graphs/NMS.pdf, id=57, page=4, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 4>
+Package pdftex.def Info: Graphs/NMS.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+ <Graphs/NMS.pdf, id=58, page=5, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 5>
+Package pdftex.def Info: Graphs/NMS.pdf, page5 used on input line 60.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+ <Graphs/NMS.pdf, id=59, page=6, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 6>
+Package pdftex.def Info: Graphs/NMS.pdf, page6 used on input line 62.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+Missing character: There is no Œ in font ptmb7t!
+Missing character: There is no © in font ptmb7t!
+ <Graphs/NMS.pdf, id=60, page=7, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 7>
+Package pdftex.def Info: Graphs/NMS.pdf, page7 used on input line 64.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+ <Graphs/NMS.pdf, id=61, page=8, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 8>
+Package pdftex.def Info: Graphs/NMS.pdf, page8 used on input line 66.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+ <Graphs/NMS.pdf, id=62, page=9, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 9>
+Package pdftex.def Info: Graphs/NMS.pdf, page9 used on input line 68.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+ <Graphs/NMS.pdf, id=63, page=10, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 10>
+Package pdftex.def Info: Graphs/NMS.pdf, page10 used on input line 70.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+ <Graphs/NMS.pdf, id=64, page=11, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 11>
+Package pdftex.def Info: Graphs/NMS.pdf, page11 used on input line 72.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+
+<Graphs/NMS.pdf, id=65, page=12, 798.55579pt x 461.16844pt>
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 12>
+Package pdftex.def Info: Graphs/NMS.pdf, page12 used on input line 74.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 12>
+Package pdftex.def Info: Graphs/NMS.pdf, page12 used on input line 76.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 12>
+Package pdftex.def Info: Graphs/NMS.pdf, page12 used on input line 78.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 12>
+Package pdftex.def Info: Graphs/NMS.pdf, page12 used on input line 80.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 12>
+Package pdftex.def Info: Graphs/NMS.pdf, page12 used on input line 84.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 12>
+Package pdftex.def Info: Graphs/NMS.pdf, page12 used on input line 86.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+File: Graphs/NMS.pdf Graphic file (type pdf)
+ <use Graphs/NMS.pdf, page 12>
+Package pdftex.def Info: Graphs/NMS.pdf, page12 used on input line 88.
+(pdftex.def)             Requested size: 227.62204pt x 131.44844pt.
+)
+Overfull \hbox (0.95477pt too wide) in paragraph at lines 218--219
+[]  []
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+ on input line 224.
+LaTeX Font Info:    No file OT1.fd. on input line 224.
+
+LaTeX Font Warning: Font shape `OT1//m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 224.
+
+(./Template.bbl) (./Graphs/AcGain.pdf_tex <Graphs/AcGain.pdf, id=66, page=1, 316.44147pt x 118.5892pt>
+File: Graphs/AcGain.pdf Graphic file (type pdf)
+ <use Graphs/AcGain.pdf, page 1>
+Package pdftex.def Info: Graphs/AcGain.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 227.62204pt x 85.30272pt.
+) (./Graphs/Noise_in.pdf_tex <Graphs/Noise_in.pdf, id=67, page=1, 159.99707pt x 140.37804pt>
+File: Graphs/Noise_in.pdf Graphic file (type pdf)
+ <use Graphs/Noise_in.pdf, page 1>
+Package pdftex.def Info: Graphs/Noise_in.pdf, page1 used on input line 56.
+(pdftex.def)             Requested size: 113.81102pt x 99.85759pt.
+) (./Graphs/Noise_out.pdf_tex <Graphs/Noise_out.pdf, id=68, page=1, 202.63043pt x 140.37804pt>
+File: Graphs/Noise_out.pdf Graphic file (type pdf)
+ <use Graphs/Noise_out.pdf, page 1>
+Package pdftex.def Info: Graphs/Noise_out.pdf, page1 used on input line 58.
+(pdftex.def)             Requested size: 145.10922pt x 100.53017pt.
+)
+Overfull \hbox (29.87556pt too wide) in paragraph at lines 65--302
+ [][] 
+ []
+
+
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 286--303
+[]$[]$  $[]$ 
+ []
+
+(./Graphs/Tran.pdf_tex <Graphs/Tran.pdf, id=69, page=1, 271.49924pt x 71.40031pt>
+File: Graphs/Tran.pdf Graphic file (type pdf)
+ <use Graphs/Tran.pdf, page 1>
+Package pdftex.def Info: Graphs/Tran.pdf, page1 used on input line 58.
+(pdftex.def)             Requested size: 256.0748pt x 67.35051pt.
+ <Graphs/Tran.pdf, id=70, page=2, 271.49924pt x 71.40031pt>
+File: Graphs/Tran.pdf Graphic file (type pdf)
+ <use Graphs/Tran.pdf, page 2>
+Package pdftex.def Info: Graphs/Tran.pdf, page2 used on input line 64.
+(pdftex.def)             Requested size: 256.0748pt x 67.35051pt.
+ <Graphs/Tran.pdf, id=71, page=3, 271.49924pt x 71.40031pt>
+File: Graphs/Tran.pdf Graphic file (type pdf)
+ <use Graphs/Tran.pdf, page 3>
+Package pdftex.def Info: Graphs/Tran.pdf, page3 used on input line 66.
+(pdftex.def)             Requested size: 256.0748pt x 67.35051pt.
+File: Graphs/Tran.pdf Graphic file (type pdf)
+ <use Graphs/Tran.pdf, page 3>
+Package pdftex.def Info: Graphs/Tran.pdf, page3 used on input line 75.
+(pdftex.def)             Requested size: 256.0748pt x 67.35051pt.
+)
+Overfull \hbox (25.60748pt too wide) in paragraph at lines 77--311
+ [][] 
+ []
+
+[2 <./Graphs/gvt.pdf> <./Graphs/gvt.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/gvt.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/gvt.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/gvt.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/cvm.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/cvm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/cvm.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/cvm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/cvm.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/cvm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/cvm.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/cvm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/cvm.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/cvm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/cvm.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/cvm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/cvm.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/cvm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/NMS.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/NMS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/AcGain.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/AcGain.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Noise_in.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Noise_in.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Noise_out.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Noise_out.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Tran.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Tran.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Tran.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Tran.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Graphs/Tran.pdf
+
+pdfTeX warning: pdflatex (file ./Graphs/Tran.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./Template.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2512 strings out of 493089
+ 35730 string characters out of 6134843
+ 109167 words of memory out of 5000000
+ 5911 multiletter control sequences out of 15000+600000
+ 28808 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,15n,23p,518b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Template.pdf (2 pages, 178410 bytes).
+PDF statistics:
+ 142 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+

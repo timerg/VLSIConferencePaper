@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   width="120mm"
+   height="120mm"
+   viewBox="0 0 120 120"
+   stroke="none"
+   fill="#000000"
+   stroke-width="0.3"
+   font-size="3.88"
+   id="svg4261"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="AcGain.svg">
+  <metadata
+     id="metadata4346">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1231"
+     inkscape:window-height="741"
+     id="namedview4344"
+     showgrid="false"
+     inkscape:zoom="5.5968267"
+     inkscape:cx="400.91171"
+     inkscape:cy="331.09591"
+     inkscape:window-x="110"
+     inkscape:window-y="4"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="img-4b81693c-4" />
+  <g
+     class="plotroot xscalable yscalable"
+     id="img-4b81693c-1"
+     transform="matrix(1.0004973,0,0,0.398953,-0.02959486,3.0268247)">
+    <g
+       font-size="3.88"
+       id="img-4b81693c-2"
+       style="font-size:3.88000011px;font-family:'PT Sans', 'Helvetica Neue', Helvetica, sans-serif;fill:#564a55;stroke:#000000;stroke-opacity:0">
+      <text
+         x="61.470001"
+         y="108.38"
+         dy="0"
+         id="text4265"
+         style="text-anchor:middle">f(Hz)</text>
+    </g>
+    <g
+       class="guide xlabels"
+       font-size="2.82"
+       id="img-4b81693c-3"
+       style="font-size:2.81999993px;font-family:'PT Sans Caption', 'Helvetica Neue', Helvetica, sans-serif;fill:#6c606b">
+      <text
+         x="32.950001"
+         y="100.95"
+         dy="0"
+         id="text4268"
+         style="text-anchor:middle">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan4270">1</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan4272" />
+</text>
+      <text
+         x="49.25"
+         y="100.95"
+         dy="0"
+         id="text4274"
+         style="text-anchor:middle">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan4276">3</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan4278" />
+</text>
+      <text
+         x="65.550003"
+         y="100.95"
+         dy="0"
+         id="text4280"
+         style="text-anchor:middle">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan4282">5</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan4284" />
+</text>
+      <text
+         x="81.839996"
+         y="100.95"
+         dy="0"
+         id="text4286"
+         style="text-anchor:middle">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan4288">7</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan4290" />
+</text>
+      <text
+         x="98.139999"
+         y="100.95"
+         dy="0"
+         id="text4292"
+         style="text-anchor:middle">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan4294">9</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan4296" />
+</text>
+    </g>
+    <g
+       class="guide colorkey"
+       id="img-4b81693c-4">
+      <g
+         font-size="2.82"
+         id="img-4b81693c-5"
+         style="font-size:2.81999993px;font-family:'PT Sans', 'Helvetica Neue', Helvetica, sans-serif;fill:#4c404b">
+        <text
+           x="103.94"
+           y="52.470001"
+           dy="0"
+           id="img-4b81693c-6"
+           class="color_gm=50u">gm=50u</text>
+        <text
+           x="103.94"
+           y="71.643204"
+           dy="0"
+           id="img-4b81693c-7"
+           class="color_gm=200n">gm=200n</text>
+      </g>
+      <g
+         id="img-4b81693c-8"
+         style="stroke:#000000;stroke-opacity:0">
+        <rect
+           x="101.14"
+           y="51.57"
+           width="1.8"
+           height="1.8"
+           id="img-4b81693c-9"
+           class="color_gm=50u"
+           style="fill:#00bfff" />
+        <rect
+           x="101.14"
+           y="70.74308"
+           width="1.8"
+           height="1.8"
+           id="img-4b81693c-10"
+           class="color_gm=200n"
+           style="fill:#d4ca3a" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#img-4b81693c-13)"
+       id="g4307">
+      <g
+         id="img-4b81693c-14">
+        <g
+           pointer-events="visible"
+           class="guide background"
+           id="img-4b81693c-15"
+           style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-opacity:0">
+          <rect
+             x="22.799999"
+             y="5"
+             width="77.330002"
+             height="94.949997"
+             id="img-4b81693c-16" />
+        </g>
+        <g
+           class="guide xgridlines yfixed"
+           id="img-4b81693c-17"
+           style="stroke:#d0d0e0;stroke-width:0.2;stroke-dasharray:0.5, 0.5">
+          <path
+             d="m 32.95,5 0,94.95"
+             id="img-4b81693c-18"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 49.25,5 0,94.95"
+             id="img-4b81693c-19"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 65.55,5 0,94.95"
+             id="img-4b81693c-20"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 81.84,5 0,94.95"
+             id="img-4b81693c-21"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 98.14,5 0,94.95"
+             id="img-4b81693c-22"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+        </g>
+        <g
+           class="guide ygridlines xfixed"
+           id="img-4b81693c-23"
+           style="stroke:#d0d0e0;stroke-width:0.2;stroke-dasharray:0.5, 0.5">
+          <path
+             d="m 22.8,7.01 77.34,0"
+             id="img-4b81693c-24"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 22.8,32.92 77.34,0"
+             id="img-4b81693c-25"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 22.8,20.61 77.34,0"
+             id="img-4b81693c-26"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 22.8,38.78 77.34,0"
+             id="img-4b81693c-27"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 22.8,56.96 77.34,0"
+             id="img-4b81693c-28"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 22.8,75.13 77.34,0"
+             id="img-4b81693c-29"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+        </g>
+        <g
+           class="plotpanel"
+           id="img-4b81693c-30">
+          <g
+             class="geometry color_gm=200n"
+             id="img-4b81693c-31"
+             style="fill:#000000;fill-opacity:0;stroke:#d4ca3a;stroke-width:1.32000005;stroke-dasharray:none">
+            <path
+               d="m 24.8,32.92 1.63,0 1.63,-0.01 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0.01 1.63,0.02 1.63,0.06 1.63,0.12 1.63,0.3 1.63,0.67 1.63,1.31 1.63,2.12 1.63,2.83 1.63,3.32 1.62,3.61 1.63,3.87 1.63,4.12 1.63,4.26 1.63,4.02 1.63,3.29 1.63,2.28 1.63,1.56 1.63,1.48 1.63,1.89 1.63,2.94 1.63,4.18 1.63,4.65 1.63,5.3 1.63,6.83"
+               id="img-4b81693c-32"
+               inkscape:connector-curvature="0"
+               style="fill:none" />
+          </g>
+          <g
+             class="geometry color_gm=50u"
+             id="img-4b81693c-33"
+             style="fill:#000000;fill-opacity:0;stroke:#00bfff;stroke-width:0.79000002;stroke-dasharray:none">
+            <path
+               d="M 24.8,7.01 26.43,7 l 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0 1.63,0.01 1.63,0.03 1.63,0.04 1.63,0.13 1.63,0.31 1.63,0.67 1.63,1.31 1.63,2.13 1.63,2.83 1.63,3.32 1.62,3.6 1.63,3.87 1.63,4.11 1.63,4.26 1.63,4.01 1.63,3.21 1.63,2.06 1.63,1.16 1.63,1.45 1.63,3.09 1.63,4.08 1.63,4.2 1.63,4.03 1.63,3.75 1.63,4.44"
+               id="img-4b81693c-34"
+               inkscape:connector-curvature="0"
+               style="fill:none" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       class="guide ylabels"
+       font-size="2.82"
+       id="img-4b81693c-35"
+       style="font-size:2.81999993px;font-family:'PT Sans Caption', 'Helvetica Neue', Helvetica, sans-serif;fill:#6c606b">
+      <text
+         x="21.799999"
+         y="7.0100002"
+         dy="0"
+         id="img-4b81693c-36"
+         style="text-anchor:end">34.97</text>
+      <text
+         x="21.799999"
+         y="32.919998"
+         dy="0"
+         id="img-4b81693c-37"
+         style="text-anchor:end">6.45</text>
+      <text
+         x="21.799999"
+         y="20.610001"
+         dy="0"
+         id="img-4b81693c-38"
+         style="text-anchor:end">20.00</text>
+      <text
+         x="21.799999"
+         y="38.779999"
+         dy="0"
+         id="img-4b81693c-39"
+         style="text-anchor:end">0.00</text>
+      <text
+         x="21.799999"
+         y="56.959999"
+         dy="0"
+         id="img-4b81693c-40"
+         style="text-anchor:end">-20.00</text>
+      <text
+         x="21.799999"
+         y="75.129997"
+         dy="0"
+         id="img-4b81693c-41"
+         style="text-anchor:end">-40.00</text>
+    </g>
+    <g
+       font-size="3.88"
+       id="img-4b81693c-42"
+       style="font-size:3.88000011px;font-family:'PT Sans', 'Helvetica Neue', Helvetica, sans-serif;fill:#564a55;stroke:#000000;stroke-opacity:0">
+      <text
+         x="8.8100004"
+         y="50.470001"
+         dy="0"
+         transform="matrix(0,-1,1,0,-43.66,61.28)"
+         id="img-4b81693c-43"
+         style="text-anchor:middle">Gain(db)</text>
+    </g>
+  </g>
+  <defs
+     id="defs4339">
+    <clipPath
+       id="img-4b81693c-13">
+      <path
+         d="M22.8,5 L 100.14 5 100.14 99.95 22.8 99.95"
+         id="path4342" />
+    </clipPath>
+  </defs>
+</svg>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   width="80mm"
+   height="120mm"
+   viewBox="0 0 80 120"
+   stroke="none"
+   fill="#000000"
+   stroke-width="0.3"
+   font-size="3.88"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Noise_out.svg">
+  <metadata
+     id="metadata91">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1145"
+     inkscape:window-height="667"
+     id="namedview89"
+     showgrid="false"
+     inkscape:zoom="0.89487058"
+     inkscape:cx="122.88112"
+     inkscape:cy="216.62258"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="img-80f44c6b-4" />
+  <g
+     class="plotroot xscalable yscalable"
+     id="img-80f44c6b-1">
+    <g
+       font-size="3.88"
+       id="img-80f44c6b-2"
+       transform="matrix(1.0006692,0,0,0.46609896,-0.05026718,58.367489)"
+       style="font-size:3.88000011px;font-family:'PT Sans', 'Helvetica Neue', Helvetica, sans-serif;fill:#564a55;stroke:#000000;stroke-opacity:0">
+      <text
+         x="40.09"
+         y="108.38"
+         dy="0"
+         id="text6"
+         style="text-anchor:middle">f(Hz)</text>
+    </g>
+    <g
+       class="guide xlabels"
+       font-size="2.82"
+       id="img-80f44c6b-3"
+       transform="matrix(1.0006692,0,0,0.46609896,-0.05026718,58.367489)"
+       style="font-size:2.81999993px;font-family:'PT Sans Caption', 'Helvetica Neue', Helvetica, sans-serif;fill:#6c606b">
+      <text
+         x="22.049999"
+         y="100.95"
+         dy="0"
+         id="text9"
+         style="text-anchor:middle">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan11">0</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan13" />
+</text>
+      <text
+         x="38.959999"
+         y="100.95"
+         dy="0"
+         id="text15"
+         style="text-anchor:middle">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan17">3</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan19" />
+</text>
+      <text
+         x="55.880001"
+         y="100.95"
+         dy="0"
+         id="text21"
+         style="text-anchor:middle">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan23">6</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan25" />
+</text>
+    </g>
+    <g
+       class="guide colorkey"
+       id="img-80f44c6b-4">
+      <g
+         font-size="2.82"
+         id="img-80f44c6b-5"
+         transform="matrix(1.0006692,0,0,0.46609896,-0.05026718,58.367489)"
+         style="font-size:2.81999993px;font-family:'PT Sans', 'Helvetica Neue', Helvetica, sans-serif;fill:#4c404b">
+        <text
+           x="63.939999"
+           y="52.470001"
+           dy="0"
+           id="img-80f44c6b-6"
+           class="color_gm=50u">gm=50u</text>
+        <text
+           x="63.939999"
+           y="62.288849"
+           dy="0"
+           id="img-80f44c6b-7"
+           class="color_gm=200n">gm=200n</text>
+      </g>
+      <g
+         id="img-80f44c6b-8"
+         transform="matrix(1.0006692,0,0,0.46609896,-0.05026718,58.367489)"
+         style="stroke:#000000;stroke-opacity:0">
+        <rect
+           x="61.139999"
+           y="51.57"
+           width="1.8"
+           height="1.8"
+           id="img-80f44c6b-9"
+           class="color_gm=50u"
+           style="fill:#00bfff" />
+        <rect
+           x="61.139999"
+           y="61.388809"
+           width="1.8"
+           height="1.8"
+           id="img-80f44c6b-10"
+           class="color_gm=200n"
+           style="fill:#d4ca3a" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#img-80f44c6b-13)"
+       id="g36"
+       transform="matrix(1.0006692,0,0,0.46609896,-0.05026718,58.367489)">
+      <g
+         id="img-80f44c6b-14">
+        <g
+           pointer-events="visible"
+           class="guide background"
+           id="img-80f44c6b-15"
+           style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-opacity:0">
+          <rect
+             x="20.049999"
+             y="5"
+             width="40.09"
+             height="94.949997"
+             id="img-80f44c6b-16" />
+        </g>
+        <g
+           class="guide ygridlines xfixed"
+           id="img-80f44c6b-17"
+           style="stroke:#d0d0e0;stroke-width:0.2;stroke-dasharray:0.5, 0.5">
+          <path
+             d="m 20.05,97.95 40.09,0"
+             id="img-80f44c6b-18"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 20.05,75.21 40.09,0"
+             id="img-80f44c6b-19"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 20.05,52.47 40.09,0"
+             id="img-80f44c6b-20"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 20.05,29.74 40.09,0"
+             id="img-80f44c6b-21"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="M 20.05,7 60.14,7"
+             id="img-80f44c6b-22"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+        </g>
+        <g
+           class="guide xgridlines yfixed"
+           id="img-80f44c6b-23"
+           style="stroke:#d0d0e0;stroke-width:0.2;stroke-dasharray:0.5, 0.5">
+          <path
+             d="m 22.05,5 0,94.95"
+             id="img-80f44c6b-24"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 38.96,5 0,94.95"
+             id="img-80f44c6b-25"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             d="m 55.88,5 0,94.95"
+             id="img-80f44c6b-26"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+        </g>
+        <g
+           class="plotpanel"
+           id="img-80f44c6b-27">
+          <g
+             class="geometry color_gm=200n"
+             id="img-80f44c6b-28"
+             style="fill:#000000;fill-opacity:0;stroke:#d4ca3a;stroke-width:1.32000005;stroke-dasharray:none">
+            <path
+               d="m 22.05,36.06 1.13,1.07 1.12,1.06 1.13,1.06 1.13,1.06 1.13,1.05 1.12,1.06 1.13,1.05 1.13,1.04 1.13,1.05 1.13,1.04 1.12,1.04 1.13,1.03 1.13,1.04 1.13,1.03 1.12,1.02 1.13,1.03 1.13,1.03 1.13,1.04 1.13,1.08 1.12,1.19 1.13,1.4 1.13,1.79 1.13,2.26 1.13,2.7 1.12,2.94 1.13,3.06 1.13,3.15 1.13,3.22 1.12,3.23 1.13,2.94 1.13,2.2 1.13,1.41"
+               id="img-80f44c6b-29"
+               inkscape:connector-curvature="0"
+               style="fill:none" />
+          </g>
+          <g
+             class="geometry color_gm=50u"
+             id="img-80f44c6b-30"
+             style="fill:#000000;fill-opacity:0;stroke:#00bfff;stroke-width:0.79000002;stroke-dasharray:none">
+            <path
+               d="m 22.05,25.98 1.13,1.13 1.12,1.13 1.13,1.14 1.13,1.13 1.13,1.13 1.12,1.12 1.13,1.13 1.13,1.13 1.13,1.13 1.13,1.13 1.12,1.12 1.13,1.13 1.13,1.12 1.13,1.13 1.12,1.12 1.13,1.13 1.13,1.13 1.13,1.15 1.13,1.19 1.12,1.31 1.13,1.52 1.13,1.93 1.13,2.42 1.13,2.88 1.12,3.18 1.13,3.35 1.13,3.45 1.13,3.53 1.12,3.53 1.13,3.34 1.13,2.81 1.13,2"
+               id="img-80f44c6b-31"
+               inkscape:connector-curvature="0"
+               style="fill:none" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       class="guide ylabels"
+       font-size="2.82"
+       id="img-80f44c6b-32"
+       transform="matrix(1.0006692,0,0,0.46609896,-0.05026718,58.367489)"
+       style="font-size:2.81999993px;font-family:'PT Sans Caption', 'Helvetica Neue', Helvetica, sans-serif;fill:#6c606b">
+      <text
+         x="19.049999"
+         y="97.949997"
+         dy="0"
+         id="img-80f44c6b-33"
+         style="text-anchor:end">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan58">-8</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan60" />
+</text>
+      <text
+         x="19.049999"
+         y="75.209999"
+         dy="0"
+         id="img-80f44c6b-34"
+         style="text-anchor:end">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan63">-6</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan65" />
+</text>
+      <text
+         x="19.049999"
+         y="52.470001"
+         dy="0"
+         id="img-80f44c6b-35"
+         style="text-anchor:end">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan68">-4</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan70" />
+</text>
+      <text
+         x="19.049999"
+         y="29.74"
+         dy="0"
+         id="img-80f44c6b-36"
+         style="text-anchor:end">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan73">-2</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan75" />
+</text>
+      <text
+         x="19.049999"
+         y="7"
+         dy="0"
+         id="img-80f44c6b-37"
+         style="text-anchor:end">10<tspan
+   style="font-size:83.33329558%"
+   dy="-1.7225"
+   font-size="83.3333%"
+   id="tspan78">0</tspan>
+<tspan
+   dy="1.4355"
+   id="tspan80" />
+</text>
+    </g>
+    <g
+       font-size="3.88"
+       id="img-80f44c6b-38"
+       transform="matrix(1.0006692,0,0,0.46609896,-0.05026718,58.367489)"
+       style="font-size:3.88000011px;font-family:'PT Sans', 'Helvetica Neue', Helvetica, sans-serif;fill:#564a55;stroke:#000000;stroke-opacity:0">
+      <text
+         x="8.8100004"
+         y="50.470001"
+         dy="0"
+         transform="matrix(0,-1,1,0,-43.66,61.28)"
+         id="img-80f44c6b-39"
+         style="text-anchor:middle">output referred noise(V)</text>
+    </g>
+  </g>
+  <defs
+     id="defs84">
+    <clipPath
+       id="img-80f44c6b-13">
+      <path
+         d="M20.05,5 L 60.14 5 60.14 99.95 20.05 99.95"
+         id="path87" />
+    </clipPath>
+  </defs>
+</svg>
