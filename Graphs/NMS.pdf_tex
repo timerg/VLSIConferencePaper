@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{795.5723804bp}%
+    \setlength{\unitlength}{825.42094953bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,44 +48,51 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.57750313)%
+  \begin{picture}(1,0.44538988)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{NMS.pdf}}%
-    \put(0.02733733,0.22686928){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
+    \put(0.02633972,0.21865437){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{NMS.pdf}}%
-    \put(0.07920624,0.50350348){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Ibias}}}}%
+    \put(0.06333,0.38831026){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Ibias}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{NMS.pdf}}%
-    \put(0.07056142,0.2828877){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{SiNW}}}}%
+    \put(0.05641582,0.21816768){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{SiNW}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{NMS.pdf}}%
-    \put(0.36448526,0.36518638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.35129583,0.35196969){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{NMS.pdf}}%
-    \put(0.77943657,0.3306071){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.75124181,0.31864086){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.30532872,0.38473676){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{100 k}\textbf{Ω}}}}%
+    \put(0.39532872,0.32473676){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{TIA}\textbf{Ω}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{NMS.pdf}}%
-    \put(0.3817749,0.49886986){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{100 k}\textbf{Ω}}}}%
+    \put(0.6345909,0.29751038){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.80123506,0.39749688){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{NMS.pdf}}%
-    \put(0.6584091,0.30868384){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.16704374,0.15805779){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{Mode Switch}}}}%
+    \put(0.48966103,0.22381888){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{NMS.pdf}}%
-    \put(0.83130548,0.41242167){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.48461116,0.2519832){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{NMS.pdf}}%
-    \put(0.20887852,0.20494602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textbf{Mode Switch}}}}%
+    \put(0.15872126,0.25087177){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{NMS.pdf}}%
-    \put(0.63474864,0.2979952){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
+    \put(0.94121053,0.26166975){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Vout}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{NMS.pdf}}%
-    \put(0.50280236,0.26144855){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{}}}%
+    \put(0.28458617,0.1216292){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Vb}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
-    \put(0.21597673,0.33048013){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
-    \put(0.95278848,0.33402924){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Vout}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
-    \put(0.35584044,0.15771073){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Vb}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
-    \put(0.59678708,0.22681643){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
-    \put(0.8734412,0.52469223){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{CMS}}}%
-    \put(0.13780764,0.11549514){\color[rgb]{0.38039216,0.38039216,0.38039216}\makebox(0,0)[lb]{\smash{GVT}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
-    \put(0.60546844,0.02550873){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{f}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
-    \put(0.5207021,0.02448148){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{20Hz}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=12]{NMS.pdf}}%
-    \put(0.83091241,0.40040422){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Rx}}}}%
+    \put(0.47729862,0.17192463){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{VRef}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{NMS.pdf}}%
+    \put(0.4377205,0.01967276){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{f}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{NMS.pdf}}%
+    \put(0.36992315,0.00888053){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{20Hz}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{NMS.pdf}}%
+    \put(0.87623536,0.11421484){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Ro}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{NMS.pdf}}%
+    \put(0.71309282,0.11405899){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ri}}}%
+    \put(0.58523185,0.35715747){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Analog Subtractor}}}%
+    \put(0.59613403,0.31822197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Sout = x - y + z}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{NMS.pdf}}%
+    \put(0.68162198,0.28655438){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.7309575,0.27720994){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Sout}}}%
+    \put(0.58298556,0.27876734){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{x}}}%
+    \put(0.58090902,0.22529589){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{y}}}%
+    \put(0.66033742,0.21231733){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{z}}}%
+    \put(0.65114607,0.13304202){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Vz}}}%
   \end{picture}%
 \endgroup%

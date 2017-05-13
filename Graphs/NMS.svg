@@ -6,10 +6,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1000.0"
-   height="508.253094911"
+   width="994.46545"
+   height="574.30695"
    id="svg4409"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -22,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -31,100 +32,107 @@
     <marker
        inkscape:stockid="TriangleInM"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="TriangleInM"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path6075"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(-0.4)" />
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="EmptyTriangleInL"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="EmptyTriangleInL"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path6090"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
-         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         transform="scale(-0.8) translate(-6,0)" />
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,4.8,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow2Mstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow2Mstart"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path5963"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(0.6) translate(0,0)" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6,0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Mstart"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path5945"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.4) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Lstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker6287"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path6289"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.8) translate(12.5,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Lstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker6201"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path6203"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.8) translate(12.5,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Lstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Lstart"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path5939"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.8) translate(12.5,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <linearGradient
        id="linearGradient4428"
@@ -148,1053 +156,689 @@
      inkscape:window-height="687"
      id="namedview4657"
      showgrid="false"
-     inkscape:zoom="0.69715662"
-     inkscape:cx="677.46753"
-     inkscape:cy="370.29217"
+     inkscape:zoom="1.1752928"
+     inkscape:cx="742.71188"
+     inkscape:cy="293.96334"
      inkscape:window-x="0"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4413" />
+     inkscape:current-layer="g4413"
+     showborder="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <desc
      id="desc4411">Created by CircuitLab https://www.circuitlab.com/</desc>
   <g
-     transform="matrix(1.37551581843,0,0,1.37551581843,-3574.96561211,-1680.19257222)"
+     transform="matrix(1.3755158,0,0,1.3755158,-3574.946,-1680.1925)"
      id="g4413">
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M15.624981,28.12499L15.624981,71.87502"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2649.0898,1490.2679 0,35.0066"
        stroke-miterlimit="6"
-       transform="matrix(-1,0,0,1,2675,1425)"
-       id="path4415" />
+       id="path4415"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M0,50L15.624981,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2662.0557,1507.7712 -12.9659,0"
        stroke-miterlimit="6"
-       transform="matrix(-1,0,0,1,2675,1425)"
-       id="path4417" />
+       id="path4417"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 4;"
-       fill="none"
-       stroke="#000000"
-       d="M50,0L50,30L25,30"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:4"
+       d="m 2620.5646,1467.7636 0,24.0046 20.7456,0"
        stroke-miterlimit="4"
-       transform="matrix(-1,0,0,1,2675,1425)"
-       id="path4419" />
+       id="path4419"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 4;"
-       fill="none"
-       stroke="#000000"
-       d="M50,100L50,70L50,50L25,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:4"
+       d="m 2620.5646,1547.7788 0,-24.0046 0,-16.003 20.7456,0"
        stroke-miterlimit="4"
-       transform="matrix(-1,0,0,1,2675,1425)"
-       id="path4421" />
+       id="path4421"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 4;"
-       fill="none"
-       stroke="#000000"
-       d="M50,70L25,70"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:4"
+       d="m 2620.5646,1523.7742 20.7456,0"
        stroke-miterlimit="4"
-       transform="matrix(-1,0,0,1,2675,1425)"
-       id="path4423" />
+       id="path4423"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: square; stroke-miterlimit: 4;"
-       fill="none"
-       stroke="#000000"
-       d="M25,64L25,76"
-       stroke-width="4"
-       stroke-linecap="square"
+       style="fill:none;stroke:#000000;stroke-width:3.25940704;stroke-linecap:square;stroke-miterlimit:4"
+       d="m 2641.3102,1518.9733 0,9.6018"
        stroke-miterlimit="4"
-       transform="matrix(-1,0,0,1,2675,1425)"
-       id="path4425" />
+       id="path4425"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: square; stroke-miterlimit: 4;"
-       fill="none"
-       stroke="#000000"
-       d="M25,44L25,56"
-       stroke-width="4"
-       stroke-linecap="square"
+       style="fill:none;stroke:#000000;stroke-width:3.25940704;stroke-linecap:square;stroke-miterlimit:4"
+       d="m 2641.3102,1502.9703 0,9.6018"
        stroke-miterlimit="4"
-       transform="matrix(-1,0,0,1,2675,1425)"
-       id="path4427" />
+       id="path4427"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: square; stroke-miterlimit: 4;"
-       fill="none"
-       stroke="#000000"
-       d="M25,24L25,36"
-       stroke-width="4"
-       stroke-linecap="square"
+       style="fill:none;stroke:#000000;stroke-width:3.25940704;stroke-linecap:square;stroke-miterlimit:4"
+       d="m 2641.3102,1486.9672 0,9.6019"
        stroke-miterlimit="4"
-       transform="matrix(-1,0,0,1,2675,1425)"
-       id="path4429" />
+       id="path4429"
+       inkscape:connector-curvature="0" />
     <path
-       fill="#000000"
-       stroke="none"
-       d="M45,45.93739C39.922916,48.47659,38.397916,48.47659,30.781249000000003,49.999810000000004C38.397916,51.52319000000001,39.922916,51.52319000000001,45,54.06242C43.985416,51.015390000000004,43.985416,48.984190000000005,45,45.93739"
-       transform="matrix(-1,0,0,1,2675,1425)"
-       id="path4431" />
+       d="m 2624.7137,1504.5205 c 4.2131,2.0317 5.4786,2.0317 11.799,3.2505 -6.3204,1.219 -7.5859,1.219 -11.799,3.2507 0.8419,-2.4381 0.8419,-4.0633 0,-6.5012"
+       id="path4431"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:none" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: end;"
+       style="font-weight:bold;font-size:16px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none"
        x="0"
        y="0"
-       text-anchor="end"
-       stroke="none"
-       fill="#000000"
        transform="translate(2618.75,1475)"
        id="text4433">
       <tspan
-         dy="7.2"
+         dy="7.1999998"
          id="tspan4435" />
     </text>
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="#ffffff"
-       stroke="#000000"
-       d="M50,50C50,36.19373,38.806233,25,25,25C11.193742,25,0,36.19373,0,50C0,63.80632,11.193742,75,25,75C38.806233,75,50,63.80632,50,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2641.3102,1347.7409 c 0,-11.0471 -9.2889,-20.0038 -20.7456,-20.0038 -11.4567,0 -20.7456,8.9567 -20.7456,20.0038 0,11.0471 9.2889,20.0038 20.7456,20.0038 11.4567,0 20.7456,-8.9567 20.7456,-20.0038"
        stroke-miterlimit="6"
-       transform="translate(2600,1225)"
-       id="path4437" />
+       id="path4437"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,0.00002L25,25"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2620.5646,1307.7333 0,20.0038"
        stroke-miterlimit="6"
-       transform="translate(2600,1225)"
-       id="path4439" />
+       id="path4439"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,100L25,75"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2620.5646,1387.7485 0,-20.0038"
        stroke-miterlimit="6"
-       transform="translate(2600,1225)"
-       id="path4441" />
+       id="path4441"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,56.49892L25,35.05936"
-       stroke-width="1.49310875"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.21666229;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2620.5646,1352.941 0,-17.1549"
        stroke-miterlimit="6"
-       transform="translate(2600,1225)"
-       id="path4443" />
+       id="path4443"
+       inkscape:connector-curvature="0" />
     <path
-       fill="#000000"
-       stroke="none"
-       d="M20.099545,48.53562C23.162335,54.66122,23.162335,56.49892,25,65.68722C26.837665,56.49892,26.837665,54.66122,29.900455,48.53562C26.225105,49.76072,23.774885,49.76072,20.099545,48.53562"
-       transform="translate(2600,1225)"
-       id="path4445" />
+       d="m 2616.4981,1346.5692 c 2.5416,4.9014 2.5416,6.3718 4.0665,13.7238 1.5249,-7.352 1.5249,-8.8224 4.0665,-13.7238 -3.0499,0.9802 -5.0831,0.9802 -8.133,0"
+       id="path4445"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:none" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: start;"
-       x="0"
-       y="0"
+       style="font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
+       x="2598.7524"
+       y="1372.5015"
        id="text4447"
-       text-anchor="start"
-       stroke="none"
-       fill="#000000"
-       transform="translate(2656.25,1275)">
+       transform="scale(1.0183719,0.98195953)">
       <tspan
-         dy="7.2"
+         dy="5.8669329"
          id="tspan4449">Ibias</tspan>
     </text>
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,20L25,0"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2620.5646,1583.7856 0,-16.0031"
        stroke-miterlimit="6"
-       transform="translate(2600,1550)"
-       id="path4451" />
+       id="path4451"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 6;"
-       fill="#ffffff"
-       stroke="#000000"
-       d="M5,20L25,40L45,20Z"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-linejoin="round"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6"
+       d="m 2603.9682,1583.7856 16.5964,16.003 16.5964,-16.003 z"
        stroke-miterlimit="6"
-       transform="translate(2600,1550)"
-       id="path4453" />
+       id="path4453"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2625 1525 L 2625 1550"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2620.5646,1547.7788 0,20.0037"
        class="cl_wire"
-       id="path4455" />
+       id="path4455"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2600 1225 L 2650 1225"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2599.819,1307.7333 41.4912,0"
        class="cl_wire"
-       id="path4457" />
+       id="path4457"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2625 1350 L 2825 1350"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2620.5646,1407.7522 165.9644,0"
        class="cl_wire"
-       id="path4459" />
+       id="path4459"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: start; font-style: normal;"
-       x="0"
-       y="0"
-       text-anchor="start"
-       stroke="none"
-       fill="#000000"
+       style="font-style:normal;font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
+       x="2593.6597"
+       y="1502.4703"
        font-style="normal"
-       transform="translate(2650,1434.5)"
+       transform="scale(1.0183719,0.98195953)"
        id="text4461">
       <tspan
-         dy="7.2"
+         dy="5.8669329"
          id="tspan4463">SiNW</tspan>
     </text>
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="#ffffff"
-       stroke="#000000"
-       d="M137.5,75L12.5,12.5L12.5,137.5L137.5,75Z"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2900.6296,1427.756 -103.7278,-50.0094 0,100.0189 103.7278,-50.0095 z"
        stroke-miterlimit="6"
-       transform="translate(2825,1300)"
-       id="path4465" />
+       id="path4465"
+       inkscape:connector-curvature="0" />
     <path
-       fill="#000000"
-       stroke="none"
-       d="M20.241317,49.30424L20.241317,51.00004L36.397536,51.00004L36.397536,49.30424L20.241317,49.30424"
-       transform="translate(2825,1300)"
-       id="path4467" />
+       d="m 2803.3257,1407.1955 0,1.3569 13.4068,0 0,-1.3569 -13.4068,0"
+       id="path4467"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:none" />
     <path
-       fill="#000000"
-       stroke="none"
-       d="M29.136487,91.78334L27.440701,91.78334L27.440701,99.15232L20.133404,99.15232L20.133404,100.84812L27.440701,100.84812L27.440701,108.21702L29.136487,108.21702L29.136487,100.84812L36.443785,100.84812L36.443785,99.15232L29.136487,99.15232L29.136487,91.78334"
-       transform="translate(2825,1300)"
-       id="path4469" />
+       d="m 2810.7071,1441.1852 -1.4072,0 0,5.8963 -6.0637,0 0,1.3569 6.0637,0 0,5.8963 1.4072,0 0,-5.8963 6.0638,0 0,-1.3569 -6.0638,0 0,-5.8963"
+       id="path4469"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:none" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M150,75L137.5,75"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2911.0024,1427.756 -10.3728,0"
        stroke-miterlimit="6"
-       transform="translate(2825,1300)"
-       id="path4471" />
+       id="path4471"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M0,100L12.5,100"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2786.529,1447.7598 10.3728,0"
        stroke-miterlimit="6"
-       transform="translate(2825,1300)"
-       id="path4473" />
+       id="path4473"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M12.5,50L0,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2796.9018,1407.7522 -10.3728,0"
        stroke-miterlimit="6"
-       transform="translate(2825,1300)"
-       id="path4475" />
+       id="path4475"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: start;"
+       style="font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
        x="0"
        y="0"
-       text-anchor="start"
-       stroke="none"
-       fill="#000000"
        transform="translate(2862.5,1375)"
        id="text4477">
       <tspan
-         dy="7.2"
+         dy="7.1999998"
          id="tspan4479" />
     </text>
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,21.87499L25,0"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2851.3589,1327.7371 18.1524,0"
        stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,2925,1225)"
-       id="path4481" />
+       id="path4481"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,78.12502L25,100"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2804.6814,1327.7371 -18.1524,0"
        stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,2925,1225)"
-       id="path4483" />
+       id="path4483"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,21.87499L14.062504,26.56249L35.937495,35.93748L14.062504,45.31248L35.937495,54.68752L14.062504,64.06252L35.937495,73.43752L25,78.12502"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2851.3589,1327.7371 -3.8898,-8.7517 -7.7796,17.5034 -7.7795,-17.5034 -7.7797,17.5034 -7.7795,-17.5034 -7.7796,17.5034 -3.8898,-8.7517"
        stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,2925,1225)"
-       id="path4485" />
+       id="path4485"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M150,75L137.5,75"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 3326.8792,1446.6006 -10.3728,0"
        stroke-miterlimit="6"
-       transform="matrix(1,0,0,-1,3125,1475)"
-       id="path4511" />
+       id="path4511"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M0,100L12.5,100"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 3202.4059,1426.5968 10.3728,0"
        stroke-miterlimit="6"
-       transform="matrix(1,0,0,-1,3125,1475)"
-       id="path4513" />
+       id="path4513"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M12.5,50L0,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 3212.7787,1466.6044 -10.3728,0"
        stroke-miterlimit="6"
-       transform="matrix(1,0,0,-1,3125,1475)"
-       id="path4515" />
+       id="path4515"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: start;"
+       style="font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
        x="0"
        y="0"
-       text-anchor="start"
-       stroke="none"
-       fill="#000000"
        transform="translate(3162.5,1400)"
        id="text4517">
       <tspan
-         dy="7.2"
+         dy="7.1999998"
          id="tspan4519" />
     </text>
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,45.31249L25,0"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2997.8744,1427.756 37.6013,0"
        stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,3125,1350)"
-       id="path4523" />
+       id="path4523"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: middle;"
-       x="0"
-       y="0"
-       text-anchor="middle"
-       stroke="none"
-       fill="#000000"
-       transform="translate(2875,1278.35)"
+       style="font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none"
+       x="2777.0012"
+       y="1375.2312"
+       transform="scale(1.0183719,0.98195953)"
        id="text4487">
       <tspan
-         dy="7.2"
+         dy="5.8669329"
          id="tspan4489">100 kΩ</tspan>
     </text>
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2775 1250 L 2825 1250"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2745.0379,1327.7371 41.4911,0"
        class="cl_wire"
-       id="path4491" />
+       id="path4491"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       d="M 2775 1250 L 2775 1350"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2745.0379,1327.7371 0,80.0151"
        class="cl_wire"
        id="path4493"
-       stroke-linecap="round"
-       stroke-width="2"
-       stroke="#000000"
-       fill="none" />
+       inkscape:connector-curvature="0" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: middle;"
+       style="font-weight:bold;font-size:16px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none"
        x="0"
        y="0"
-       text-anchor="middle"
-       stroke="none"
-       fill="#000000"
        transform="translate(3075,1415.85)"
        id="text4529">
       <tspan
-         dy="7.2"
+         dy="7.1999998"
          id="tspan4531" />
     </text>
-    <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 3100 1375 L 3125 1375"
-       stroke-width="2"
-       stroke-linecap="round"
-       class="cl_wire"
-       id="path4533" />
-    <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,54.68752L25,100"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,3250,1275)"
-       id="path4535" />
-    <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,45.31249L25,0"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,3250,1275)"
-       id="path4537" />
-    <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M50,45.31249L0,45.31249"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,3250,1275)"
-       id="path4539" />
-    <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M50,54.68752L0,54.68752"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,3250,1275)"
-       id="path4541" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: middle;"
+       style="font-weight:bold;font-size:16px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none"
        x="0"
        y="0"
-       text-anchor="middle"
-       stroke="none"
-       fill="#000000"
        transform="translate(3200,1340.85)"
        id="text4543">
       <tspan
-         dy="7.2"
+         dy="7.1999998"
          id="tspan4545" />
     </text>
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 3125 1300 L 3150 1300"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 3201.7874,1466.1751 0,60.0113"
        class="cl_wire"
-       id="path4547" />
-    <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 3125 1300 L 3125 1375"
-       stroke-width="2"
-       stroke-linecap="round"
-       class="cl_wire"
-       id="path4549" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.712085;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 3249.5417,1300 25.2578,0"
-       class="cl_wire"
-       id="path4551"
+       id="path4549"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round"
-       d="m 3274.3412,1300 0,100"
-       class="cl_wire"
-       id="path4553"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.498347;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 3274.1663,1400 8.9026,0"
+       style="fill:none;stroke:#000000;stroke-width:1.22093081;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 3326.1874,1446.6006 7.3876,0"
        class="cl_wire"
        id="path4555"
        inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M22.65619,48.43752L81.24996,31.50002"
-       stroke-width="3"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:2.44455528;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2701.6019,1506.521 48.6224,-13.5526"
        stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4563" />
+       id="path4563"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2925 1250 L 3025 1250"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2869.5113,1327.7371 82.9822,0"
        class="cl_wire"
-       id="path4495" />
+       id="path4495"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 3025 1250 L 3025 1375"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2952.4935,1327.7371 0,100.0189"
        class="cl_wire"
-       id="path4497" />
+       id="path4497"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2800 1400 L 2825 1400"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2765.7835,1447.7598 20.7455,0"
        class="cl_wire"
-       id="path4499" />
+       id="path4499"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,54.68752L25,100"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2990.0948,1427.756 -37.6013,0"
        stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,3125,1350)"
-       id="path4521" />
+       id="path4521"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M50,45.31249L0,45.31249"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2702.2502,1507.7712 c 0,-2.0714 -1.7416,-3.7507 -3.8898,-3.7507 -2.1482,0 -3.8898,1.6793 -3.8898,3.7507 0,2.0714 1.7416,3.7507 3.8898,3.7507 2.1482,0 3.8898,-1.6793 3.8898,-3.7507"
        stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,3125,1350)"
-       id="path4525" />
+       id="path4565"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M23.43752,50C23.43752,47.41132,21.33869,45.31252,18.75002,45.31252C16.16119,45.31252,14.06251,47.41132,14.06251,50C14.06251,52.58882,16.16119,54.68752,18.75002,54.68752C21.33869,54.68752,23.43752,52.58882,23.43752,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2694.4706,1507.7712 -6.4829,0"
        stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4565" />
+       id="path4567"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M14.06251,50L6.25,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2682.8013,1507.7712 5.1864,0"
        stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4567" />
-    <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M0,50L6.25,50"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4573" />
+       id="path4573"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: middle;"
-       x="0"
-       y="0"
-       text-anchor="middle"
-       stroke="none"
-       fill="#000000"
-       transform="translate(2750,1490.85)"
+       style="font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none"
+       x="2675.1448"
+       y="1548.3872"
+       transform="scale(1.0183719,0.98195953)"
        id="text4583">
       <tspan
-         dy="7.2"
+         dy="5.8669329"
          id="tspan4585">Mode Switch</tspan>
     </text>
-    <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M50,54.68752L0,54.68752"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-miterlimit="6"
-       transform="matrix(0,1,-1,0,3125,1350)"
-       id="path4527" />
     <text
-       style="font-style:normal;font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
-       x="3057.894"
-       y="1423.5776"
+       style="font-style:normal;font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
+       x="2926.033"
+       y="1493.5702"
        font-style="normal"
-       id="text4557">
+       id="text4557"
+       transform="scale(1.0183719,0.98195953)">
       <tspan
-         dy="7.1999998"
+         dy="5.8669329"
          id="tspan4559">VRef</tspan>
     </text>
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,100.00002L25,75"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2786.529,1587.7863 0,-20.0038"
        stroke-miterlimit="6"
-       transform="translate(2800,1475)"
-       id="path4591" />
+       id="path4591"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M85.93756,50L93.75,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2754.1142,1507.7712 6.4829,0"
        stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4571" />
+       id="path4571"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M100,50L93.75,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2765.7835,1507.7712 -5.1864,0"
        stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4575" />
+       id="path4575"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M76.56256,25C76.56256,27.58882,78.66126,29.68752,81.24996,29.68752C83.83876,29.68752,85.93756,27.58882,85.93756,25C85.93756,22.41124,83.83876,20.3125,81.24996,20.3125C78.66126,20.3125,76.56256,22.41124,76.56256,25"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2746.3346,1487.7674 c 0,2.0714 1.7415,3.7507 3.8897,3.7507 2.1482,0 3.8899,-1.6793 3.8899,-3.7507 0,-2.0714 -1.7417,-3.7507 -3.8899,-3.7507 -2.1482,0 -3.8897,1.6793 -3.8897,3.7507"
        stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4577" />
+       id="path4577"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M85.93756,25L93.75,25"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2754.1142,1487.7674 6.4829,0"
        stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4579" />
+       id="path4579"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M100,25L93.75,25"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2765.7835,1487.7674 -5.1864,0"
        stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4581" />
+       id="path4581"
+       inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2.01923299;stroke-linecap:round"
-       d="m 2646.5984,1575 178.382,0"
+       style="fill:none;stroke:#000000;stroke-width:1.64537561;stroke-linecap:round"
+       d="m 2638.4874,1587.7863 148.0254,0"
        class="cl_wire"
        id="path4603"
        inkscape:connector-curvature="0" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: end;"
+       style="font-weight:bold;font-size:16px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none"
        x="0"
        y="0"
-       text-anchor="end"
-       stroke="none"
-       fill="#000000"
        transform="translate(2962.5,1450)"
        id="text4617">
       <tspan
-         dy="7.2"
+         dy="7.1999998"
          id="tspan4619" />
     </text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.38418961;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.38418956, 3.38418956;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 2745.7779,1242.4333 0,214.7822 535.6967,0 0,-226.5835 -535.6967,0 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.3563633;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.35636318, 3.35636318;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 2721.0882,1321.9508 0,171.2907 660.7116,0 0,-180.7023 -660.7116,0 z"
        id="path5881"
        inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="#ffffff"
-       stroke="#000000"
-       d="M137.5,75L12.5,12.5L12.5,137.5L137.5,75Z"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 3316.5064,1446.6006 -103.7277,50.0095 0,-100.0189 103.7277,50.0094 z"
        stroke-miterlimit="6"
-       transform="matrix(1,0,0,-1,3125,1475)"
-       id="path4505" />
+       id="path4505"
+       inkscape:connector-curvature="0" />
     <path
-       fill="#000000"
-       stroke="none"
-       d="M20.241317,49.30424L20.241317,51.00004L36.397536,51.00004L36.397536,49.30424L20.241317,49.30424"
-       transform="matrix(1,0,0,-1,3125,1475)"
-       id="path4507" />
+       d="m 3219.2026,1467.1611 0,-1.3569 13.4068,0 0,1.3569 -13.4068,0"
+       id="path4507"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:none" />
     <path
-       fill="#000000"
-       stroke="none"
-       d="M29.136487,91.78334L27.440701,91.78334L27.440701,99.15232L20.133404,99.15232L20.133404,100.84812L27.440701,100.84812L27.440701,108.21702L29.136487,108.21702L29.136487,100.84812L36.443785,100.84812L36.443785,99.15232L29.136487,99.15232L29.136487,91.78334"
-       transform="matrix(1,0,0,-1,3125,1475)"
-       id="path4509" />
+       d="m 3226.584,1433.1714 -1.4072,0 0,-5.8963 -6.0638,0 0,-1.3569 6.0638,0 0,-5.8962 1.4072,0 0,5.8962 6.0637,0 0,1.3569 -6.0637,0 0,5.8963"
+       id="path4509"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:none" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M76.56256,50C76.56256,47.41132,78.66126,45.31252,81.24996,45.31252C83.83876,45.31252,85.93756,47.41132,85.93756,50C85.93756,52.58882,83.83876,54.68752,81.24996,54.68752C78.66126,54.68752,76.56256,52.58882,76.56256,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2746.3346,1507.7712 c 0,-2.0714 1.7415,-3.7507 3.8897,-3.7507 2.1482,0 3.8899,1.6793 3.8899,3.7507 0,2.0714 -1.7417,3.7507 -3.8899,3.7507 -2.1482,0 -3.8897,-1.6793 -3.8897,-3.7507"
        stroke-miterlimit="6"
-       transform="translate(2700,1425)"
-       id="path4569" />
+       id="path4569"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-style:normal;font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
-       x="2755.1318"
-       y="1400.0918"
+       style="font-style:normal;font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
+       x="2679.3267"
+       y="1474.4327"
        font-style="normal"
-       id="text4625">
+       id="text4625"
+       transform="scale(1.0183719,0.98195953)">
       <tspan
-         dy="7.1999998"
+         dy="5.8669329"
          id="tspan4627">VRef</tspan>
     </text>
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M25,0L25,25"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2786.529,1507.7712 0,20.0038"
        stroke-miterlimit="6"
-       transform="translate(2800,1475)"
-       id="path4589" />
+       id="path4589"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2800 1475 L 2825 1475"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2765.7835,1507.7712 20.7455,0"
        class="cl_wire"
-       id="path4601" />
+       id="path4601"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M150,75L137.5,75"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2807.2746,1487.7674 10.3728,0"
        stroke-miterlimit="6"
-       transform="matrix(-1,0,0,1,3000,1375)"
-       id="path4611" />
+       id="path4611"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M0,100L12.5,100"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2931.7479,1507.7712 -10.3728,0"
        stroke-miterlimit="6"
-       transform="matrix(-1,0,0,1,3000,1375)"
-       id="path4613" />
+       id="path4613"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="none"
-       stroke="#000000"
-       d="M12.5,50L0,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2921.3751,1467.7636 10.3728,0"
        stroke-miterlimit="6"
-       transform="matrix(-1,0,0,1,3000,1375)"
-       id="path4615" />
+       id="path4615"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="#ffffff"
-       stroke="#000000"
-       d="M137.5,75L12.5,12.5L12.5,137.5L137.5,75Z"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2817.6474,1487.7674 103.7277,-50.0095 0,100.019 -103.7277,-50.0095 z"
        stroke-miterlimit="6"
-       transform="matrix(-1,0,0,1,3000,1375)"
-       id="path4605" />
+       id="path4605"
+       inkscape:connector-curvature="0" />
     <path
-       fill="#000000"
-       stroke="none"
-       d="M20.241317,49.30424L20.241317,51.00004L36.397536,51.00004L36.397536,49.30424L20.241317,49.30424"
-       transform="matrix(-1,0,0,1,3000,1375)"
-       id="path4607" />
+       d="m 2914.9512,1467.2069 0,1.3569 -13.4068,0 0,-1.3569 13.4068,0"
+       id="path4607"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:none" />
     <path
-       fill="#000000"
-       stroke="none"
-       d="M29.136487,91.78334L27.440701,91.78334L27.440701,99.15232L20.133404,99.15232L20.133404,100.84812L27.440701,100.84812L27.440701,108.21702L29.136487,108.21702L29.136487,100.84812L36.443785,100.84812L36.443785,99.15232L29.136487,99.15232L29.136487,91.78334"
-       transform="matrix(-1,0,0,1,3000,1375)"
-       id="path4609" />
+       d="m 2907.5698,1501.1966 1.4072,0 0,5.8963 6.0638,0 0,1.3569 -6.0638,0 0,5.8962 -1.4072,0 0,-5.8962 -6.0637,0 0,-1.3569 6.0637,0 0,-5.8963"
+       id="path4609"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:none" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 3000 1425 L 3025 1425"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2931.7479,1467.7636 20.7456,0"
        class="cl_wire"
-       id="path4621" />
+       id="path4621"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 3025 1375 L 3025 1425"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2952.4935,1427.756 0,40.0076"
        class="cl_wire"
-       id="path4623" />
+       id="path4623"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-style:normal;font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
-       x="3287.8293"
-       y="1397.5259"
+       style="font-style:normal;font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
+       x="3113.396"
+       y="1472.3419"
        font-style="normal"
-       id="text4629">
+       id="text4629"
+       transform="scale(1.0183719,0.98195953)">
       <tspan
-         dy="7.1999998"
+         dy="5.8669329"
          id="tspan4631">Vout</tspan>
     </text>
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2625 1325 L 2625 1425"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2620.5646,1387.7485 0,80.0151"
        class="cl_wire"
-       id="path4633" />
+       id="path4633"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2975 1375 L 3025 1375"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2911.0024,1427.756 41.4911,0"
        class="cl_wire"
-       id="path4635" />
+       id="path4635"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 3100 1375 L 3125 1375"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2931.7479,1507.7712 20.7456,0"
        class="cl_wire"
-       id="path4637" />
+       id="path4639"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 3000 1475 L 3025 1475"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 3014.7301,1467.7636 20.7456,0"
        class="cl_wire"
-       id="path4639" />
+       id="path4641"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 3100 1425 L 3125 1425"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2765.7835,1487.7674 41.4911,0"
        class="cl_wire"
-       id="path4641" />
-    <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2800 1450 L 2850 1450"
-       stroke-width="2"
-       stroke-linecap="round"
-       class="cl_wire"
-       id="path4643" />
-    <circle
-       cx="2625"
-       cy="1225"
-       r="3"
-       fill="#000000"
-       stroke="#000000"
-       id="circle4645" />
-    <circle
-       cx="2625"
-       cy="1350"
-       r="3"
-       fill="#000000"
-       stroke="#000000"
-       id="circle4647" />
-    <circle
-       cx="2775"
-       cy="1350"
-       r="3"
-       fill="#000000"
-       stroke="#000000"
-       id="circle4649" />
-    <circle
-       cx="3025"
-       cy="1375"
-       r="3"
-       fill="#000000"
-       stroke="#000000"
-       id="circle4651" />
-    <circle
-       cx="3125"
-       cy="1375"
-       r="3"
-       fill="#000000"
-       stroke="#000000"
-       id="circle4653" />
+       id="path4643"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       cx="2620.5647"
+       cy="1307.7333"
+       id="circle4645"
+       style="fill:#000000;stroke:#000000;stroke-width:0.81485176"
+       rx="2.4894664"
+       ry="2.4004545" />
+    <ellipse
+       cx="2620.5647"
+       cy="1407.7522"
+       id="circle4647"
+       style="fill:#000000;stroke:#000000;stroke-width:0.81485176"
+       rx="2.4894664"
+       ry="2.4004545" />
+    <ellipse
+       cx="2745.0378"
+       cy="1407.7522"
+       id="circle4649"
+       style="fill:#000000;stroke:#000000;stroke-width:0.81485176"
+       rx="2.4894664"
+       ry="2.4004545" />
+    <ellipse
+       cx="2952.4934"
+       cy="1427.756"
+       id="circle4651"
+       style="fill:#000000;stroke:#000000;stroke-width:0.81485176"
+       rx="2.4894664"
+       ry="2.4004545" />
+    <ellipse
+       cx="3202.4058"
+       cy="1426.5968"
+       id="circle4653"
+       style="fill:#000000;stroke:#000000;stroke-width:0.81485176"
+       rx="2.4894664"
+       ry="2.4004545" />
     <path
        inkscape:connector-curvature="0"
        id="path5883"
-       d="m 2698.8712,1247.613 0,309.4231 345.8478,0 0,-326.4245 -345.8478,0 z"
-       style="fill:none;fill-rule:evenodd;stroke:#919191;stroke-width:2.61611724;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:15.69670315, 2.61611719;stroke-dashoffset:0;stroke-opacity:1" />
+       d="m 2681.8646,1325.8271 0,247.5854 286.9921,0 0,-261.1891 -286.9921,0 z"
+       style="fill:none;fill-rule:evenodd;stroke:#919191;stroke-width:2.13174772;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12.79048654, 2.13174775;stroke-dashoffset:0;stroke-opacity:1" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: start;"
-       x="0"
-       y="0"
-       text-anchor="start"
-       stroke="none"
-       fill="#000000"
-       transform="translate(2856.25,1525)"
+       style="font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
+       x="2761.7229"
+       y="1576.2144"
+       transform="scale(1.0183719,0.98195953)"
        id="text4597">
       <tspan
-         dy="7.2"
+         dy="5.8669329"
          id="tspan4599">Vb</tspan>
     </text>
     <path
-       style="stroke-linecap: round; stroke-miterlimit: 6;"
-       fill="#ffffff"
-       stroke="#000000"
-       d="M50,50C50,36.19374,38.806255,25,25,25C11.193755,25,0,36.19374,0,50C0,63.80632,11.193755,75,25,75C38.806255,75,50,63.80632,50,50"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round;stroke-miterlimit:6"
+       d="m 2807.2746,1547.7788 c 0,-11.0471 -9.2888,-20.0038 -20.7456,-20.0038 -11.4567,0 -20.7455,8.9567 -20.7455,20.0038 0,11.0471 9.2888,20.0037 20.7455,20.0037 11.4568,0 20.7456,-8.9566 20.7456,-20.0037"
        stroke-miterlimit="6"
-       transform="translate(2800,1475)"
-       id="path4587" />
+       id="path4587"
+       inkscape:connector-curvature="0" />
     <path
-       style="font-size: 15px; font-weight: normal;"
-       fill="#000000"
-       stroke="none"
-       d="M17.006089,60.39372L17.006089,62.07822L33.055093,62.07822L33.055093,60.39372L17.006089,60.39372"
+       style="font-weight:normal;font-size:15px;fill:#000000;stroke:none"
+       d="m 2779.8955,1556.0953 0,1.3479 13.3178,0 0,-1.3479 -13.3178,0"
        font-size="15px"
        font-weight="normal"
-       transform="translate(2800,1475)"
-       id="path4595" />
+       id="path4595"
+       inkscape:connector-curvature="0" />
     <path
-       style="font-size: 15px; font-weight: normal;"
-       fill="#000000"
-       stroke="none"
-       d="M25.84227,33.168L24.157737,33.168L24.157737,40.48806L16.898932,40.48806L16.898932,42.17259L24.157737,42.17259L24.157737,49.49262L25.84227,49.49262L25.84227,42.17259L33.101076,42.17259L33.101076,40.48806L25.84227,40.48806L25.84227,33.168"
+       style="font-weight:normal;font-size:15px;fill:#000000;stroke:none"
+       d="m 2787.228,1534.3106 -1.3979,0 0,5.8572 -6.0235,0 0,1.3478 6.0235,0 0,5.8572 1.3979,0 0,-5.8572 6.0235,0 0,-1.3478 -6.0235,0 0,-5.8572"
        font-size="15px"
        font-weight="normal"
-       transform="translate(2800,1475)"
-       id="path4593" />
+       id="path4593"
+       inkscape:connector-curvature="0" />
     <path
-       style="stroke-linecap: round;"
-       fill="none"
-       stroke="#000000"
-       d="M 2675 1475 L 2700 1475"
-       stroke-width="2"
-       stroke-linecap="round"
+       style="fill:none;stroke:#000000;stroke-width:1.62970352;stroke-linecap:round"
+       d="m 2662.0557,1507.7712 20.7456,0"
        class="cl_wire"
-       id="path4561" />
+       id="path4561"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-style:normal;font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
-       x="3030.4487"
-       y="1475.0382"
+       style="font-style:normal;font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
+       x="2903.6689"
+       y="1535.5029"
        font-style="normal"
-       id="text4501">
+       id="text4501"
+       transform="scale(1.0183719,0.98195953)">
       <tspan
-         dy="7.1999998"
+         dy="5.8669329"
          id="tspan4503">VRef</tspan>
     </text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:29.07999992px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="3230.4631"
-       y="1259.681"
+       style="font-style:normal;font-weight:normal;font-size:23.69589043px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="3066.6511"
+       y="1360.0188"
        id="text5885"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       transform="scale(1.0183719,0.98195953)"><tspan
          sodipodi:role="line"
          id="tspan5887"
-         x="3230.4631"
-         y="1259.681">CMS</tspan></text>
+         x="3066.6511"
+         y="1360.0188">CMS</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:29.07999992px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#616161;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="2698.6174"
-       y="1555.5209"
+       style="font-style:normal;font-weight:normal;font-size:23.69589043px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#616161;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2633.2756"
+       y="1601.0844"
        id="text5889"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       transform="scale(1.0183719,0.98195953)"><tspan
          sodipodi:role="line"
          id="tspan5891"
-         x="2698.6174"
-         y="1555.5209"
+         x="2633.2756"
+         y="1601.0844"
          style="fill:#616161;fill-opacity:1">GVT</tspan></text>
     <g
        id="g6322"
-       transform="translate(-187.12026,54.491063)">
+       transform="matrix(0.82982216,0,0,0.80015147,287.00489,371.14886)">
       <rect
          y="1476.8772"
          x="3109.9822"
@@ -1260,28 +904,29 @@
       </g>
     </g>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.181;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM)"
-       d="m 2962.9591,1536.509 -27.7595,-78.1381"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.77719176;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM)"
+       d="m 2901.0106,1556.9877 -23.0355,-62.5223"
        id="path6283"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <g
-       id="g4343">
+       id="g4343"
+       transform="matrix(0.82982216,0,0,0.80015147,451.47643,309.68715)">
       <path
          inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:1.831313;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:none;stroke:#000000;stroke-width:1.83131301;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 3126.1667,1333.1873 55.0489,0"
          class="cl_wire"
          id="path4334" />
       <path
          inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:1.831313;stroke-linecap:round;stroke-miterlimit:6;stroke-dasharray:none"
+         style="fill:none;stroke:#000000;stroke-width:1.83131301;stroke-linecap:round;stroke-miterlimit:6;stroke-dasharray:none"
          d="m 3219.8714,1333.3503 -3.1925,-4.8985 -6.3851,9.797 -6.3851,-9.797 -6.3851,9.797 -6.3851,-9.797 -6.385,9.797 -3.1926,-4.8985"
          stroke-miterlimit="6"
          id="path4332" />
       <path
          inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:1.847307;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:none;stroke:#000000;stroke-width:1.84730697;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 3220.0906,1333.329 53.2647,0"
          class="cl_wire"
          id="path4336" />
@@ -1289,11 +934,42 @@
     <text
        id="text4336"
        font-style="normal"
-       y="1349.5383"
-       x="3199.7158"
-       style="font-style:normal;font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none">
+       y="1432.0586"
+       x="3205.5154"
+       style="font-style:normal;font-weight:bold;font-size:13.03762817px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
+       transform="scale(1.0183719,0.98195953)">
       <tspan
          id="tspan4338">Rx</tspan>
     </text>
+    <image
+       y="1521.6077"
+       x="3199.9336"
+       id="image4358"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKsAAAAPCAYAAACbZT/hAAAABHNCSVQICAgIfAhkiAAABHpJREFU
+aIHtmF9IU20cx7/nOBdNJjmkzvQmmPqqOK3cGEIggoIUtIsIIRJJIUJQEOrCHBREIQoFor0Ku+qm
+G0EwArdF1DIUwTZxhg6kiQmCMxXUua357SLevY6VbuL7+mf7wLl6+Jzn9zz8znN+zw9MEhPT09Ns
+a2vbl2symTg5ORm3t7q6yvr6em5vb+9r3hOGBocdwXHgx48fLCsroyiK/PDhQ1zup0+fmJKSQr1e
+z2AwGJdbW1tLADSbzXF5J5RkssZCe3s7ARAANRoN19fXY/I2NjaYl5cXdh8/fhzznAMDA2EvPT2d
+c3Nz+w3/pJBM1r1wuVw8deoUAfDMmTMEwMbGxpjc5ubmCE8ul9PpdO7pLS0t8dy5cxFuZWVlopcD
+yWTdjWAwSL1eTwA0Go3hX7ogCBwaGtrV/fjxI0VRpCAItFgsrKmpIQCWlJTQ7/fv6t64cYMAeOHC
+Bc7MzFCpVBIAe3p6DnJ5x41ksu7Go0ePCICZmZlcXFwkSba0tBAAs7OzubKy8ltvfX2dGo2GANjU
+1ESS9Hq9lCSJAGgymf4456tXr8Kn8MTEBEmyt7eXAKhQKOh2uw94lccGjWA0Gmm325GIBAIBqFQq
+jI2NQZKkiDGHwwGDwYBgMIj+/n5cv34dAODz+XDp0iVMT0+joaEBZrM56r13795FX18fcnJy4HQ6
+kZaWBgAYHByE0WiETCbDyMgIdDpdhLe4uIiioiIsLy/jyZMnePDgAQCAJKqrq2G1WqFUKpGXl/df
+bMeRpaCgAM+fP/8LOp0uXMgn6nPlypWIT9jv97O4uJgAePPmzahPfHR0lCkpKQTAN2/eRIxZLBYK
+gkBRFDk8PBzl1tXVEQALCwvp8/kixq5du0YANBgMUZ2D+fl5yuXyQ9+rw3gUCgVfv35dIoRCIa6t
+rSERmZ2dRXl5OTY3N2E2m9HQ0AAAaGtrw9OnT6FWq+FyuaBSqaLc1tZWtLe3IysrCy6XCxkZGVhb
+W4NWq8X8/Dzu3buHzs7OKG91dRVarRbfvn3D/fv30dHRAQB4+fIl6urqcPr0aXz+/Bn5+fm/jdft
+duPs2bMHvBNHG0mSkJ2dnZPwNWtXVxeBX+0hj8fD8fFxpqamEgAHBgb+6G1tbVGr1RIAb926RfLf
+UzM/P5+bm5t/dG02W/j0tdvtXFhYYEZGBgHw2bNnB77GE0LyghUKhVhRUUEArKioYEFBAQHw9u3b
+e7o7E7uxsZEAKJPJODY2tqd7584dAmBubi6rqqoIgJcvX2YoFDqIZZ1EkslKkl+/fg23h4BfN/3v
+37/H5D58+DCivtrtpr+TnR0DIOFv+rGQTNZ/6OvrIwAKgkCr1RqzFwgEePHiRQJgcXHxnj3Unbx7
+946iKBIAu7u79xN2IqERSPJ/rZaPKCRx9epVnD9/Hi9evIjL/fLlCwwGA96/f4/S0tK43ObmZkxN
+TeHt27cQBCEuN8HIEUi2HnYURwWHw5GuVqu3JEkKxOvabLbMqqoqb7ye1+tN9Xg8Cp1Ol5gtmdj5
++yfm0+evwvE3CAAAAABJRU5ErkJggg==
+"
+       preserveAspectRatio="none"
+       height="10.905"
+       width="124.317" />
   </g>
 </svg>

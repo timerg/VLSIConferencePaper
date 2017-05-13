@@ -8,8 +8,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1000.0"
-   height="911.569449362"
+   width="986.51141"
+   height="675.35962"
    id="svg3739"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -31,16 +31,17 @@
     <marker
        inkscape:stockid="Arrow2Lend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow2Lend"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path4737"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
     </marker>
   </defs>
   <sodipodi:namedview
@@ -57,16 +58,20 @@
      id="namedview3861"
      showgrid="false"
      inkscape:zoom="0.18927143"
-     inkscape:cx="128.16623"
-     inkscape:cy="395.28328"
+     inkscape:cx="-672.54805"
+     inkscape:cy="159.22497"
      inkscape:window-x="69"
-     inkscape:window-y="23"
+     inkscape:window-y="46"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g3743" />
+     inkscape:current-layer="g3743"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <desc
      id="desc3741">Created by CircuitLab https://www.circuitlab.com/</desc>
   <g
-     transform="matrix(2.17299034413,0,0,2.17299034413,-5647.60190439,-2654.30770535)"
+     transform="matrix(2.1729903,0,0,2.1729903,-5647.8784,-2654.4592)"
      id="g3743">
     <path
        style="fill:none;stroke:#000000;stroke-width:1.72098398;stroke-linecap:round;stroke-miterlimit:6"
@@ -122,16 +127,13 @@
        inkscape:connector-curvature="0"
        style="fill:#000000;stroke:none" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: end;"
+       style="font-weight:bold;font-size:16px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none"
        x="0"
        y="0"
-       text-anchor="end"
-       stroke="none"
-       fill="#000000"
        transform="translate(2618.75,1525)"
        id="text3763">
       <tspan
-         dy="7.2"
+         dy="7.1999998"
          id="tspan3765" />
     </text>
     <path
@@ -253,16 +255,13 @@
        id="path3805"
        inkscape:connector-curvature="0" />
     <text
-       style="font-family: Arial; font-size: 16px; font-weight: bold; text-anchor: start;"
+       style="font-weight:bold;font-size:16px;font-family:Arial;text-anchor:start;fill:#000000;stroke:none"
        x="0"
        y="0"
-       text-anchor="start"
-       stroke="none"
-       fill="#000000"
        transform="translate(2781.25,1575)"
        id="text3807">
       <tspan
-         dy="7.2"
+         dy="7.1999998"
          id="tspan3809" />
     </text>
     <path
@@ -325,19 +324,15 @@
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:1.72098398" />
     <text
-       fill="#000000"
        x="2980"
        y="1404"
-       text-anchor="end"
        text-decoration="none"
-       style="font-family: Arial; font-size: 12px;"
+       style="font-size:12px;font-family:Arial;text-decoration:none;text-decoration-line:none;text-anchor:end;fill:#000000"
        id="text3829" />
     <text
-       fill="#000000"
        x="2995"
        y="1397"
-       text-anchor="middle"
-       style="font-family: Arial; font-size: 12px;"
+       style="font-size:12px;font-family:Arial;text-anchor:middle;fill:#000000"
        id="text3831" />
     <path
        d="m 2750,1316.7772 12.5,0"
@@ -345,11 +340,9 @@
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:1.72098398" />
     <text
-       fill="#000000"
        x="2755"
        y="1347"
-       text-anchor="middle"
-       style="font-family: Arial; font-size: 12px;"
+       style="font-size:12px;font-family:Arial;text-anchor:middle;fill:#000000"
        id="text3837" />
     <path
        d="m 2750,1390.8218 12.5,0"
@@ -357,19 +350,15 @@
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:1.72098398" />
     <text
-       fill="#000000"
        x="2770"
        y="1454"
-       text-anchor="start"
        text-decoration="none"
-       style="font-family: Arial; font-size: 12px;"
+       style="font-size:12px;font-family:Arial;text-decoration:none;text-decoration-line:none;text-anchor:start;fill:#000000"
        id="text3841" />
     <text
-       fill="#000000"
        x="2755"
        y="1447"
-       text-anchor="middle"
-       style="font-family: Arial; font-size: 12px;"
+       style="font-size:12px;font-family:Arial;text-anchor:middle;fill:#000000"
        id="text3843" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.72098398;stroke-linecap:round"

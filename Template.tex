@@ -29,24 +29,7 @@
 \name{Author(s) Name(s)}
 \address{Department of Electrical Engineering, National Tsing Hua University}
 %
-% For example:
-% ------------
-%\address{School\\
-%   Department\\
-%   Address}
-%
-% Two addresses (uncomment and modify for two-address case).
-% ----------------------------------------------------------
-%\twoauthors
-%  {A. Author-one, B. Author-two\sthanks{Thanks to XYZ agency for funding.}}
-%   {School A-B\\
-%   Department A-B\\
-%   Address A-B}
-%  {C. Author-three, D. Author-four\sthanks{The fourth author performed the work
-%   while at ...}}
-%   {School C-D\\
-%   Department C-D\\
-%   Address C-D}
+
 %
 \begin{document}
 %\ninept
@@ -54,158 +37,156 @@
 \maketitle
 %
 \begin{abstract}
-A read out circuit for poly-silicon nanowire field-effect transistor (SiNW FET) is proposed.
-The circuit uses current variance of nanowire as small signal output.
-In other words, the readout circuit is designed to find correlation between measurement solution concentration variance and nanowire current variance.
+A measurement method for poly-silicon nanowire field-effect transistor (SiNW FET) is proposed and the read-out circuit for realizing the method is designed.
+The method helps to mitigate the device mismatch problem.
+The problem is common and mostly caused by the fabrication variance.
+The method utilizes the linearity relation between device current ($I_{ds}$) and transconductance ($gm$).
+During the measurement, the current of nanowire is kept in a fixed value, which means $gm$ of device is constant as well.
+By controlling the $gm$ of mismatched devices to be same, the devices produce same output current when the testing bio-molecule concentration changes.
+The current variance is then transformed into voltage and that voltage is amplified in the end.
 
-The circuit is able to regular the current of nanowire in a fixed value.
-This is referred to as constant current method in this article.
-With this method, the transconductance of nanowire is fixed. And the output current variance is correlate monotonically with solution concentration.
-Also, a problem known as disparity may be solved, which often happens by fabrication flaws or time degradation.
-
-This article shows the design concept, circuit schematic, table of specification and some post-simulation results.
+This article shows the design concept, circuit schematic, table of specification and chip measurement results.
 \end{abstract}
 %
 \section{Introduction}
 \label{sec:intro}
 
-Poly-silicon nanowire(SiNW) is an interesting one-dimensional nano-structures because it can be directly integrated with IC.
-Many research of fabrication and electrical properties have been conducted.
-Since it was first introduced to the biosensor field in 2001, it has become a promising candidate for ultra-sensitive, real-time and label-free  sensor device.
-Although there has been some great advances on element structure design, the work of systems-level engineering is still insufficient.
-Mainly because a proper way of signal acquiring is still indefinite.
+Poly-silicon nanowire(SiNW) is an interesting one-dimensional nano-structures.
+Many research of fabrication and electrical properties have been conducted \cite{C25th}.
+Since it was first introduced to the biosensor field in 2001 \cite{C2001}, it has become a promising candidate for ultra-sensitive, real-time and label-free sensor device.
 
-In this work, a read-out circuit for ion sensing SiNW based on “constant current” idea is proposed with some post-simulation results.
-All the design are based on the experiments before with nanowire elements from Yang's team (Fig. 1\cite{J7}).
-These experiments provide nanowire electrical properties and the design specification.
+One of the challenges of nanowire is the device variability problem caused by fabrication variation.
+The problem results in the device mismatch for devices fabricated in the same process.
+For our nanowire (Fig.\ref{fig:draw}), the problem exists and effect the measurement severely.
 
-
-
+In this work, a measurement method aimed to solve the problem is proposed, and the read-out circuit for realizing the method is designed.
+The results presented in the end of this work show the method effectively mitigate the problem.
 
 
-\begin{figure}[b]
+\begin{figure}[hbt]
     \centering
     {\fontfamily{pag}\selectfont\textbf{
         \def\svgwidth{5.0cm}
         \fontsize{6}{7}\selectfont
         \input {Graphs/drawing.pdf_tex}
     }}
-    \fontsize{6}{7}\selectfont
-    \caption{Element Structure}
-    \label{fig:res}
+    \caption{Nanowire device Structure}
+    \label{fig:draw}
 \end{figure}
 
-\section{Design Description}
-\label{sec:rules}
+\subsection{Constant-Current Constant-Transconductance}
+For a simple MOSFET, its transconductance($gm$) is related to its drain-to-srouce current ($I_{ds}$).
+\begin{align}
+    \text{Strong inversion region: } & \sqrt{2I_{ds} (\kappa \mu C_{ox} \frac{W}{L})} \\
+    \text{Weak inversion region: }&  \frac{\kappa I_{ds}}{\phi_t}
+\end{align}
+$\phi_t$ is the thermal voltage.
+$\kappa$ is the gate coupling coefficient that is 1 in strong inversion and approximately between 0.4 to 0.7 in weak inversion.
+This $\kappa$ for nanowire in weak inversion is believed to be close to 1 since the aqueous capacitance is far larger than the capacitance of silicon substrate.
+Based on the equation, we believe that the $gm$ of nanowire can be determined by its $I_{ds}$.
 
-Conventionally, nanowire is treated as a simple resistor with resistance varies with ion concentration.
-Its read out circuits are targeted on current measurement or resistance detecting \cite{C5}.
-However, these circuits give a non-monotonic output result. Because nanowire is more like a MOSFET, and factors such as transconductance and short channel effect must be considered.
-In this work, nanowire is treated as a complete field-effect transistor(FET).
-The read out circuit is designed for measuring the current variance.
-And its element transconductance, drain-source voltage and even gate-source voltage  are fixed.
+\subsection{Proposed Measurement Method and Read-out circuit}
+According to the last section, the $gm$ of mismatched nanowire devices can be adjusted to the same value by controlling their $I_{ds}$.
+In this works, the changes of the biomolecule concentration is taken as an equivalent $\Delta V_G$.
+Thus, a $\Delta V_G$ should produce same current response ($\Delta I_{ds}$) for mismatched device whose $gm$ are same.
 
-\begin{figure}[!t]
+This method is realized by our read-out circuit.
+The circuit first performs DC sweep (Fig.\ref{fig:idvg}(a)) to find the $I_{ds}$-$V_{gs}$ curve of each device under test (DUT) (FIg.\ref{fig:idvg}(b)).
+The $I_{ds}$-$V_{gs}$ curve of DUT is then transformed into $gm$-$I_{ds}$ curve (Fig.\ref{fig:idvg}(c)).
+With these curves, the corresponding $I_{ds}$ values are found.
+During each measurement, DUTs are always initialized with their specific $I_{ds}$ by adjusting the $V_{gs}$ in the end of each measurement task.
+
+\begin{figure}[!bht]
     \begin{minipage}[!htb]{0\linewidth}
         \centering
         \def\svgwidth{3cm}
         \fontsize{6}{15}\selectfont
         \input {Graphs/Exp.pdf_tex}
+        \fontsize{8}{10}\selectfont
+        \makebox[3cm]{(a)}
     \end{minipage}
     \hfill
     \begin{minipage}[!htb]{0.6\linewidth}
         \begin{minipage}[!htb]{0.97\linewidth}
             \centering
             \def\svgwidth{4.3cm}
-            \fontsize{5}{15}\selectfont
+            \fontsize{6}{15}\selectfont
             \input {Graphs/Id_Vsf.pdf_tex}
+            \fontsize{8}{10}\selectfont
+            \makebox[4.3cm]{(b)}
+            \makebox[4.3cm]{ }
         \end{minipage}
         \vfill
         \begin{minipage}[!htb]{1\linewidth}
             \centering
             \def\svgwidth{3.8cm}
-            \fontsize{5}{15}\selectfont
+            \fontsize{6}{15}\selectfont
             \input {Graphs/gbs_Id.pdf_tex}
+            \fontsize{8}{10}\selectfont
+            \makebox[3.8cm]{(c)}
         \end{minipage}
     \end{minipage}
     % \fontsize{10}{5}\selectfont
-    \caption{Experiment for finding nanowire chracteristics. The structure is in the left side and
-        the reults are in the right side. Transconductance is the derivative of $Id(vg)$}.
-    % \caption{Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. }
-    \label{fig:res}
+    \caption{\textbf{(a)} DC sweep. \textbf{(b)} $I_{ds}$-$V_{gs}$ curves. \textbf{(c)} $gm$-$I_{ds}$ curves.}
+    \label{fig:idvg}
 \end{figure}
 
 
-\subsection{Constant Current}
-
-
-For a simple MOSFET, its transconductance($Gm$) is
-\begin{equation}
-    \sqrt{2I_{DS} (\kappa \mu C_{ox} \frac{W}{L})}
-\end{equation}
-in strong inversion region and
-\begin{equation}
-    \frac{\kappa I_{DS}}{\phi_t}
-\end{equation}
-in weak inversion region. $\phi_t$ is the thermal voltage.
-$\kappa$ is the gate coupling coefficient that is 1 in strong inversion and approximately between 0.4 to 0.7 in weak inversion.
-The transconductance of MOSFET of a fixed size can be roughly determined by a constant drain-to-source current($I_{DS}$).
-Furthermore,  a problem known as disparity which often caused by fabrication flaws or time degradation, may be solved because it is possible to force elements to operate in same transconductance by giving different bias currents.
 
 
 \subsection{Architecture}
-The constant current structures such as source follower has been applied to several works of ion-sensitive field-effect transistor(ISFET) \cite{J6}, which is a relative of SiNW.
-A similar structure is presented here. The structure can switch between two modes: Gate-Source Voltage Tracing Mode (GVT) (Fig. 3(a)) and Current Variance Measuring Mode (CVM) (Fig. 3(b)).
+The constant current structures such as source follower have been applied to several works of ion-sensitive field-effect transistor(ISFET) \cite{J6}, which is a relative of SiNW.
+A similar structure is presented here.
+The structure can switch between two modes: DC-sweep mode (DC mode)(Fig.\ref{fig:mode}(a)) and Transient Measurement mode (Tr mode) (Fig.\ref{fig:mode}(b)).
 
-Operation in GVT is similar to Source follower.
-Except the negative feedback doesn’t happens at source but gate through feedback loop circuits.
+Operation in DC mode is similar to Source follower.
+Except the negative feedback doesn’t happen at source but gate through feedback loop circuit.
 This mode devotes to set up nanowire in the beginning when the reference ion solution is given.
 
-CVM is used after suitable gate voltage is found in GVT.
+Tr mode is used after suitable gate voltage is found in DC mode.
 In this mode, the feedback loop is removed and the tested solution is then given.
-The ions in the solution are attached to the surface of nanowire(gate of the FET) and the electrical field are changed.
-A variance of current will then appear and be converted to voltage output by a transimpedance.
+The difference of the concentration of biomolecule results in an equivalent $\Delta V_G$ at gate.
+A variance of current is induced and is converted to output by a transimpedance(TIA) and a voltage amplifier.
 
 \begin{figure}[!tb]
 
-    \begin{minipage}[!htb]{0.18\linewidth}
+    \begin{minipage}[htb]{0.18\linewidth}
         \textbf{
         \centering
         \def\svgwidth{2.5cm}
         \fontsize{6}{15}\selectfont
         \input {Graphs/gvt.pdf_tex}
         \fontsize{8}{10}\selectfont
-        \centerline{(a)GVT Mode }\medskip
+        \centerline{(a)}\medskip
         }
     \end{minipage}
     \hfill
-    \begin{minipage}[!htb]{0.46\linewidth}
+    \begin{minipage}[htb]{0.65\linewidth}
         \textbf{
         \centering
         \def\svgwidth{4.3cm}
         \fontsize{6}{15}\selectfont
         \input {Graphs/cvm.pdf_tex}
         \fontsize{8}{10}\selectfont
-        \centerline{(b)CVM Mode }\medskip
+        \centerline{(b)}\medskip
         }
     \end{minipage}
-    \caption{}
-    \label{fig:res}
+    \caption{Circuit block diagram of \textbf{(a)} DC mode \textbf{(b)} Tr mode.}
+    \label{fig:mode}
 \end{figure}
 
 \section{Circuit Implementation}
-Fig. 4 shows the circuit schematic.
-GVT and CVM shared a common transimpedance, which is resistor-based because linearity is necessary for a wide input current range (from 10nA to 1uA).
-A controlling switch switches manually between integrated circuit and an external voltage source(Vb) that can memorize the voltage obtained by GVT.
+Fig.\ref{fig:NMS} shows the circuit schematic.
+DC mode and Tr mode shared a common transimpedance(TIA), which is resistor-based because linearity is necessary for a wide input current range (from 10nA to 1uA).
+A controlling switch switches manually between integrated circuit and an external voltage source(Vb) that can memorize the voltage obtained by DC mode.
 
-At SiNW gate control terminal in the GVT block, the open loop OP with a narrow bandwidth ($<$ 20hz) has a use for low pass filter.
+For DC mode, an open loop OP connected to the output of TIA.
+It is used as a low pass filter with bandwidth $<$ 20Hz.
 It introduces only DC or low frequency signal into the feedback loop.
-Bsides, the low frequency dominant pole it creates can keeps the feedback loop stable for sometimes the large transconductance of nanowire increases total loop gain a lot.
+Besides, the low frequency dominant pole it creates can keeps the feedback loop stable when sometimes the large transconductance of nanowire increases total loop gain a lot.
 
-For the output of CMS, an OP, 2 capacitor and a resistor compose a bandpass amplifier with two amplification rate, 100 and 10 respecificationtively.
-The pass band starts from point far below 1Hz and continue till about 1.4kHz.
-It is capacitor-based for diminishing the offset voltage, which has a maximal value of 0.2v.
-The resistor Rx is used for preventing a floating point on positive end of OP.
+For the Tr mode, the output of TIA connected to an analog subtractor which is for shifting the offset voltage from $V_{Ref}$ to $V_z$.
+It is then followed by a non-inverting resistor-based amplifier.
 
 \begin{figure}[!htb]
     \textbf{
@@ -213,188 +194,114 @@ The resistor Rx is used for preventing a floating point on positive end of OP.
         \def\svgwidth{8.0cm}
         \fontsize{6}{15}\selectfont
         \input {Graphs/NMS.pdf_tex}
-        \fontsize{8}{10}\selectfont
-        \centerline{Schematic}\medskip
     }
-    \caption{}
-    \label{fig:res}
+    \caption{Schematic of the read-out circuit}
+    \label{fig:NMS}
 \end{figure}
 
-\begin{table}[!b]
+
+\section{Chip Measurement and Results of the Method}
+The circuit is fabricated with the TSMC 0.35um process.
+The chip characteristics are shown in Table.\ref{tb:spec}.
+The circuit of DC mode is able to measure device with $gm$ from $3\mu$ to $20\mu$.
+The lower bound of this range can be further decreased.
+An input mismatch problem occurs in the open loop OP due to fabrication variance.
+It can be solved in the future by improving the layout or modifying the structure.
+The Tr mode has total amplification rate of $8.9M$ ($G_{TIA} \times A_{amp}$).
+It also has a very low input-referred noise.
+For our nanowire, the maximal noise is $0.015mv$ when referred to $V_{gs}$, which is far lower than the equivalent $\Delta V_G$ that biomolecules can induce.
+Besides, the fastest signal speed it can detect is $7.5kHz$, which is enough for most biological experiments.
+
+In Fig.\ref{fig:dV}, the results of the proposed measurement method is presented.
+The biomolecule testing solution is a pH buffer and the reference solution is double-distilled water.
+The method is applied to two nanowire devices with device mismatch.
+There $I_{ds}$-$V_{gs}$ curves are obtained (Fig.\ref{fig:dV}(a)) and $gm$-$I_{ds}$ curves are computed (Fig.\ref{fig:dV}(b)).
+The Fig.\ref{fig:dV}(c) shows that the problem is mitigate.
+Two devices exhibit similar responses with error less than 8\%.
+This error should be experimental error.
+
+\section{Conclusion}
+In summary, our method and circuit mitigate the device mismatch problem.
+The circuit can be improved in the future by introducing digital circuit.
+In that way, the $gm$-$I_{ds}$ curve obtaining and mode deciding can be automatic, and a systematical measurement architecture can be built.
+\begin{table}[htb]
     {\fontfamily{}\fontsize{6}{10}\selectfont
     \centering
     \label{my-label}
     \begin{tabular}{l|cp{1.8cm}}
-         Maximal Signal Detection Speed(Hz) & 1.4k\\
         \hline
-         Maximal Input Reffered Noise(mV) & 2.0 \\
         \hline
-         Power Consumption(mW) & 0.25\\
+        VDD & 3.3v \\
         \hline
-        SiNW transconductance Range & 200n \textasciitilde{} 50u\\
+        Power Consumption & 1.48mW\\
         \hline
-        SiNW Bias Current Range & 100n \textasciitilde{} 10u\\
+        Size & 1.57 x 1.57 mm$^2$ \\
+        \hline
+        \multicolumn{2}{c}{DC sweep mode}\\
+        \hline
+        \hline
+        SiNW transconductance Range ($gm$) & $3\mu \sim 20\mu$\\
+        \hline
+        SiNW Bias Current Range ($I_{ds}$) & $1\mu A \sim 50\mu A$\\
+        \hline
+        SiNW Gate Voltage Range ($V_{gs}$) & $0.45v \sim 3v$ \\
+        \hline
+        \multicolumn{2}{c}{Transient measurement mode}\\
+        \hline
+        \hline
+        Input current to Output voltage gain & $8.9M$ \\
+        \hline
+        $\Delta I_D$ detecing Range &
+            \begin{tabular}{@{}c@{}}
+                $2.8n A \sim 5.3\mu A$ \\ $-15\mu A\sim -2.8n A$
+            \end{tabular}
+        \\
+        \hline
+         Maximal Signal Detection Speed(Hz) & $7.5k$\\
+        \hline
+         Maximal Input Reffered Noise(mV) & $0.3nA$ \\
     \end{tabular}
     \caption{Specification Summary}
     }
+    \label{tb:spec}
 \end{table}
 
-\section{Simulation Results and Conclusion}
-\label{sec:conclusion}
 
-Fig 5 a-d shows the post-simulation results for operation under the CVM mode.
-A simple MOS with proper transconductances ($Gm$) is substituted for nanowire (By the experiment before, $Gm$ should range from 200n to 20u).
-And a voltage signal is input to the gate of the MOS.
-Voltage of 20mV is used to emulate the ion effect when the measurement solution is added.
-
-Fig. 5a shows that the total amplification rate is 6.45db (2.1) $Gm$: 200n.
-This rate increases with $Gm$ in the same degree.
-The fastest signal that can be detected without attenuation is about 1.4k$Hz$.
-Fig. 5b and 4c are the input-referred and output-referred noise response.
-The largest input referred noise should happen at $Gm$ 200n when the total gain is smallest.
-The noise is small enough since its value is ten times smaller than the input signal (20mV).
-
-Fig. 5d gives transient responses with an input signal rises in 1ms.
-It is to be observed that the output signal has a long settling time of about 1s.
-This is caused by the resistor Rx in Fig. 4.
-Its resistance (about 10G ohm in this work) makes the trade-off between low speed signal detection and fast responding time.
-
-
-In summary, this design meets the specification propsed by the experiment before (Fig. 2) and is designed to give expected results with confidence.
-There are Two things can be improved in the future work.
-One is to make mode deciding automatic, which can be achieved by a output analysing circuit with digital structure asistance.
-The other is to find the bias current for each element also in an automatic way, which is mentioned in the end of the section 2.1
-and can be achieved if one can find a way to detect the transconductance of individual nanowire.
-
-
-
-% \vfill
-% \pagebreak
-\bibliographystyle{IEEEbib}
-\bibliography{references}
 
 \begin{figure}[!hb]
-    \begin{minipage}[b]{1\linewidth}
-        \centering
-        \def\svgwidth{8cm}
-        \fontsize{6}{8}\selectfont
-        \input {Graphs/AcGain.pdf_tex}
-        \fontsize{8}{10}\selectfont
-        \centerline{(a) Frequency response (CVM mode)}\medskip
-    \end{minipage}
 
     \begin{minipage}[!htb]{0.5\linewidth}
         \centering
         \def\svgwidth{4cm}
         \fontsize{6}{8}\selectfont
-        \input {Graphs/Noise_in.pdf_tex}
+        \input {Graphs/f6-25a.pdf_tex}
         \fontsize{8}{10}\selectfont
-        \centerline{(b) CVM Innoise (CVM mode) }\medskip
     \end{minipage}
     \hfill
     \begin{minipage}[!htb]{0.5\linewidth}
         \centering
         \def\svgwidth{5.1cm}
         \fontsize{6}{8}\selectfont
-        \input {Graphs/Noise_out.pdf_tex}
+        \input {Graphs/f6-25b.pdf_tex}
         \fontsize{8}{10}\selectfont
-        \centerline{(c) Outnoise (CVM mode) }\medskip
     \end{minipage}
 
     \begin{minipage}[!hb]{1\linewidth}
         \centering
         \def\svgwidth{9cm}
-        \fontsize{4}{6}\selectfont
-        \input {Graphs/Tran.pdf_tex}
         \fontsize{8}{10}\selectfont
-        \centerline{(d) Transient response(CVM Mode) }\medskip
+        \input {Graphs/f6-25c.pdf_tex}
+        \fontsize{8}{10}\selectfont
     \end{minipage}
-    \caption{}
-    \label{fig:res}
+    \caption{Proposed measurement method applied to two mismatched devices (nw1-2 and nw2-1).
+                \textbf{(a)} Their $I_{ds}$-$V_{gs}$ curves.
+                \textbf{(b)} Their $gm$-$I_{ds}$ curves.
+                \textbf{(c)} The output responses when the testing solution is added into reference solution.
+                }
+    \label{fig:dV}
 \end{figure}
 
+\bibliographystyle{IEEEbib}
+\bibliography{references}
+
 \end{document}
-
-% The paper cannot exceed 2 pages, including images. Please do not
-% paginate your paper.
-% The first paragraph in each section should not be indented, but
-% all following paragraphs within the section should be indented as
-% these paragraphs demonstrate.
-%
-% Page size is A4. The top margin and bottom margin are both 25mm.
-% The left margin and right margin are 20mm.  All text must be in a
-% two-column format and the font size should be larger than 9pt.
-% The space between these two columns is 80mm.
-%
-% Please use vector graphics instead of bitmap pictures for
-% illustrations to achieve high paper quality.
-%
-% Please embed all the used fonts inside the PDF file. The fonts
-% for the text part should be Times.
-%
-% For the reference part, please follow the rules of IEEE \cite{J1}
-% \cite{C2}.
-
-% \subsection{Subheadings}
-%
-% Subheadings should appear in lower case (initial word capitalized) in boldface.
-
-% \subsubsection{Sub-subheadings}
-%
-% Sub-subheadings, as in this paragraph, are discouraged.
-
-
-
-
-% Below is an example of how to insert images. Delete the ``\vspace'' line,
-% uncomment the preceding line ``\centerline...'' and replace ``imageX.ps''
-% with a suitable PostScript file name.
-% -------------------------------------------------------------------------
-
-
-
-%
-
-
-
-% \begin{figure}
-%
-% \begin{minipage}[b]{1.0\linewidth}
-%   \centering
-% \centerline{\epsfig{figure=./PostSim/cap.PNG,width=4.0cm}}
-%   % \vspace{2.0cm}
-%   \centerline{(a) Result 1}\medskip
-% \end{minipage}
-% %
-% \begin{minipage}[b]{.48\linewidth}
-%   \centering
-% \centerline{\epsfig{figure=./PostSim/close_dc_rload.PNG,width=4.0cm}}
-%   % \vspace{1.5cm}
-%   \centerline{(b) Results 3}\medskip
-% \end{minipage}
-% \hfill
-% \begin{minipage}[b]{0.48\linewidth}
-%   \centering
-% % \centerline{\epsfig{figure=image4.ps,width=4.0cm}}
-%   \vspace{1.5cm}
-%   \centerline{(c) Result 4}\medskip
-% \end{minipage}
-% %
-% \caption{Example of placing a figure with experimental results.}
-% \label{fig:res}
-% %
-% \end{figure}
-
-
-% To start a new column (but not a new page) and help balance the last-page
-% column length use \vfill\pagebreak.
-% -------------------------------------------------------------------------
-
-
-
-% References should be produced using the bibtex program from suitable
-% BiBTeX files (here: strings, refs, manuals). The IEEEbib.bst bibliography
-% style file from IEEE produces unsorted bibliography list.
-% -------------------------------------------------------------------------
-
-

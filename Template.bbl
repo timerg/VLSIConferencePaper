@@ -1,19 +1,17 @@
 \begin{thebibliography}{1}
 
-\bibitem{J7}
-Lin CH, Hung CH, Hsiao CY, Lin HC, Ko~FH, and Yang YS,
-\newblock ``Poly-silicon nanowire field-effect transistor for ultrasensitive
-  and label-free detection of pathogenic avian influenza dna,''
-\newblock {\em BIOSENSORS \& BIOELECTRONICS}, vol. 24, no. 10, pp. 3019--3024,
-  JUN 2009.
+\bibitem{C25th}
+Neil~P. Dasgupta, Jianwei Sun, Chong Liu, Sarah Brittman, Sean~C. Andrews,
+  Jongwoo Lim, Hanwei Gao, Ruoxue Yan, and Peidong Yang,
+\newblock ``{25th Anniversary Article: Semiconductor Nanowires Synthesis,
+  Characterization, and Applications},''
+\newblock {\em {ADVANCED MATERIALS}}, vol. {26}, pp. {2137--2184}, {2014}.
 
-\bibitem{C5}
-A.~Bonanno, V.~Cauda, M.~Crepaldi, P.~M. Ros, M.~Morello, D.~Demarchi, and
-  P.~Civera,
-\newblock ``A low-power read-out circuit and low-cost assembly of nanosensors
-  onto a 0.13um cmos micro-for-nano chip,''
-\newblock in {\em Advances in Sensors and Interfaces (IWASI), 2013 5th IEEE
-  International Workshop on}, June 2013, pp. 125--130.
+\bibitem{C2001}
+Y~Cui, QQ~Wei, HK~Park, and CM~Lieber,
+\newblock ``{Nanowire nanosensors for highly sensitive and selective detection
+  of biological and chemical species},''
+\newblock {\em {SCIENCE}}, vol. {293}, pp. {1289--1292}, {2001}.
 
 \bibitem{J6}
 N.~Nikkhoo, P.~G. Gulak, and K.~Maxwell,
