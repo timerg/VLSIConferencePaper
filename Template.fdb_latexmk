@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Template"] 1494692837 "Template.aux" "Template.bbl" "Template" 1494694101
+["bibtex Template"] 1495003785 "Template.aux" "Template.bbl" "Template" 1495003786
   "./IEEEbib.bst" 1334866892 17903 9ff833f4bf67f47893e44ee17b52d211 ""
-  "Template.aux" 1494694101 2477 b45ec2783f1785f2610e9b357201c3c3 ""
+  "Template.aux" 1495003786 2971 1d90a3ce9c54dc3332d5ae0b5501ee6c ""
   "Template.bcf" 0 -1 0 ""
   "references.bib" 1494677395 1311 895f1b87a1d89c779beeae3a908c6326 ""
   (generated)
   "Template.bbl"
   "Template.blg"
-["pdflatex"] 1494694100 "Template.tex" "Template.pdf" "Template" 1494694101
+["pdflatex"] 1495003785 "Template.tex" "Template.pdf" "Template" 1495003786
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/avantgar/pagd7t.tfm" 1136768653 2492 c3c1cdcee2dde7695628464fd5bab43c ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/avantgar/pagk7t.tfm" 1136768653 2676 c20dcd567e2e4f4440ff29ff94d2f867 ""
@@ -56,6 +56,8 @@
   "Graphs/Id_Vsf.pdf_tex" 1464083317 2810 36481e70e3a11fc52b0c14052a53ec56 ""
   "Graphs/NMS.pdf" 1494693746 79460 7e2b6491999b079db2c5ea450b858982 ""
   "Graphs/NMS.pdf_tex" 1494694098 5416 09dcf5f34c3909a95b0269405b36b945 ""
+  "Graphs/Noise.png" 1489687521 92422 0ce9f80d38b0ea20dbe825cd28c70058 ""
+  "Graphs/chip.jpg" 1495001742 63959 4290bd4ceb20684e6f42377d06fa74bc ""
   "Graphs/cvm.pdf" 1463469907 6912 561836c44e8c63d5acfc0b23917b0d40 ""
   "Graphs/cvm.pdf_tex" 1463469991 3962 c760b5acf5315ea6957be9c3813edc95 ""
   "Graphs/drawing.pdf" 1464074196 3847 0a153e12681dc2520347895b51b8c513 ""
@@ -70,11 +72,11 @@
   "Graphs/gbs_Id.pdf_tex" 1464082393 3083 601e63ccc42c19195f937af6b1e682ac ""
   "Graphs/gvt.pdf" 1463469944 2990 cb13c7fc32cb2297696002050108f626 ""
   "Graphs/gvt.pdf_tex" 1463469972 2586 d8bec7abe0396d1dd897ffbfadf36014 ""
-  "Template.aux" 1494694101 2477 b45ec2783f1785f2610e9b357201c3c3 ""
-  "Template.bbl" 1494692837 888 f957b951a0a25ea60e0b2edb68d63241 "bibtex Template"
-  "Template.tex" 1494694031 12794 8c56456728eec21aeabd2030eb7dc7eb ""
+  "Template.aux" 1495003786 2971 1d90a3ce9c54dc3332d5ae0b5501ee6c ""
+  "Template.bbl" 1495003785 888 f957b951a0a25ea60e0b2edb68d63241 "bibtex Template"
+  "Template.tex" 1495003782 13845 7034e6fc56239fa4e894c798913677ae ""
   "vlsiconf.sty" 1427541170 8812 370505f92ffc0273113d09a8fec36e79 ""
   (generated)
-  "Template.log"
-  "Template.aux"
   "Template.pdf"
+  "Template.aux"
+  "Template.log"
