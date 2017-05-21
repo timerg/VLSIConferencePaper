@@ -22,12 +22,12 @@
 
 % Title.
 % ------
-\title{An Integrated Circuit Design for Silicon-Nanowire Read Out Circuit}
+\title{An Integrated Readout Circuit for Silicon-Nanowire Biosensors}
 %
 % Single address.
 % ---------------
-\name{Author(s) Name(s)}
-\address{Department of Electrical Engineering, National Tsing Hua University}
+\name{Young-Chen Chang and Hsin Chen}
+\address{Department of Electrical Engineering, National Tsing Hua University, Taiwan}
 %
 
 %
@@ -37,33 +37,54 @@
 \maketitle
 %
 \begin{abstract}
-A measurement method for poly-silicon nanowire field-effect transistor (SiNW FET) is proposed and the read-out circuit for realizing the method is designed.
-The method helps to mitigate the device mismatch problem.
-The problem is common and mostly caused by the fabrication variance.
-The method utilizes the linearity relation between device current ($I_{ds}$) and transconductance ($gm$).
-During the measurement, the current of nanowire is kept in a fixed value, which means $gm$ of device is constant as well.
-By controlling the $gm$ of mismatched devices to be same, the devices produce same output current when the testing bio-molecule concentration changes.
-The current variance is then transformed into voltage and that voltage is amplified in the end.
-
-This article shows the design concept, circuit schematic, table of specification and chip measurement results.
+Although silicon nanowires (SiNWs) have been attractive as an ultra-sensitive
+biosensor for label-free detection of bio-molecules,
+most SiNWs exhibit significant process variations across devices,
+which make it challenging to use SiNWs to detect or to monitor different types of biomolecular interactions in parallel.
+This paper first measures the characteristics of poly-SiNWs,
+and based on the measurement results, a circuit architecture for biasing the poly-SiNWs
+with a unique transconductance is proposed.
+Moreover, an integrated readout circuit realizing the proposed architecture is designed and tested.
+In addition to biasing the SiNWs, the readout circuit is able to amplify the transient current changes
+of SiNWs induced by biomolecules around the sensory surface.
+In our pilot experiments, the proposed circuit is integrated with poly-SiNWs to detect the change of pH values in buffer solution.
+The experimental results are presented and discussed.
 \end{abstract}
 %
 \section{Introduction}
 \label{sec:intro}
+The silicon nanowire(SiNW) has been a promising biosensor
+for label-free detection of bio-molecules with an ultra-high sensitivity since 2001 \cite{C2001}.
+A variety of SiNWs have been proposed and charaterized \cite{C25th}.
+However, most SiNWs are fabricated with customized processes,
+which unavoidably introduce much more device variability than the standard CMOS process.
+Therefore, one key challenge for using the SiNW as a biosensor is
+designing a readout circuit able to amplify the signal induced by biomolecules
+regardless of the device variability of SiNWs.
 
-Poly-silicon nanowire(SiNW) is an interesting one-dimensional nano-structures.
-Many research of fabrication and electrical properties have been conducted \cite{C25th}.
-Since it was first introduced to the biosensor field in 2001 \cite{C2001}, it has become a promising candidate for ultra-sensitive, real-time and label-free sensor device.
+Fig.\ref{fig:draw} shows the device structure of the poly-silicon nanowires (poly-SiNWs)
+employed in our experiments \cite{J7}. The poly-SiNW is analogous
+to the body of a standard MOS device. One end of the poly-SiNW is connected to the source terminal,
+while the other end to the drain terminal. As the probes for target biomolecules are immobilized on
+the surface of the poly-SiNW, the poly-SiNW is exposed to a buffer solution,
+and the electrode immersed in the solution defines the solution potential,
+which corresponds to the gate voltage of the poly-SiNW.
+As target biomolecules are bound with the probes, the intrinsic charges of biomolecules
+cause the effective surface potential of the poly-SiNW to change,
+resulting in a current change in the poly-SiNW.
+This mechanism allows bio-molecules to be detected in real time without the need
+for fluorescent labelling and imaging in conventional bio-molecular analysis.
+In addition to the gate terminal, the silicon substrate functions as a back gate for
+tuning the biasing condition of the poly-SiNW.
 
-One of the challenges of nanowire is the device variability problem caused by fabrication variation.
-The problem results in the device mismatch for devices fabricated in the same process.
-For our nanowire (Fig.\ref{fig:draw}), the problem exists and effect the measurement severely.
+As poly-silicon inherently exhibits much more variation in conductance than single-crystal silicon,
+the poly-SiNWs in our experiments exhibit non-negligible, cross-device variations,
+which could hinder the detection of signals induced by bio-molecules.
+Therefore, this paper proposes a readout circuit able to bias the ploy-SiNW with a constant
+transconductance regardless of the device variation,
+so as to amplify the signal of biomolecules with a unique gain.
 
-In this work, a measurement method aimed to solve the problem is proposed, and the read-out circuit for realizing the method is designed.
-The results presented in the end of this work show the method effectively mitigate the problem.
-
-
-\begin{figure}[hbt]
+\begin{figure}
     \centering
     {\fontfamily{pag}\selectfont\textbf{
         \def\svgwidth{5.0cm}
@@ -74,29 +95,44 @@ The results presented in the end of this work show the method effectively mitiga
     \label{fig:draw}
 \end{figure}
 
-\subsection{Constant-Current Constant-Transconductance}
-For a simple MOSFET, its transconductance($gm$) is related to its drain-to-srouce current ($I_{ds}$).
-\begin{align}
-    \text{Strong inversion region: } & \sqrt{2I_{ds} (\kappa \mu C_{ox} \frac{W}{L})} \\
-    \text{Weak inversion region: }&  \frac{\kappa I_{ds}}{\phi_t}
-\end{align}
-$\phi_t$ is the thermal voltage.
-$\kappa$ is the gate coupling coefficient that is 1 in strong inversion and approximately between 0.4 to 0.7 in weak inversion.
-This $\kappa$ for nanowire in weak inversion is believed to be close to 1 since the aqueous capacitance is far larger than the capacitance of silicon substrate.
-Based on the equation, we believe that the $gm$ of nanowire can be determined by its $I_{ds}$.
+\section{Characteristics of poly-SiNWs}
+Fig.\ref{fig:idvg}(a) illustrates the setup for measuring the current-voltage characteristics of the poly-SiNW.
+As the drain voltage was kept constant,
+the gate voltage ($V_g$) was swept from 0V to 3V and the corresponding drain current ($I_{d}$) was measured.
+Fig.\ref{fig:idvg}(b) shows the measured $I_d$-$V_g$ for two poly-SiNWs.
+The difference between the two curves is clearly visible.
+Nevertheless, by taking the derivative of $I_d$ with respect to $V_g$ to calculate the transconductance ($g_m$),
+the $g_m$-$I_d$ curves of the two poly-SiNWs are shown in Fig.\ref{fig:idvg}(c).
+The difference between the two curves is significantly smaller than that in Fig.\ref{fig:idvg}(b),
+especially for $I_d < 10\mu A$.
+This analysis implies that the transconductance of different nanowires can be uniquely set by
+providing a constant biasing current for these nanowires.
 
-\subsection{Proposed Measurement Method and Read-out circuit}
-According to the last section, the $gm$ of mismatched nanowire devices can be adjusted to the same value by controlling their $I_{ds}$.
-In this works, the changes of the biomolecule concentration is taken as an equivalent $\Delta V_G$.
-Thus, a $\Delta V_G$ should produce same current response ($\Delta I_{ds}$) for mismatched device whose $gm$ are same.
-
-This method is realized by our read-out circuit.
-The circuit first performs DC sweep (Fig.\ref{fig:idvg}(a)) to find the $I_{ds}$-$V_{gs}$ curve of each device under test (DUT) (FIg.\ref{fig:idvg}(b)).
-The $I_{ds}$-$V_{gs}$ curve of DUT is then transformed into $gm$-$I_{ds}$ curve (Fig.\ref{fig:idvg}(c)).
-With these curves, the corresponding $I_{ds}$ values are found.
-During each measurement, DUTs are always initialized with their specific $I_{ds}$ by adjusting the $V_{gs}$ in the end of each measurement task.
-
-\begin{figure}[!bht]
+This characteristics could be understood by assuming the poly-SiNW device also
+has subthreshold and above-threshold operations analogous to those of a standard MOS transistor.
+The subthreshold operation region corresponds to the region with $I_d < 10\mu A$ in Fig.\ref{fig:idvg}.
+In subthreshold operation, the transconductance of a transistor is given as
+%
+\begin{equation}
+  g_m = \frac{\kappa I_{d}}{U_T}
+\end{equation}
+%
+where $U_T$ is the thermal voltage, and
+$\kappa$ is the gate-coupling coefficient.
+According to the device structure in Fig.\ref{fig:draw},
+$\kappa$ is formulated as
+%
+\begin{equation}
+  \kappa=\frac{C_s}{C_s+C_{ox}}
+\end{equation}
+%
+where $C_s$ represents the double-layer, interface capacitance between the poly-SiNW and the buffer solution,
+and $C_{ox}$ the capacitance between the back-gate substrate and the ploy-SiNW.
+As the dielectric layer of $C_s$ is much smaller than that of $C_{ox}$,
+$C_s$ is much greater than $C_{ox}$. In other words, $\kappa$  approximates $1$ for the poly-SiNW.
+This explains why the transconductance of different poly-SiNWs could be unified by providing a constant $I_d$.
+%
+\begin{figure}
     \begin{minipage}[!htb]{0.4\linewidth}
         \centering
         \def\svgwidth{3cm}
@@ -124,27 +160,33 @@ During each measurement, DUTs are always initialized with their specific $I_{ds}
         \makebox[4.3cm][l]{\textbf{(c)}}
     \end{minipage}
     % \fontsize{10}{5}\selectfont
-    \caption{\textbf{(a)} DC sweep. \textbf{(b)} $I_{ds}$-$V_{gs}$ curves. \textbf{(c)} $gm$-$I_{ds}$ curves.}
+    \caption{\textbf{(a)} The setup for measuring the $I_d$-$V_g$ curve of a poly-SiNW.
+    \textbf{(b)} The measured $I_{d}$-$V_{g}$ curves of two poly-SiNWs.
+    \textbf{(c)} The corresponding $g_m$-$I_{d}$ curves of two poly-SiNWs.}
     \label{fig:idvg}
 \end{figure}
-
-
-
-
-\subsection{Architecture}
-The constant current structures such as source follower have been applied to several works of ion-sensitive field-effect transistor(ISFET) \cite{J6}, which is a relative of SiNW.
-A similar structure is presented here.
-The structure can switch between two modes: DC-sweep mode (DC mode)(Fig.\ref{fig:mode}(a)) and Transient Measurement mode (Tr mode) (Fig.\ref{fig:mode}(b)).
-
-Operation in DC mode is similar to Source follower.
-Except the negative feedback doesn’t happen at source but gate through feedback loop circuit.
-This mode devotes to set up nanowire in the beginning when the reference ion solution is given.
-
-Tr mode is used after suitable gate voltage is found in DC mode.
-In this mode, the feedback loop is removed and the tested solution is then given.
-The difference of the concentration of biomolecule results in an equivalent $\Delta V_G$ at gate.
-A variance of current is induced and is converted to output by a transimpedance(TIA) and a voltage amplifier.
-
+%
+\section{The Proposed Circuit Architecture}
+As the transconductance of different nanowires are uniquely set,
+the signal induced by biomolecules is equivalent to $\Delta V_g$,
+which should result in the same current change ($\Delta I_{d}$) regardless
+of the mismatch across different poly-SiNWs.
+The circuit architecture for realizing the idea is shown in Fig.\ref{fig:mode}.
+The circuit is able to operate in two modes:
+the DC-sweep mode (Fig.\ref{fig:mode}(a)) and the Transient-detection mode (Fig.\ref{fig:mode}(b)).
+In the DC-sweep mode, a biasing current (Ibias) is delivered into the drain of the SiNW.
+The amplifier provides a negative feedback not only to fix the drain voltage to $V_{Ref}$
+but also to reduce the impedance looking into the drain terminal.
+The negative feedback sets the gate voltage automatically for the SiNW to conduct the biasing current.
+Therefore, this circuit architecture enables the $I_d$-$V_g$ characteristic
+of the SiNW to be measured by sweeping Ibias and measuring the corresponding $V_g$ generated by the feedback amplifier.
+After the $I_d$-$V_g$ curve is obtained, the SiNW is biased in the Transient-detection mode.
+A specific current bias $I_X$ is used to set the transconductance of the SiNW,
+and the gate voltage of the SiNW is set in accordance with the measured $I_d$-$V_g$
+to let the SiNW also conduct $I_X$.
+As the target biomolecules attach to the surface of the SiNW,
+the induced current change ($I_{in}$) is transformed and amplified as $V_{out}$ by a transimpedance amplifier.
+%
 \begin{figure}[!tb]
 
     \begin{minipage}[htb][3cm][t]{0.18\linewidth}
@@ -171,51 +213,65 @@ A variance of current is induced and is converted to output by a transimpedance(
     \caption{Circuit block diagram of \textbf{(a)} DC mode \textbf{(b)} Tr mode.}
     \label{fig:mode}
 \end{figure}
-
-\section{Circuit Implementation}
+%
+\section{Circuit Design}
 Fig.\ref{fig:NMS} shows the circuit schematic.
-DC mode and Tr mode shared a common transimpedance(TIA), which is resistor-based because linearity is necessary for a wide input current range (from 10nA to 1uA).
-This TIA block transduce $\Delta I_{ds}$ into a voltage signal while keeping the $V_{D}$ of the nanowire constant.
-A controlling switch switches manually between integrated circuit and an external voltage source(Vb) that can memorize the voltage obtained by DC mode.
+Both the DC-sweep mode and the Transient-detection mode shared a common transimpedance (TIA).
+The current-to-voltage conversion is achieved by the $100-k\Omega$ feedback resistor because
+linearity is crucial for a wide input-current range (from 10nA to 1uA).
+This TIA transduces the sensory signal $\Delta I_{d}$ into a voltage signal
+while keeping the drain voltage $V_d$ of the SiNW constant (i.e $V_d = V_{Ref}$).
+The output of the TIA is further amplified by an open-loop OPAMP
+and fed back to the gate of the SiNW through a switch.
+The switch connects the feedback loop in the DC-sweep mode,
+while connecting to a constant biasing voltage, $V_b$, in the Transient-detection mode.
 
-For DC mode, an open loop OP connected to the output of TIA.
-It is used as a low pass filter with bandwidth $<$ 20Hz.
-It introduces only DC or low frequency signal into the feedback loop.
-Besides, the low frequency dominant pole it creates can keeps the feedback loop stable when sometimes the large transconductance of nanowire increases total loop gain a lot.
+In the DC-sweep mode, the open-loop OPAMP has a low-pass corner smaller than 20Hz,
+allowing only DC or low-frequency signal to feed back to gate of the SiNW.
+The low-pass characteristics also ensure stability of the feedback loop
+especially when the transconductance of the SiNW is large.
+As a biasing current, Ibias, is provided, the feedback loop sets the gate voltage, $V_g$, of the SiNW automatically
+for the SiNW to conduct exactly the same current.
+By setting $V_b=V_g$, the switch is then toggled to $V_b$ for detecting biomolecular signals in the Transient-detection mode.
+In the Transient-detection mode,
+the output of the TIA ($V_x$) is connected to an analog subtractor
+whose output equals $V_x-V_{Ref}+V_z$.
+This subtraction mainly helps to change the DC offset
+from $V_{Ref}$ to $V_x$ for the input of the second stage amplifier.
+Finally, the second-stage amplifier employs the non-inverting, resistive-feedback architecture
+to amplify the signal by 100 times.
 
-For the Tr mode, the output of TIA connected to an analog subtractor which is for shifting the offset voltage from $V_{Ref}$ to $V_z$.
-It is then followed by a non-inverting resistor-based amplifier.
-This amplifier has amplification rate of 100.
-It amplifies the voltage difference between the output volatge of TIA and the reference voltage.
-
-\begin{figure}[!htb]
+\begin{figure}
     \textbf{
         \centering
         \def\svgwidth{8.0cm}
         \fontsize{6}{15}\selectfont
         \input {Graphs/NMS.pdf_tex}
     }
-    \caption{Schematic of the read-out circuit}
+    \caption{The circuit schematic of the proposed read-out circuit}
     \label{fig:NMS}
 \end{figure}
 
 
-\section{Chip Measurement and Results of the Method}
+\section{Circuit Measurement and Discussion}
 
-\begin{figure}[!htb]
+\begin{figure}
         \centering
         \includegraphics[width=0.8\linewidth]{Graphs/chip.jpg}
     \caption{Chip fabricated by TSMC 0.35$\mu$ process.}
     \label{fig:chipphoto}
 \end{figure}
 
-Fig.\ref{fig:chipphoto} is the photo of our read-out circuit.
-The circuit is fabricated with the TSMC 0.35um process and has 8 units of read-out circuit on a single chip.
-Its characteristics are shown in Table.\ref{tb:spec}.
+The circuit is designed and fabricated with the TSMC $0.35\mu$m process.
+Fig.\ref{fig:chipphoto} shows the photo of the fabricated chip
+containing eight readout circuits.
+The measured circuit specifications are summarized in Table.\ref{tb:spec}.
+%
 \begin{table}[htb]
     {\fontfamily{}\fontsize{6}{10}\selectfont
     \centering
     \label{my-label}
+    \caption{Specification of the proposed SiNW readout circuit}
     \begin{tabular}{l|cp{1.8cm}}
         \hline
         \hline
@@ -225,21 +281,21 @@ Its characteristics are shown in Table.\ref{tb:spec}.
         \hline
         Size & 1.57 x 1.57 mm$^2$ \\
         \hline
-        \multicolumn{2}{c}{DC sweep mode}\\
+        \multicolumn{2}{c}{DC-sweep mode}\\
         \hline
         \hline
         SiNW transconductance Range ($gm$) & $3\mu \sim 20\mu$\\
         \hline
-        SiNW Bias Current Range ($I_{ds}$) & $1\mu A \sim 50\mu A$\\
+        SiNW Bias Current Range ($I_{d}$) & $1\mu A \sim 50\mu A$\\
         \hline
-        SiNW Gate Voltage Range ($V_{gs}$) & $0.45v \sim 3v$ \\
+        SiNW Gate Voltage Range ($V_{g}$) & $0.45v \sim 3v$ \\
         \hline
-        \multicolumn{2}{c}{Transient measurement mode}\\
+        \multicolumn{2}{c}{Transient-detection mode}\\
         \hline
         \hline
-        Input current to Output voltage gain & $8.9M$ \\
+        Input Current to Output voltage gain & $8.9M$ \\
         \hline
-        $\Delta I_{ds}$ detecing Range &
+        $\Delta I_{d}$ detecing Range &
             \begin{tabular}{@{}c@{}}
                 $2.8n A \sim 5.3\mu A$ \\ $-15\mu A\sim -2.8n A$
             \end{tabular}
@@ -249,37 +305,50 @@ Its characteristics are shown in Table.\ref{tb:spec}.
         \hline
          Maximal Input Reffered Noise(mV) & $0.3nA$ \\
     \end{tabular}
-    \caption{Specification Summary}
+
     }
     \label{tb:spec}
 \end{table}
+%
 
-The circuit of DC mode is able to measure device with $gm$ from $3\mu$ to $20\mu$.
-The lower bound of this range can be further decreased.
-An input mismatch problem occurs in the open loop OP due to fabrication variance.
-It can be solved in the future by improving the layout or modifying the structure.
-The Tr mode has total amplification rate of $8.9M$ ($G_{TIA} \times A_{amp}$).
-It also has a very low input-referred noise.
-For our nanowire, the maximal noise is $0.3nA$ when referred to $I_{ds}$ (Fig.\ref{fig:noise}), which is far lower than the equivalent $\Delta I_{ds}$ that biomolecules can induce.
-Besides, the fastest signal speed it can detect is $7.5kHz$, which is enough for most biological experiments.
+In the DC-sweep mode, the circuit allows the transconductance of a SiNW to vary from $3\mu S$ to $20\mu S$,
+corresponding to a current change of $1\mu A$ to $50\mu A$.
+The minimum biasing current and transconductance can be further reduced,
+but the precision is limited by the input offset (mismatch) of the open-loop OPAMP
+owing to process variations.
+In the Transient-detection mode, total transconductance gain  is $8.9M$
+($G_{TIA} \times A_{amp}$).
+Fig.\ref{fig:noise} shows the measured noise power spectrum referred to the current of the poly-SiNW in our experiments.
+The total input-referred noise current is $0.3nA$ for the SiNW,
+far below the equivalent $\Delta I_{d}$ induced by biomolecules.
+In addition, the bandwidth of the detection circuit is $7.5kHz$,
+and is enough for most biological experiments.
 
 \begin{figure}[!htb]
         \centering
         \includegraphics[width=1\linewidth]{Graphs/Noise.png}
-    \caption{The power spectral density of input referred noise. The 60Hz noise comes from the environment and working machines. It can be further reduce by adopting better method of experiment or equipments.}
+    \caption{The power spectral density of noise current referred to the drain of the poly-SiNW.
+    The 60Hz-interference comes from the environment.}
     \label{fig:noise}
 \end{figure}
 
-In Fig.\ref{fig:dV}, the results of the proposed measurement method is presented.
-The biomolecule testing solution is a pH buffer and the reference solution is double-distilled water.
-The method is applied to two nanowire devices with device mismatch.
-There $I_{ds}$-$V_{gs}$ curves are obtained (Fig.\ref{fig:dV}(a)) and $gm$-$I_{ds}$ curves are computed (Fig.\ref{fig:dV}(b)).
-The Fig.\ref{fig:dV}(c) shows that the problem is mitigate.
-Two devices exhibit similar responses with error less than 8\%.
-This error should be experimental error.
-
-
-
+Fig.\ref{fig:dV} further shows several representative results
+of experiments with different buffer solutions.
+The chip is wire-bound to a array of poly-SiNWs,
+and a glass O-ring is mounted above the poly-SiNWs to form a reservoir for buffer solutions.
+As a buffer solution is added into the reservoir,
+the measured $I_{d}$-$V_{g}$ characteristics of two poly-SiNWs are shown in Fig.\ref{fig:dV}(a).
+Although the difference between the two curves is significantly large,
+the corresponding $gm$-$I_{d}$ plot in Fig.\ref{fig:dV}(b) indicates that the two devices
+can be biased to have the same transconductance with two slightly different currents, $0.34\mu A$ and $0.9\mu A$, respectively.
+After biasing the two devices with an identical transconductance,
+the readout circuits are switched to the transient-detection mode
+and double-distilled water (pH=7)is added as a reference solution into the reservoir.
+As a testing buffer with pH=6 is further added into the reservoir,
+the transient outputs of the two readout circuits are measured and shown in
+ Fig.\ref{fig:dV}(c). The change of the pH value in the solution is detected easily
+ as a voltage change of nearly $500 mV$, and the difference between the responses of the
+ two poly-SiNWs with readout circuits is less than $8\%$.
 
 
 
@@ -320,10 +389,24 @@ This error should be experimental error.
 \end{figure}
 
 \section{Conclusion}
-In summary, our method and circuit mitigate the device mismatch problem.
-The circuit can be improved in the future by introducing digital circuit.
-In that way, the $gm$-$I_{ds}$ curve obtaining and mode deciding can be automatic, and a systematical measurement architecture can be built.
+An integrated circuit for detecting the responses of SiNW-based biosensors
+is designed, fabricated, and tested.
+The proposed biasing scheme is proved useful for defining the transconductance of SiNWs regardless of device mismatches.
+This feature is particularly important for reading out the responses of a large array of SiNWs in parallel,
+so as to monitoring different biomolecular reactions simultaneously.
+With SiNWs biased properly, the proposed circuit is proved able to detect the change of pH values in a buffer solution
+reliably. The feasibility of using the proposed circuit with poly-SiNWs to detect different types of biomolecules
+will be further tested after modifying the surface of poly-SiNWs with specific probes.
+An analog-to-digital converter and digital-control circuits will be further incorporated in the chip design
+to form a microsystem able to bias and to monitor the signals of a large array of SiNW biosensors in parallel.
+This technology is expected to be useful for exploiting SiNWs to improve the sensitivity and reliability of
+ in-vitro disease diagnosis.
 
+\section*{Acknowledgement}
+The authors would like to thank Prof. Y.H. Yang and Dr. C.H. Lin for providing poly-SiNWs and
+their pilot measurement results, as well as for fruitful discussion during the circuit design.
+The authors would also like to thank the National Chip Implementation Center in Taiwan
+for supporting the chip fabrication.
 \bibliographystyle{IEEEbib}
 \bibliography{references}
 
