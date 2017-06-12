@@ -96,43 +96,7 @@ so as to amplify the signal of biomolecules with a unique gain.
 \end{figure}
 
 \section{Characteristics of poly-SiNWs}
-Fig.\ref{fig:idvg}(a) illustrates the setup for measuring the current-voltage characteristics of the poly-SiNW.
-As the drain voltage was kept constant,
-the gate voltage ($V_g$) was swept from 0V to 3V and the corresponding drain current ($I_{d}$) was measured.
-Fig.\ref{fig:idvg}(b) shows the measured $I_d$-$V_g$ for two poly-SiNWs.
-The difference between the two curves is clearly visible.
-Nevertheless, by taking the derivative of $I_d$ with respect to $V_g$ to calculate the transconductance ($g_m$),
-the $g_m$-$I_d$ curves of the two poly-SiNWs are shown in Fig.\ref{fig:idvg}(c).
-The difference between the two curves is significantly smaller than that in Fig.\ref{fig:idvg}(b),
-especially for $I_d < 10\mu A$.
-This analysis implies that the transconductance of different nanowires can be uniquely set by
-providing a constant biasing current for these nanowires.
-
-This characteristics could be understood by assuming the poly-SiNW device also
-has subthreshold and above-threshold operations analogous to those of a standard MOS transistor.
-The subthreshold operation region corresponds to the region with $I_d < 10\mu A$ in Fig.\ref{fig:idvg}.
-In subthreshold operation, the transconductance of a transistor is given as
-%
-\begin{equation}
-  g_m = \frac{\kappa I_{d}}{U_T}
-\end{equation}
-%
-where $U_T$ is the thermal voltage, and
-$\kappa$ is the gate-coupling coefficient.
-According to the device structure in Fig.\ref{fig:draw},
-$\kappa$ is formulated as
-%
-\begin{equation}
-  \kappa=\frac{C_s}{C_s+C_{ox}}
-\end{equation}
-%
-where $C_s$ represents the double-layer, interface capacitance between the poly-SiNW and the buffer solution,
-and $C_{ox}$ the capacitance between the back-gate substrate and the ploy-SiNW.
-As the dielectric layer of $C_s$ is much smaller than that of $C_{ox}$,
-$C_s$ is much greater than $C_{ox}$. In other words, $\kappa$  approximates $1$ for the poly-SiNW.
-This explains why the transconductance of different poly-SiNWs could be unified by providing a constant $I_d$.
-%
-\begin{figure}
+\begin{figure}[!htb]
     \begin{minipage}[!htb]{0.4\linewidth}
         \centering
         \def\svgwidth{3cm}
@@ -165,6 +129,45 @@ This explains why the transconductance of different poly-SiNWs could be unified 
     \textbf{(c)} The corresponding $g_m$-$I_{d}$ curves of two poly-SiNWs.}
     \label{fig:idvg}
 \end{figure}
+Fig.\ref{fig:idvg}(a) illustrates the setup for measuring the current-voltage characteristics of the poly-SiNW.
+As the drain voltage was kept constant,
+the gate voltage ($V_g$) was swept from 0V to 3V and the corresponding drain current ($I_{d}$) was measured.
+Fig.\ref{fig:idvg}(b) shows the measured $I_d$-$V_g$ for two poly-SiNWs.
+The difference between the two curves is clearly visible.
+Nevertheless, by taking the derivative of $I_d$ with respect to $V_g$ to calculate the transconductance ($g_m$),
+the $g_m$-$I_d$ curves of the two poly-SiNWs are shown in Fig.\ref{fig:idvg}(c).
+The difference between the two curves is significantly smaller than that in Fig.\ref{fig:idvg}(b),
+especially for $I_d < 10\mu A$.
+This analysis implies that the transconductance of different nanowires can be uniquely set by
+providing a constant biasing current for these nanowires.
+
+
+This characteristics could be understood by assuming the poly-SiNW device also
+has subthreshold and above-threshold operations analogous to those of a standard MOS transistor.
+The subthreshold operation region corresponds to the region with $I_d < 10\mu A$ in Fig.\ref{fig:idvg}.
+In subthreshold operation, the transconductance of a transistor is given as
+%
+\begin{equation}
+  g_m = \frac{\kappa I_{d}}{U_T}
+\end{equation}
+%
+where $U_T$ is the thermal voltage, and
+$\kappa$ is the gate-coupling coefficient.
+According to the device structure in Fig.\ref{fig:draw},
+$\kappa$ is formulated as
+%
+\begin{equation}
+  \kappa=\frac{C_s}{C_s+C_{ox}}
+\end{equation}
+%
+where $C_s$ represents the double-layer, interface capacitance between the poly-SiNW and the buffer solution,
+and $C_{ox}$ the capacitance between the back-gate substrate and the ploy-SiNW.
+As the dielectric layer of $C_s$ is much smaller than that of $C_{ox}$,
+$C_s$ is much greater than $C_{ox}$. In other words, $\kappa$  approximates $1$ for the poly-SiNW.
+This explains why the transconductance of different poly-SiNWs could be unified by providing a constant $I_d$.
+%
+
+
 %
 \section{The Proposed Circuit Architecture}
 As the transconductance of different nanowires are uniquely set,
@@ -271,7 +274,7 @@ The measured circuit specifications are summarized in Table.\ref{tb:spec}.
     {\fontfamily{}\fontsize{6}{10}\selectfont
     \centering
     \label{my-label}
-    \caption{Specification of the proposed SiNW readout circuit}
+    \caption{Specification of our SiNW readout circuit}
     \begin{tabular}{l|cp{1.8cm}}
         \hline
         \hline
@@ -303,7 +306,7 @@ The measured circuit specifications are summarized in Table.\ref{tb:spec}.
         \hline
          Maximal Signal Detection Speed(Hz) & $7.5k$\\
         \hline
-         Maximal Input Reffered Noise(mV) & $0.3nA$ \\
+         Maximal Input Reffered Noise &  $0.3nA$ \\
     \end{tabular}
 
     }
@@ -318,7 +321,7 @@ but the precision is limited by the input offset (mismatch) of the open-loop OPA
 owing to process variations.
 In the Transient-detection mode, total transconductance gain  is $8.9M$
 ($G_{TIA} \times A_{amp}$).
-Fig.\ref{fig:noise} shows the measured noise power spectrum referred to the current of the poly-SiNW in our experiments.
+Fig.\ref{fig:noise} shows the measured noise amplitude referred to the current of the poly-SiNW in our experiments.
 The total input-referred noise current is $0.3nA$ for the SiNW,
 far below the equivalent $\Delta I_{d}$ induced by biomolecules.
 In addition, the bandwidth of the detection circuit is $7.5kHz$,
@@ -327,7 +330,7 @@ and is enough for most biological experiments.
 \begin{figure}[!htb]
         \centering
         \includegraphics[width=1\linewidth]{Graphs/Noise.png}
-    \caption{The power spectral density of noise current referred to the drain of the poly-SiNW.
+    \caption{The amplitude of noise current referred to the drain of the poly-SiNW.
     The 60Hz-interference comes from the environment.}
     \label{fig:noise}
 \end{figure}

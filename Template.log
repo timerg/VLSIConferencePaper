@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.5.8)  17 MAY 2017 14:49
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.5.8)  21 MAY 2017 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -142,23 +142,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
-
-Overfull \hbox (5.43996pt too wide) in paragraph at lines 48--49
-[]\OT1/ptm/m/n/10 This ar-ti-cle shows the de-sign con-cept, cir-cuit schematic,
- []
-
-LaTeX Font Info:    Try loading font information for OT1+pag on input line 68.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pag.fd
+LaTeX Font Info:    Try loading font information for OT1+pag on input line 89.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pag.fd
 File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
 )
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <10> not available
-(Font)              Font shape `OT1/pag/b/n' tried instead on input line 72.
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <10> not available
-(Font)              Font shape `OT1/pag/db/n' tried instead on input line 72.
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <6> not available
-(Font)              Font shape `OT1/pag/b/n' tried instead on input line 72.
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <6> not available
-(Font)              Font shape `OT1/pag/db/n' tried instead on input line 72.
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 93.
  (./Graphs/drawing.pdf_tex
 File: Graphs/drawing.pdf Graphic file (type QTm)
  <use  "Graphs/drawing.pdf"  page1>
@@ -190,12 +185,18 @@ File: Graphs/gbs_Id.pdf Graphic file (type QTm)
  <use  "Graphs/gbs_Id.pdf"  page1>
 File: Graphs/gbs_Id.pdf Graphic file (type QTm)
  <use  "Graphs/gbs_Id.pdf"  page1>)
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 100--127
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 100--129
 []$[]$ $[]$ 
  []
 
-Missing character: There is no ’ in font ptmr7t!
-(./Graphs/gvt.pdf_tex
+
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+ [1
+
+
+
+] (./Graphs/gvt.pdf_tex
 File: Graphs/gvt.pdf Graphic file (type QTm)
  <use  "Graphs/gvt.pdf"  page1>
 File: Graphs/gvt.pdf Graphic file (type QTm)
@@ -206,17 +207,17 @@ File: Graphs/gvt.pdf Graphic file (type QTm)
  <use  "Graphs/gvt.pdf"  page3>
 File: Graphs/gvt.pdf Graphic file (type QTm)
  <use  "Graphs/gvt.pdf"  page3>)
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 []
  []
 
 
-Overfull \hbox (33.06366pt too wide) in paragraph at lines 156--157
+Overfull \hbox (33.06366pt too wide) in paragraph at lines 201--202
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
@@ -236,24 +237,17 @@ File: Graphs/cvm.pdf Graphic file (type QTm)
 File: Graphs/cvm.pdf Graphic file (type QTm)
  <use  "Graphs/cvm.pdf"  page7>
 File: Graphs/cvm.pdf Graphic file (type QTm)
- <use  "Graphs/cvm.pdf"  page7>
+ <use  "Graphs/cvm.pdf"  page8>
 File: Graphs/cvm.pdf Graphic file (type QTm)
- <use  "Graphs/cvm.pdf"  page7>
+ <use  "Graphs/cvm.pdf"  page9>
 File: Graphs/cvm.pdf Graphic file (type QTm)
- <use  "Graphs/cvm.pdf"  page7>
+ <use  "Graphs/cvm.pdf"  page10>
 Missing character: There is no   in font ptmb7t!
 Missing character: There is no ∂ in font ptmb7t!
 File: Graphs/cvm.pdf Graphic file (type QTm)
- <use  "Graphs/cvm.pdf"  page7>
+ <use  "Graphs/cvm.pdf"  page11>
 File: Graphs/cvm.pdf Graphic file (type QTm)
- <use  "Graphs/cvm.pdf"  page7>)
-Underfull \vbox (badness 1072) has occurred while \output is active []
-
- [1
-
-
-
-] (./Graphs/NMS.pdf_tex
+ <use  "Graphs/cvm.pdf"  page12>) (./Graphs/NMS.pdf_tex
 File: Graphs/NMS.pdf Graphic file (type QTm)
  <use  "Graphs/NMS.pdf"  page1>
 File: Graphs/NMS.pdf Graphic file (type QTm)
@@ -290,43 +284,44 @@ File: Graphs/NMS.pdf Graphic file (type QTm)
  <use  "Graphs/NMS.pdf"  page16>
 File: Graphs/NMS.pdf Graphic file (type QTm)
  <use  "Graphs/NMS.pdf"  page17>)
-Overfull \hbox (0.95477pt too wide) in paragraph at lines 197--198
+Overfull \hbox (0.95477pt too wide) in paragraph at lines 253--254
 []  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
 File: Graphs/chip.jpg Graphic file (type QTm)
 <use  "Graphs/chip.jpg" >
-LaTeX Font Info:    Try loading font information for OT1+ on input line 216.
-LaTeX Font Info:    No file OT1.fd. on input line 216.
+LaTeX Font Info:    Try loading font information for OT1+ on input line 274.
+LaTeX Font Info:    No file OT1.fd. on input line 274.
 
 
 LaTeX Font Warning: Font shape `OT1//m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 216.
+(Font)              using `OT1/cmr/m/n' instead on input line 274.
 
+[2]
 File: Graphs/Noise.png Graphic file (type QTm)
-<use  "Graphs/Noise.png" > (./Graphs/f6-25a.pdf_tex
+ <use  "Graphs/Noise.png" > (./Graphs/f6-25a.pdf_tex
 File: Graphs/f6-25a.pdf Graphic file (type QTm)
  <use  "Graphs/f6-25a.pdf"  page1>) (./Graphs/f6-25b.pdf_tex
 File: Graphs/f6-25b.pdf Graphic file (type QTm)
  <use  "Graphs/f6-25b.pdf"  page1>
 File: Graphs/f6-25b.pdf Graphic file (type QTm)
  <use  "Graphs/f6-25b.pdf"  page2>)
-Overfull \hbox (29.87556pt too wide) in paragraph at lines 68--304
+Overfull \hbox (29.87556pt too wide) in paragraph at lines 68--376
  [][] 
  []
 
 
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 288--305
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 360--377
 [][] []
  []
 
 
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 288--305
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 360--377
 []$  $[]$ 
  []
 
@@ -337,27 +332,24 @@ File: Graphs/f6-25c.pdf Graphic file (type QTm)
  <use  "Graphs/f6-25c.pdf"  page2>
 File: Graphs/f6-25c.pdf Graphic file (type QTm)
  <use  "Graphs/f6-25c.pdf"  page3>)
-Overfull \hbox (25.60748pt too wide) in paragraph at lines 75--313
+Overfull \hbox (25.60748pt too wide) in paragraph at lines 75--385
  [][] 
  []
 
-(./Template.bbl
-Underfull \vbox (badness 2846) has occurred while \output is active []
-
- [2]) [3
-
-] (./Template.aux)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 408.
+(./Template.bbl) [3] (./Template.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1503 strings out of 493706
- 18785 string characters out of 6145770
- 92735 words of memory out of 5000000
- 4810 multiletter control sequences out of 15000+600000
- 15054 words of font info for 42 fonts, out of 8000000 for 9000
+ 1506 strings out of 493706
+ 18834 string characters out of 6145770
+ 89735 words of memory out of 5000000
+ 4813 multiletter control sequences out of 15000+600000
+ 16080 words of font info for 44 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 32i,16n,21p,518b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,16n,21p,518b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Template.pdf (3 pages).

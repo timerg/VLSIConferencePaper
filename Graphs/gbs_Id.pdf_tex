@@ -64,6 +64,6 @@
     \put(0.27311492,0.28753558){\makebox(0,0)[rb]{\smash{10\textsuperscript{-5}}}}%
     \put(0.27311492,0.45304053){\makebox(0,0)[rb]{\smash{10\textsuperscript{-4}}}}%
     \put(0.00768917,0.22649835){\rotatebox{-0.99240049}{\makebox(0,0)[b]{\smash{Transconductance}}}}%
-    \put(0.00862756,0.15520911){\rotatebox{-0.99240049}{\makebox(0,0)[b]{\smash{($\frac{dA}{dV}$)}}}}%
+    \put(0.00862756,0.15520911){\rotatebox{-0.99240049}{\makebox(0,0)[b]{\smash{($\frac{dI_d}{dV_g}$)}}}}%
   \end{picture}%
 \endgroup%
